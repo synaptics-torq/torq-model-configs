@@ -1,0 +1,3156 @@
+{
+  "version": "1.1",
+  "default_tolerance": {
+    "fp_avg_tol": 0.01,
+    "fp_max_tol": 0.01
+  },
+  "ops": {
+    "Conv_/Conv2d_1a_3x3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 0,
+      "mlir_location": "194:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Conv2d_1a_3x3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 1,
+      "mlir_location": "195:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Conv2d_2a_3x3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 2,
+      "mlir_location": "196:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Conv2d_2a_3x3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 3,
+      "mlir_location": "197:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Conv2d_2b_3x3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 4,
+      "mlir_location": "198:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Conv2d_2b_3x3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 5,
+      "mlir_location": "199:12",
+      "recommended_executor": "nss"
+    },
+    "MaxPool_/Pool1/MaxPool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 6,
+      "mlir_location": "200:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Conv2d_3b_1x1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 7,
+      "mlir_location": "201:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Conv2d_3b_1x1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 8,
+      "mlir_location": "202:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Conv2d_4a_3x3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 9,
+      "mlir_location": "203:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Conv2d_4a_3x3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 10,
+      "mlir_location": "204:12",
+      "recommended_executor": "nss"
+    },
+    "MaxPool_/Pool2/MaxPool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 11,
+      "mlir_location": "205:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5b/branch1x1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 12,
+      "mlir_location": "206:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5b/branch1x1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 13,
+      "mlir_location": "207:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5b/branch5x5_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 14,
+      "mlir_location": "208:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5b/branch5x5_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 15,
+      "mlir_location": "209:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5b/branch5x5_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 16,
+      "mlir_location": "210:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5b/branch5x5_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 17,
+      "mlir_location": "211:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5b/branch3x3dbl_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 18,
+      "mlir_location": "212:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5b/branch3x3dbl_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 19,
+      "mlir_location": "213:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5b/branch3x3dbl_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 20,
+      "mlir_location": "214:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5b/branch3x3dbl_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 21,
+      "mlir_location": "215:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5b/branch3x3dbl_3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 22,
+      "mlir_location": "216:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5b/branch3x3dbl_3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 23,
+      "mlir_location": "217:12",
+      "recommended_executor": "nss"
+    },
+    "AveragePool_/Mixed_5b/AveragePool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 14885 out of 235200 [6.33%]"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 24,
+      "mlir_location": "218:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/Mixed_5b/branch_pool/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 25,
+      "mlir_location": "219:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5b/branch_pool/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 26,
+      "mlir_location": "220:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/Mixed_5b/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 27,
+      "mlir_location": "221:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5c/branch1x1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 28,
+      "mlir_location": "222:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5c/branch1x1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 29,
+      "mlir_location": "223:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5c/branch5x5_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 30,
+      "mlir_location": "224:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5c/branch5x5_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 31,
+      "mlir_location": "225:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5c/branch5x5_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 32,
+      "mlir_location": "226:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5c/branch5x5_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 33,
+      "mlir_location": "227:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5c/branch3x3dbl_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 34,
+      "mlir_location": "228:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5c/branch3x3dbl_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 35,
+      "mlir_location": "229:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5c/branch3x3dbl_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 36,
+      "mlir_location": "230:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5c/branch3x3dbl_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 37,
+      "mlir_location": "231:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5c/branch3x3dbl_3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 38,
+      "mlir_location": "232:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5c/branch3x3dbl_3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 39,
+      "mlir_location": "233:12",
+      "recommended_executor": "nss"
+    },
+    "AveragePool_/Mixed_5c/AveragePool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 19817 out of 313600 [6.32%]"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 40,
+      "mlir_location": "234:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/Mixed_5c/branch_pool/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 41,
+      "mlir_location": "235:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5c/branch_pool/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 42,
+      "mlir_location": "236:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/Mixed_5c/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 43,
+      "mlir_location": "237:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5d/branch1x1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 44,
+      "mlir_location": "238:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5d/branch1x1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 45,
+      "mlir_location": "239:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5d/branch5x5_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 46,
+      "mlir_location": "240:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5d/branch5x5_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 47,
+      "mlir_location": "241:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5d/branch5x5_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 48,
+      "mlir_location": "242:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5d/branch5x5_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 49,
+      "mlir_location": "243:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5d/branch3x3dbl_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 50,
+      "mlir_location": "244:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5d/branch3x3dbl_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 51,
+      "mlir_location": "245:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5d/branch3x3dbl_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 52,
+      "mlir_location": "246:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5d/branch3x3dbl_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 53,
+      "mlir_location": "247:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_5d/branch3x3dbl_3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 54,
+      "mlir_location": "248:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5d/branch3x3dbl_3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 55,
+      "mlir_location": "249:12",
+      "recommended_executor": "nss"
+    },
+    "AveragePool_/Mixed_5d/AveragePool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 22448 out of 352800 [6.36%]"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 56,
+      "mlir_location": "250:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/Mixed_5d/branch_pool/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 57,
+      "mlir_location": "251:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_5d/branch_pool/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 58,
+      "mlir_location": "252:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/Mixed_5d/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 59,
+      "mlir_location": "253:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6a/branch3x3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 60,
+      "mlir_location": "254:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6a/branch3x3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 61,
+      "mlir_location": "255:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6a/branch3x3dbl_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 62,
+      "mlir_location": "256:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6a/branch3x3dbl_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 63,
+      "mlir_location": "257:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6a/branch3x3dbl_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 64,
+      "mlir_location": "258:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6a/branch3x3dbl_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 65,
+      "mlir_location": "259:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6a/branch3x3dbl_3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 66,
+      "mlir_location": "260:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6a/branch3x3dbl_3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 67,
+      "mlir_location": "261:12",
+      "recommended_executor": "nss"
+    },
+    "MaxPool_/Mixed_6a/MaxPool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 68,
+      "mlir_location": "262:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/Mixed_6a/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 69,
+      "mlir_location": "263:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6b/branch1x1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 70,
+      "mlir_location": "264:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6b/branch1x1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 71,
+      "mlir_location": "265:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6b/branch7x7_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 72,
+      "mlir_location": "266:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6b/branch7x7_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 73,
+      "mlir_location": "267:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6b/branch7x7_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 74,
+      "mlir_location": "268:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6b/branch7x7_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 75,
+      "mlir_location": "269:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6b/branch7x7_3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 76,
+      "mlir_location": "270:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6b/branch7x7_3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 77,
+      "mlir_location": "271:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6b/branch7x7dbl_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 78,
+      "mlir_location": "272:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6b/branch7x7dbl_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 79,
+      "mlir_location": "273:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6b/branch7x7dbl_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 80,
+      "mlir_location": "274:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6b/branch7x7dbl_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 81,
+      "mlir_location": "275:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6b/branch7x7dbl_3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 82,
+      "mlir_location": "276:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6b/branch7x7dbl_3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 83,
+      "mlir_location": "277:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6b/branch7x7dbl_4/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 84,
+      "mlir_location": "278:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6b/branch7x7dbl_4/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 85,
+      "mlir_location": "279:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6b/branch7x7dbl_5/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 86,
+      "mlir_location": "280:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6b/branch7x7dbl_5/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 87,
+      "mlir_location": "281:12",
+      "recommended_executor": "nss"
+    },
+    "AveragePool_/Mixed_6b/AveragePool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 13631 out of 221952 [6.14%]"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 88,
+      "mlir_location": "282:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/Mixed_6b/branch_pool/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 89,
+      "mlir_location": "283:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6b/branch_pool/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 90,
+      "mlir_location": "284:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/Mixed_6b/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 91,
+      "mlir_location": "285:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6c/branch1x1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 92,
+      "mlir_location": "286:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6c/branch1x1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 93,
+      "mlir_location": "287:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6c/branch7x7_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 94,
+      "mlir_location": "288:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6c/branch7x7_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 95,
+      "mlir_location": "289:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6c/branch7x7_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 96,
+      "mlir_location": "290:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6c/branch7x7_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 97,
+      "mlir_location": "291:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6c/branch7x7_3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 98,
+      "mlir_location": "292:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6c/branch7x7_3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 99,
+      "mlir_location": "293:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6c/branch7x7dbl_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 100,
+      "mlir_location": "294:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6c/branch7x7dbl_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 101,
+      "mlir_location": "295:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6c/branch7x7dbl_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 102,
+      "mlir_location": "296:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6c/branch7x7dbl_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 103,
+      "mlir_location": "297:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6c/branch7x7dbl_3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 104,
+      "mlir_location": "298:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6c/branch7x7dbl_3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 105,
+      "mlir_location": "299:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6c/branch7x7dbl_4/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 106,
+      "mlir_location": "300:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6c/branch7x7dbl_4/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 107,
+      "mlir_location": "301:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6c/branch7x7dbl_5/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 108,
+      "mlir_location": "302:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6c/branch7x7dbl_5/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 109,
+      "mlir_location": "303:12",
+      "recommended_executor": "nss"
+    },
+    "AveragePool_/Mixed_6c/AveragePool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 13631 out of 221952 [6.14%]"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 110,
+      "mlir_location": "304:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/Mixed_6c/branch_pool/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 111,
+      "mlir_location": "305:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6c/branch_pool/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 112,
+      "mlir_location": "306:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/Mixed_6c/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 113,
+      "mlir_location": "307:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6d/branch1x1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 114,
+      "mlir_location": "308:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6d/branch1x1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 115,
+      "mlir_location": "309:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6d/branch7x7_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 116,
+      "mlir_location": "310:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6d/branch7x7_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 117,
+      "mlir_location": "311:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6d/branch7x7_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 118,
+      "mlir_location": "312:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6d/branch7x7_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 119,
+      "mlir_location": "313:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6d/branch7x7_3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 120,
+      "mlir_location": "314:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6d/branch7x7_3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 121,
+      "mlir_location": "315:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6d/branch7x7dbl_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 122,
+      "mlir_location": "316:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6d/branch7x7dbl_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 123,
+      "mlir_location": "317:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6d/branch7x7dbl_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 124,
+      "mlir_location": "318:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6d/branch7x7dbl_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 125,
+      "mlir_location": "319:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6d/branch7x7dbl_3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 126,
+      "mlir_location": "320:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6d/branch7x7dbl_3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 127,
+      "mlir_location": "321:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6d/branch7x7dbl_4/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 128,
+      "mlir_location": "322:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6d/branch7x7dbl_4/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 129,
+      "mlir_location": "323:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6d/branch7x7dbl_5/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 130,
+      "mlir_location": "324:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6d/branch7x7dbl_5/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 131,
+      "mlir_location": "325:12",
+      "recommended_executor": "nss"
+    },
+    "AveragePool_/Mixed_6d/AveragePool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 13631 out of 221952 [6.14%]"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 132,
+      "mlir_location": "326:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/Mixed_6d/branch_pool/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 133,
+      "mlir_location": "327:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6d/branch_pool/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 134,
+      "mlir_location": "328:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/Mixed_6d/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 135,
+      "mlir_location": "329:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6e/branch1x1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 136,
+      "mlir_location": "330:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6e/branch1x1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 137,
+      "mlir_location": "331:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6e/branch7x7_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 138,
+      "mlir_location": "332:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6e/branch7x7_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 139,
+      "mlir_location": "333:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6e/branch7x7_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 140,
+      "mlir_location": "334:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6e/branch7x7_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 141,
+      "mlir_location": "335:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6e/branch7x7_3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 142,
+      "mlir_location": "336:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6e/branch7x7_3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 143,
+      "mlir_location": "337:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6e/branch7x7dbl_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 144,
+      "mlir_location": "338:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6e/branch7x7dbl_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 145,
+      "mlir_location": "339:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6e/branch7x7dbl_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 146,
+      "mlir_location": "340:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6e/branch7x7dbl_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 147,
+      "mlir_location": "341:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6e/branch7x7dbl_3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 148,
+      "mlir_location": "342:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6e/branch7x7dbl_3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 149,
+      "mlir_location": "343:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6e/branch7x7dbl_4/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 150,
+      "mlir_location": "344:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6e/branch7x7dbl_4/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 151,
+      "mlir_location": "345:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_6e/branch7x7dbl_5/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 152,
+      "mlir_location": "346:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6e/branch7x7dbl_5/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 153,
+      "mlir_location": "347:12",
+      "recommended_executor": "nss"
+    },
+    "AveragePool_/Mixed_6e/AveragePool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 13631 out of 221952 [6.14%]"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 154,
+      "mlir_location": "348:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/Mixed_6e/branch_pool/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 155,
+      "mlir_location": "349:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_6e/branch_pool/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 156,
+      "mlir_location": "350:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/Mixed_6e/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 157,
+      "mlir_location": "351:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7a/branch3x3_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 158,
+      "mlir_location": "352:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7a/branch3x3_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 159,
+      "mlir_location": "353:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7a/branch3x3_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 160,
+      "mlir_location": "354:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7a/branch3x3_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 161,
+      "mlir_location": "355:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7a/branch7x7x3_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 162,
+      "mlir_location": "356:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7a/branch7x7x3_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 163,
+      "mlir_location": "357:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7a/branch7x7x3_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 164,
+      "mlir_location": "358:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7a/branch7x7x3_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 165,
+      "mlir_location": "359:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7a/branch7x7x3_3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 166,
+      "mlir_location": "360:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7a/branch7x7x3_3/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 167,
+      "mlir_location": "361:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7a/branch7x7x3_4/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 168,
+      "mlir_location": "362:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7a/branch7x7x3_4/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 169,
+      "mlir_location": "363:12",
+      "recommended_executor": "nss"
+    },
+    "MaxPool_/Mixed_7a/MaxPool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 170,
+      "mlir_location": "364:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/Mixed_7a/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 171,
+      "mlir_location": "365:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7b/branch1x1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 172,
+      "mlir_location": "366:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7b/branch1x1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 173,
+      "mlir_location": "367:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7b/branch3x3_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 174,
+      "mlir_location": "368:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7b/branch3x3_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 175,
+      "mlir_location": "369:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7b/branch3x3_2a/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 176,
+      "mlir_location": "370:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7b/branch3x3_2a/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 177,
+      "mlir_location": "371:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7b/branch3x3_2b/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 178,
+      "mlir_location": "372:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7b/branch3x3_2b/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 179,
+      "mlir_location": "373:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7b/branch3x3dbl_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 180,
+      "mlir_location": "374:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7b/branch3x3dbl_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 181,
+      "mlir_location": "375:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7b/branch3x3dbl_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 182,
+      "mlir_location": "376:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7b/branch3x3dbl_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 183,
+      "mlir_location": "377:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7b/branch3x3dbl_3a/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 184,
+      "mlir_location": "378:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7b/branch3x3dbl_3a/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 185,
+      "mlir_location": "379:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7b/branch3x3dbl_3b/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 186,
+      "mlir_location": "380:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7b/branch3x3dbl_3b/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 187,
+      "mlir_location": "381:12",
+      "recommended_executor": "nss"
+    },
+    "AveragePool_/Mixed_7b/AveragePool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 4723 out of 81920 [5.77%]"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 188,
+      "mlir_location": "382:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/Mixed_7b/branch_pool/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 189,
+      "mlir_location": "383:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7b/branch_pool/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 190,
+      "mlir_location": "384:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/Mixed_7b/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 191,
+      "mlir_location": "385:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7c/branch1x1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 192,
+      "mlir_location": "386:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7c/branch1x1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 193,
+      "mlir_location": "387:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7c/branch3x3_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 194,
+      "mlir_location": "388:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7c/branch3x3_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 195,
+      "mlir_location": "389:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7c/branch3x3_2a/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 196,
+      "mlir_location": "390:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7c/branch3x3_2a/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 197,
+      "mlir_location": "391:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7c/branch3x3_2b/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 198,
+      "mlir_location": "392:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7c/branch3x3_2b/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 199,
+      "mlir_location": "393:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7c/branch3x3dbl_1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 200,
+      "mlir_location": "394:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7c/branch3x3dbl_1/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 201,
+      "mlir_location": "395:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7c/branch3x3dbl_2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 202,
+      "mlir_location": "396:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7c/branch3x3dbl_2/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 203,
+      "mlir_location": "397:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7c/branch3x3dbl_3a/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 204,
+      "mlir_location": "398:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7c/branch3x3dbl_3a/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 205,
+      "mlir_location": "399:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/Mixed_7c/branch3x3dbl_3b/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 206,
+      "mlir_location": "400:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7c/branch3x3dbl_3b/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 207,
+      "mlir_location": "401:12",
+      "recommended_executor": "nss"
+    },
+    "AveragePool_/Mixed_7c/AveragePool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 7521 out of 131072 [5.74%]"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 208,
+      "mlir_location": "402:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/Mixed_7c/branch_pool/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 209,
+      "mlir_location": "403:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/Mixed_7c/branch_pool/bn/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 210,
+      "mlir_location": "404:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/Mixed_7c/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 211,
+      "mlir_location": "405:12",
+      "recommended_executor": "nss"
+    },
+    "GlobalAveragePool_/global_pool/pool/GlobalAveragePool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 176 out of 2048 [8.59%]"
+          }
+        },
+        "host": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 456 out of 2048 [22.27%]"
+          }
+        }
+      },
+      "_node_index": 212,
+      "mlir_location": "406:12",
+      "recommended_executor": "nss"
+    },
+    "Flatten_/global_pool/flatten/Flatten_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 213,
+      "mlir_location": "407:12",
+      "recommended_executor": "nss"
+    },
+    "Gemm_875": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 214,
+      "mlir_location": "408:12",
+      "recommended_executor": "nss"
+    }
+  },
+  "model_name": "adv_inception_v3_Opset16",
+  "discovery_report": {
+    "summary": {
+      "total_layers": 215,
+      "status_counts": {
+        "success": 214,
+        "difference": 11,
+        "error": 0
+      },
+      "executor_counts": {
+        "nss": 205,
+        "css": 0,
+        "host": 9
+      }
+    },
+    "critical_failures": []
+  },
+  "has_critical_failures": false,
+  "final_report_text": "FINAL EXECUTOR DISCOVERY REPORT\n\nModel: adv_inception_v3_Opset16\nTotal layers tested: 215\n\nStatus Summary:\n  success: 214\n  difference: 11\n  error: 0\n\nFirst Working Executor Distribution:\n  NSS: 205\n  CSS: 0\n  HOST: 9\n\nNo critical failures - all layers have at least one working executor\n\nPer-Layer Status:\n  Layer                                                         NSS          CSS          HOST         Recommended\n-------------------------------------------------------------------------------------------------------------------------\n  Conv_/Conv2d_1a_3x3/conv/Conv_output_0                        success      -            -            nss\n  Relu_/Conv2d_1a_3x3/bn/act/Relu_output_0                      success      -            -            nss\n  Conv_/Conv2d_2a_3x3/conv/Conv_output_0                        success      -            -            nss\n  Relu_/Conv2d_2a_3x3/bn/act/Relu_output_0                      success      -            -            nss\n  Conv_/Conv2d_2b_3x3/conv/Conv_output_0                        success      -            -            nss\n  Relu_/Conv2d_2b_3x3/bn/act/Relu_output_0                      success      -            -            nss\n  MaxPool_/Pool1/MaxPool_output_0                               success      -            -            nss\n  Conv_/Conv2d_3b_1x1/conv/Conv_output_0                        success      -            -            nss\n  Relu_/Conv2d_3b_1x1/bn/act/Relu_output_0                      success      -            -            nss\n  Conv_/Conv2d_4a_3x3/conv/Conv_output_0                        success      -            -            nss\n  Relu_/Conv2d_4a_3x3/bn/act/Relu_output_0                      success      -            -            nss\n  MaxPool_/Pool2/MaxPool_output_0                               success      -            -            nss\n  Conv_/Mixed_5b/branch1x1/conv/Conv_output_0                   success      -            -            nss\n  Relu_/Mixed_5b/branch1x1/bn/act/Relu_output_0                 success      -            -            nss\n  Conv_/Mixed_5b/branch5x5_1/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_5b/branch5x5_1/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_5b/branch5x5_2/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_5b/branch5x5_2/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_5b/branch3x3dbl_1/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_5b/branch3x3dbl_1/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_5b/branch3x3dbl_2/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_5b/branch3x3dbl_2/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_5b/branch3x3dbl_3/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_5b/branch3x3dbl_3/bn/act/Relu_output_0            success      -            -            nss\n  AveragePool_/Mixed_5b/AveragePool_output_0                    difference   -            success      host\n  Conv_/Mixed_5b/branch_pool/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_5b/branch_pool/bn/act/Relu_output_0               success      -            -            nss\n  Concat_/Mixed_5b/Concat_output_0                              success      -            -            nss\n  Conv_/Mixed_5c/branch1x1/conv/Conv_output_0                   success      -            -            nss\n  Relu_/Mixed_5c/branch1x1/bn/act/Relu_output_0                 success      -            -            nss\n  Conv_/Mixed_5c/branch5x5_1/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_5c/branch5x5_1/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_5c/branch5x5_2/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_5c/branch5x5_2/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_5c/branch3x3dbl_1/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_5c/branch3x3dbl_1/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_5c/branch3x3dbl_2/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_5c/branch3x3dbl_2/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_5c/branch3x3dbl_3/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_5c/branch3x3dbl_3/bn/act/Relu_output_0            success      -            -            nss\n  AveragePool_/Mixed_5c/AveragePool_output_0                    difference   -            success      host\n  Conv_/Mixed_5c/branch_pool/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_5c/branch_pool/bn/act/Relu_output_0               success      -            -            nss\n  Concat_/Mixed_5c/Concat_output_0                              success      -            -            nss\n  Conv_/Mixed_5d/branch1x1/conv/Conv_output_0                   success      -            -            nss\n  Relu_/Mixed_5d/branch1x1/bn/act/Relu_output_0                 success      -            -            nss\n  Conv_/Mixed_5d/branch5x5_1/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_5d/branch5x5_1/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_5d/branch5x5_2/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_5d/branch5x5_2/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_5d/branch3x3dbl_1/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_5d/branch3x3dbl_1/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_5d/branch3x3dbl_2/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_5d/branch3x3dbl_2/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_5d/branch3x3dbl_3/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_5d/branch3x3dbl_3/bn/act/Relu_output_0            success      -            -            nss\n  AveragePool_/Mixed_5d/AveragePool_output_0                    difference   -            success      host\n  Conv_/Mixed_5d/branch_pool/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_5d/branch_pool/bn/act/Relu_output_0               success      -            -            nss\n  Concat_/Mixed_5d/Concat_output_0                              success      -            -            nss\n  Conv_/Mixed_6a/branch3x3/conv/Conv_output_0                   success      -            -            nss\n  Relu_/Mixed_6a/branch3x3/bn/act/Relu_output_0                 success      -            -            nss\n  Conv_/Mixed_6a/branch3x3dbl_1/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6a/branch3x3dbl_1/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6a/branch3x3dbl_2/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6a/branch3x3dbl_2/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6a/branch3x3dbl_3/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6a/branch3x3dbl_3/bn/act/Relu_output_0            success      -            -            nss\n  MaxPool_/Mixed_6a/MaxPool_output_0                            success      -            -            nss\n  Concat_/Mixed_6a/Concat_output_0                              success      -            -            nss\n  Conv_/Mixed_6b/branch1x1/conv/Conv_output_0                   success      -            -            nss\n  Relu_/Mixed_6b/branch1x1/bn/act/Relu_output_0                 success      -            -            nss\n  Conv_/Mixed_6b/branch7x7_1/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_6b/branch7x7_1/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_6b/branch7x7_2/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_6b/branch7x7_2/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_6b/branch7x7_3/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_6b/branch7x7_3/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_6b/branch7x7dbl_1/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6b/branch7x7dbl_1/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6b/branch7x7dbl_2/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6b/branch7x7dbl_2/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6b/branch7x7dbl_3/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6b/branch7x7dbl_3/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6b/branch7x7dbl_4/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6b/branch7x7dbl_4/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6b/branch7x7dbl_5/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6b/branch7x7dbl_5/bn/act/Relu_output_0            success      -            -            nss\n  AveragePool_/Mixed_6b/AveragePool_output_0                    difference   -            success      host\n  Conv_/Mixed_6b/branch_pool/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_6b/branch_pool/bn/act/Relu_output_0               success      -            -            nss\n  Concat_/Mixed_6b/Concat_output_0                              success      -            -            nss\n  Conv_/Mixed_6c/branch1x1/conv/Conv_output_0                   success      -            -            nss\n  Relu_/Mixed_6c/branch1x1/bn/act/Relu_output_0                 success      -            -            nss\n  Conv_/Mixed_6c/branch7x7_1/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_6c/branch7x7_1/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_6c/branch7x7_2/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_6c/branch7x7_2/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_6c/branch7x7_3/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_6c/branch7x7_3/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_6c/branch7x7dbl_1/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6c/branch7x7dbl_1/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6c/branch7x7dbl_2/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6c/branch7x7dbl_2/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6c/branch7x7dbl_3/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6c/branch7x7dbl_3/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6c/branch7x7dbl_4/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6c/branch7x7dbl_4/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6c/branch7x7dbl_5/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6c/branch7x7dbl_5/bn/act/Relu_output_0            success      -            -            nss\n  AveragePool_/Mixed_6c/AveragePool_output_0                    difference   -            success      host\n  Conv_/Mixed_6c/branch_pool/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_6c/branch_pool/bn/act/Relu_output_0               success      -            -            nss\n  Concat_/Mixed_6c/Concat_output_0                              success      -            -            nss\n  Conv_/Mixed_6d/branch1x1/conv/Conv_output_0                   success      -            -            nss\n  Relu_/Mixed_6d/branch1x1/bn/act/Relu_output_0                 success      -            -            nss\n  Conv_/Mixed_6d/branch7x7_1/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_6d/branch7x7_1/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_6d/branch7x7_2/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_6d/branch7x7_2/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_6d/branch7x7_3/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_6d/branch7x7_3/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_6d/branch7x7dbl_1/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6d/branch7x7dbl_1/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6d/branch7x7dbl_2/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6d/branch7x7dbl_2/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6d/branch7x7dbl_3/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6d/branch7x7dbl_3/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6d/branch7x7dbl_4/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6d/branch7x7dbl_4/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6d/branch7x7dbl_5/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6d/branch7x7dbl_5/bn/act/Relu_output_0            success      -            -            nss\n  AveragePool_/Mixed_6d/AveragePool_output_0                    difference   -            success      host\n  Conv_/Mixed_6d/branch_pool/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_6d/branch_pool/bn/act/Relu_output_0               success      -            -            nss\n  Concat_/Mixed_6d/Concat_output_0                              success      -            -            nss\n  Conv_/Mixed_6e/branch1x1/conv/Conv_output_0                   success      -            -            nss\n  Relu_/Mixed_6e/branch1x1/bn/act/Relu_output_0                 success      -            -            nss\n  Conv_/Mixed_6e/branch7x7_1/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_6e/branch7x7_1/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_6e/branch7x7_2/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_6e/branch7x7_2/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_6e/branch7x7_3/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_6e/branch7x7_3/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_6e/branch7x7dbl_1/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6e/branch7x7dbl_1/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6e/branch7x7dbl_2/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6e/branch7x7dbl_2/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6e/branch7x7dbl_3/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6e/branch7x7dbl_3/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6e/branch7x7dbl_4/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6e/branch7x7dbl_4/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_6e/branch7x7dbl_5/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_6e/branch7x7dbl_5/bn/act/Relu_output_0            success      -            -            nss\n  AveragePool_/Mixed_6e/AveragePool_output_0                    difference   -            success      host\n  Conv_/Mixed_6e/branch_pool/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_6e/branch_pool/bn/act/Relu_output_0               success      -            -            nss\n  Concat_/Mixed_6e/Concat_output_0                              success      -            -            nss\n  Conv_/Mixed_7a/branch3x3_1/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_7a/branch3x3_1/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_7a/branch3x3_2/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_7a/branch3x3_2/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_7a/branch7x7x3_1/conv/Conv_output_0               success      -            -            nss\n  Relu_/Mixed_7a/branch7x7x3_1/bn/act/Relu_output_0             success      -            -            nss\n  Conv_/Mixed_7a/branch7x7x3_2/conv/Conv_output_0               success      -            -            nss\n  Relu_/Mixed_7a/branch7x7x3_2/bn/act/Relu_output_0             success      -            -            nss\n  Conv_/Mixed_7a/branch7x7x3_3/conv/Conv_output_0               success      -            -            nss\n  Relu_/Mixed_7a/branch7x7x3_3/bn/act/Relu_output_0             success      -            -            nss\n  Conv_/Mixed_7a/branch7x7x3_4/conv/Conv_output_0               success      -            -            nss\n  Relu_/Mixed_7a/branch7x7x3_4/bn/act/Relu_output_0             success      -            -            nss\n  MaxPool_/Mixed_7a/MaxPool_output_0                            success      -            -            nss\n  Concat_/Mixed_7a/Concat_output_0                              success      -            -            nss\n  Conv_/Mixed_7b/branch1x1/conv/Conv_output_0                   success      -            -            nss\n  Relu_/Mixed_7b/branch1x1/bn/act/Relu_output_0                 success      -            -            nss\n  Conv_/Mixed_7b/branch3x3_1/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_7b/branch3x3_1/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_7b/branch3x3_2a/conv/Conv_output_0                success      -            -            nss\n  Relu_/Mixed_7b/branch3x3_2a/bn/act/Relu_output_0              success      -            -            nss\n  Conv_/Mixed_7b/branch3x3_2b/conv/Conv_output_0                success      -            -            nss\n  Relu_/Mixed_7b/branch3x3_2b/bn/act/Relu_output_0              success      -            -            nss\n  Conv_/Mixed_7b/branch3x3dbl_1/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_7b/branch3x3dbl_1/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_7b/branch3x3dbl_2/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_7b/branch3x3dbl_2/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_7b/branch3x3dbl_3a/conv/Conv_output_0             success      -            -            nss\n  Relu_/Mixed_7b/branch3x3dbl_3a/bn/act/Relu_output_0           success      -            -            nss\n  Conv_/Mixed_7b/branch3x3dbl_3b/conv/Conv_output_0             success      -            -            nss\n  Relu_/Mixed_7b/branch3x3dbl_3b/bn/act/Relu_output_0           success      -            -            nss\n  AveragePool_/Mixed_7b/AveragePool_output_0                    difference   -            success      host\n  Conv_/Mixed_7b/branch_pool/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_7b/branch_pool/bn/act/Relu_output_0               success      -            -            nss\n  Concat_/Mixed_7b/Concat_output_0                              success      -            -            nss\n  Conv_/Mixed_7c/branch1x1/conv/Conv_output_0                   success      -            -            nss\n  Relu_/Mixed_7c/branch1x1/bn/act/Relu_output_0                 success      -            -            nss\n  Conv_/Mixed_7c/branch3x3_1/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_7c/branch3x3_1/bn/act/Relu_output_0               success      -            -            nss\n  Conv_/Mixed_7c/branch3x3_2a/conv/Conv_output_0                success      -            -            nss\n  Relu_/Mixed_7c/branch3x3_2a/bn/act/Relu_output_0              success      -            -            nss\n  Conv_/Mixed_7c/branch3x3_2b/conv/Conv_output_0                success      -            -            nss\n  Relu_/Mixed_7c/branch3x3_2b/bn/act/Relu_output_0              success      -            -            nss\n  Conv_/Mixed_7c/branch3x3dbl_1/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_7c/branch3x3dbl_1/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_7c/branch3x3dbl_2/conv/Conv_output_0              success      -            -            nss\n  Relu_/Mixed_7c/branch3x3dbl_2/bn/act/Relu_output_0            success      -            -            nss\n  Conv_/Mixed_7c/branch3x3dbl_3a/conv/Conv_output_0             success      -            -            nss\n  Relu_/Mixed_7c/branch3x3dbl_3a/bn/act/Relu_output_0           success      -            -            nss\n  Conv_/Mixed_7c/branch3x3dbl_3b/conv/Conv_output_0             success      -            -            nss\n  Relu_/Mixed_7c/branch3x3dbl_3b/bn/act/Relu_output_0           success      -            -            nss\n  AveragePool_/Mixed_7c/AveragePool_output_0                    difference   -            success      host\n  Conv_/Mixed_7c/branch_pool/conv/Conv_output_0                 success      -            -            nss\n  Relu_/Mixed_7c/branch_pool/bn/act/Relu_output_0               success      -            -            nss\n  Concat_/Mixed_7c/Concat_output_0                              success      -            -            nss\n  GlobalAveragePool_/global_pool/pool/GlobalAveragePool_output  difference   -            difference   nss\n  Flatten_/global_pool/flatten/Flatten_output_0                 success      -            -            nss\n  Gemm_875                                                      success      -            -            nss",
+  "tolerance": {
+    "max_relative_diff": 1.003047227859497,
+    "max_absolute_diff": 1.25
+  }
+}

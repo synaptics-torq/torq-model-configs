@@ -1,0 +1,349 @@
+{
+  "version": "1.1",
+  "default_tolerance": {
+    "fp_avg_tol": 0.01,
+    "fp_max_tol": 0.01
+  },
+  "ops": {
+    "Conv_/features/features.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...b6530b86.mlir'), version='onnx_mlir_model_file.6195e2a73efadba540b88ea"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 0,
+      "mlir_location": "20:11"
+    },
+    "Relu_/features/features.1/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 1,
+      "mlir_location": "21:11",
+      "recommended_executor": "nss"
+    },
+    "MaxPool_/features/features.2/MaxPool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 2,
+      "mlir_location": "22:11",
+      "recommended_executor": "nss"
+    },
+    "Conv_/features/features.3/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 3,
+      "mlir_location": "23:11",
+      "recommended_executor": "nss"
+    },
+    "Relu_/features/features.4/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 4,
+      "mlir_location": "24:11",
+      "recommended_executor": "nss"
+    },
+    "MaxPool_/features/features.5/MaxPool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 5,
+      "mlir_location": "25:11",
+      "recommended_executor": "nss"
+    },
+    "Conv_/features/features.6/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 6,
+      "mlir_location": "26:11",
+      "recommended_executor": "nss"
+    },
+    "Relu_/features/features.7/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 7,
+      "mlir_location": "27:11",
+      "recommended_executor": "nss"
+    },
+    "Conv_/features/features.8/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 8,
+      "mlir_location": "28:11",
+      "recommended_executor": "nss"
+    },
+    "Relu_/features/features.9/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 9,
+      "mlir_location": "29:11",
+      "recommended_executor": "nss"
+    },
+    "Conv_/features/features.10/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 10,
+      "mlir_location": "30:11",
+      "recommended_executor": "nss"
+    },
+    "Relu_/features/features.11/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 11,
+      "mlir_location": "31:11",
+      "recommended_executor": "nss"
+    },
+    "MaxPool_/features/features.12/MaxPool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 12,
+      "mlir_location": "32:11",
+      "recommended_executor": "nss"
+    },
+    "AveragePool_/avgpool/AveragePool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...727c9327.mlir'), version='onnx_mlir_model_file.e6e1d59046dfe0c10c7a038"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 13,
+      "mlir_location": "33:11"
+    },
+    "Flatten_/Flatten_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 14,
+      "mlir_location": "34:11",
+      "recommended_executor": "nss"
+    },
+    "Gemm_/classifier/classifier.1/Gemm_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 15,
+      "mlir_location": "35:11",
+      "recommended_executor": "nss"
+    },
+    "Relu_/classifier/classifier.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 16,
+      "mlir_location": "36:11",
+      "recommended_executor": "nss"
+    },
+    "Gemm_/classifier/classifier.4/Gemm_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 1 out of 4096 [0.02%]"
+          }
+        },
+        "host": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 1 out of 4096 [0.02%]"
+          }
+        }
+      },
+      "_node_index": 17,
+      "mlir_location": "37:11",
+      "recommended_executor": "nss"
+    },
+    "Relu_/classifier/classifier.5/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 18,
+      "mlir_location": "38:11",
+      "recommended_executor": "nss"
+    },
+    "Gemm_36": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 19,
+      "mlir_location": "39:11",
+      "recommended_executor": "nss"
+    }
+  },
+  "model_name": "alexnet_Opset17",
+  "discovery_report": {
+    "summary": {
+      "total_layers": 20,
+      "status_counts": {
+        "success": 19,
+        "difference": 2,
+        "error": 2
+      },
+      "executor_counts": {
+        "nss": 17,
+        "css": 0,
+        "host": 2
+      }
+    },
+    "critical_failures": []
+  },
+  "has_critical_failures": false,
+  "final_report_text": "FINAL EXECUTOR DISCOVERY REPORT\n\nModel: alexnet_Opset17\nTotal layers tested: 20\n\nStatus Summary:\n  success: 19\n  difference: 2\n  error: 2\n\nFirst Working Executor Distribution:\n  NSS: 17\n  CSS: 0\n  HOST: 2\n\nNo critical failures - all layers have at least one working executor\n\nPer-Layer Status:\n  Layer                                           NSS          CSS          HOST         Recommended\n-----------------------------------------------------------------------------------------------------------\n  Conv_/features/features.0/Conv_output_0         error        -            success      host\n  Relu_/features/features.1/Relu_output_0         success      -            -            nss\n  MaxPool_/features/features.2/MaxPool_output_0   success      -            -            nss\n  Conv_/features/features.3/Conv_output_0         success      -            -            nss\n  Relu_/features/features.4/Relu_output_0         success      -            -            nss\n  MaxPool_/features/features.5/MaxPool_output_0   success      -            -            nss\n  Conv_/features/features.6/Conv_output_0         success      -            -            nss\n  Relu_/features/features.7/Relu_output_0         success      -            -            nss\n  Conv_/features/features.8/Conv_output_0         success      -            -            nss\n  Relu_/features/features.9/Relu_output_0         success      -            -            nss\n  Conv_/features/features.10/Conv_output_0        success      -            -            nss\n  Relu_/features/features.11/Relu_output_0        success      -            -            nss\n  MaxPool_/features/features.12/MaxPool_output_0  success      -            -            nss\n  AveragePool_/avgpool/AveragePool_output_0       error        -            success      host\n  Flatten_/Flatten_output_0                       success      -            -            nss\n  Gemm_/classifier/classifier.1/Gemm_output_0     success      -            -            nss\n  Relu_/classifier/classifier.2/Relu_output_0     success      -            -            nss\n  Gemm_/classifier/classifier.4/Gemm_output_0     difference   -            difference   nss\n  Relu_/classifier/classifier.5/Relu_output_0     success      -            -            nss\n  Gemm_36                                         success      -            -            nss",
+  "tolerance": {
+    "max_relative_diff": 0.9971681237220764,
+    "max_absolute_diff": 0.1875
+  }
+}
