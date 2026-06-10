@@ -1,0 +1,69 @@
+{
+  "op_assignments": {
+    "20:11": {
+      "executor": "host"
+    },
+    "21:11": {
+      "executor": "nss"
+    },
+    "22:11": {
+      "executor": "nss"
+    },
+    "23:11": {
+      "executor": "nss"
+    },
+    "24:11": {
+      "executor": "nss"
+    },
+    "25:11": {
+      "executor": "nss"
+    },
+    "26:11": {
+      "executor": "nss"
+    },
+    "27:11": {
+      "executor": "nss"
+    },
+    "28:11": {
+      "executor": "nss"
+    },
+    "29:11": {
+      "executor": "nss"
+    },
+    "30:11": {
+      "executor": "nss"
+    },
+    "31:11": {
+      "executor": "nss"
+    },
+    "32:11": {
+      "executor": "nss"
+    },
+    "33:11": {
+      "executor": "host"
+    },
+    "34:11": {
+      "executor": "nss"
+    },
+    "35:11": {
+      "executor": "nss"
+    },
+    "36:11": {
+      "executor": "nss"
+    },
+    "37:11": {
+      "executor": "nss"
+    },
+    "38:11": {
+      "executor": "nss"
+    },
+    "39:11": {
+      "executor": "nss"
+    }
+  },
+  "model_name": "alexnet_Opset17",
+  "tolerance": {
+    "max_relative_diff": 0.9971681237220764,
+    "max_absolute_diff": 0.1875
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "op_assignments": {
+    "112:12": {
+      "executor": "host"
+    },
+    "113:12": {
+      "executor": "nss"
+    },
+    "114:12": {
+      "executor": "nss"
+    },
+    "115:12": {
+      "executor": "nss"
+    },
+    "116:12": {
+      "executor": "nss"
+    },
+    "117:12": {
+      "executor": "host"
+    },
+    "118:12": {
+      "executor": "nss"
+    },
+    "119:12": {
+      "executor": "nss"
+    },
+    "120:12": {
+      "executor": "nss"
+    },
+    "121:12": {
+      "executor": "nss"
+    },
+    "122:12": {
+      "executor": "nss"
+    },
+    "123:12": {
+      "executor": "nss"
+    },
+    "124:12": {
+      "executor": "nss"
+    },
+    "125:12": {
+      "executor": "host"
+    },
+    "126:12": {
+      "executor": "nss"
+    },
+    "127:12": {
+      "executor": "nss"
+    },
+    "128:12": {
+      "executor": "nss"
+    },
+    "129:12": {
+      "executor": "nss"
+    },
+    "130:12": {
+      "executor": "nss"
+    },
+    "131:12": {
+      "executor": "nss"
+    },
+    "132:12": {
+      "executor": "host"
+    },
+    "133:12": {
+      "executor": "nss"
+    },
+    "134:12": {
+      "executor": "nss"
+    },
+    "135:12": {
+      "executor": "nss"
+    },
+    "136:12": {
+      "executor": "nss"
+    },
+    "137:12": {
+      "executor": "nss"
+    },
+    "138:12": {
+      "executor": "nss"
+    },
+    "139:12": {
+      "executor": "host"
+    },
+    "140:12": {
+      "executor": "nss"
+    },
+    "141:12": {
+      "executor": "nss"
+    },
+    "142:12": {
+      "executor": "nss"
+    },
+    "143:12": {
+      "executor": "nss"
+    },
+    "144:12": {
+      "executor": "nss"
+    },
+    "145:12": {
+      "executor": "nss"
+    },
+    "146:12": {
+      "executor": "nss"
+    },
+    "147:12": {
+      "executor": "host"
+    },
+    "148:12": {
+      "executor": "nss"
+    },
+    "149:12": {
+      "executor": "nss"
+    },
+    "150:12": {
+      "executor": "nss"
+    },
+    "151:12": {
+      "executor": "nss"
+    },
+    "152:12": {
+      "executor": "nss"
+    },
+    "153:12": {
+      "executor": "nss"
+    },
+    "154:12": {
+      "executor": "host"
+    },
+    "155:12": {
+      "executor": "nss"
+    },
+    "156:12": {
+      "executor": "nss"
+    },
+    "157:12": {
+      "executor": "nss"
+    },
+    "158:12": {
+      "executor": "nss"
+    },
+    "159:12": {
+      "executor": "nss"
+    },
+    "160:12": {
+      "executor": "nss"
+    },
+    "161:12": {
+      "executor": "host"
+    },
+    "162:12": {
+      "executor": "nss"
+    },
+    "163:12": {
+      "executor": "nss"
+    },
+    "164:12": {
+      "executor": "nss"
+    },
+    "165:12": {
+      "executor": "nss"
+    },
+    "166:12": {
+      "executor": "nss"
+    },
+    "167:12": {
+      "executor": "nss"
+    },
+    "168:12": {
+      "executor": "host"
+    },
+    "169:12": {
+      "executor": "nss"
+    },
+    "170:12": {
+      "executor": "nss"
+    },
+    "171:12": {
+      "executor": "nss"
+    },
+    "172:12": {
+      "executor": "nss"
+    },
+    "173:12": {
+      "executor": "nss"
+    },
+    "174:12": {
+      "executor": "nss"
+    },
+    "175:12": {
+      "executor": "nss"
+    },
+    "176:12": {
+      "executor": "host"
+    },
+    "177:12": {
+      "executor": "nss"
+    },
+    "178:12": {
+      "executor": "nss"
+    },
+    "179:12": {
+      "executor": "nss"
+    },
+    "180:12": {
+      "executor": "nss"
+    },
+    "181:12": {
+      "executor": "nss"
+    },
+    "182:12": {
+      "executor": "nss"
+    },
+    "183:12": {
+      "executor": "host"
+    },
+    "184:12": {
+      "executor": "nss"
+    },
+    "185:12": {
+      "executor": "nss"
+    },
+    "186:12": {
+      "executor": "nss"
+    },
+    "187:12": {
+      "executor": "nss"
+    },
+    "188:12": {
+      "executor": "nss"
+    },
+    "189:12": {
+      "executor": "nss"
+    },
+    "190:12": {
+      "executor": "host"
+    },
+    "191:12": {
+      "executor": "nss"
+    },
+    "192:12": {
+      "executor": "nss"
+    },
+    "193:12": {
+      "executor": "nss"
+    },
+    "194:12": {
+      "executor": "nss"
+    },
+    "195:12": {
+      "executor": "nss"
+    },
+    "196:12": {
+      "executor": "nss"
+    },
+    "197:12": {
+      "executor": "host"
+    },
+    "198:12": {
+      "executor": "nss"
+    },
+    "199:12": {
+      "executor": "nss"
+    },
+    "200:12": {
+      "executor": "nss"
+    },
+    "201:12": {
+      "executor": "nss"
+    },
+    "202:12": {
+      "executor": "nss"
+    },
+    "203:12": {
+      "executor": "nss"
+    },
+    "204:12": {
+      "executor": "host"
+    },
+    "205:12": {
+      "executor": "nss"
+    },
+    "206:12": {
+      "executor": "nss"
+    },
+    "207:12": {
+      "executor": "nss"
+    },
+    "208:12": {
+      "executor": "nss"
+    },
+    "209:12": {
+      "executor": "nss"
+    },
+    "210:12": {
+      "executor": "nss"
+    },
+    "211:12": {
+      "executor": "host"
+    },
+    "212:12": {
+      "executor": "nss"
+    },
+    "213:12": {
+      "executor": "nss"
+    },
+    "214:12": {
+      "executor": "nss"
+    },
+    "215:12": {
+      "executor": "nss"
+    },
+    "216:12": {
+      "executor": "nss"
+    },
+    "217:12": {
+      "executor": "nss"
+    },
+    "218:12": {
+      "executor": "nss"
+    },
+    "219:12": {
+      "executor": "host"
+    },
+    "220:12": {
+      "executor": "nss"
+    },
+    "221:12": {
+      "executor": "nss"
+    },
+    "222:12": {
+      "executor": "nss"
+    },
+    "223:12": {
+      "executor": "nss"
+    },
+    "224:12": {
+      "executor": "nss"
+    },
+    "225:12": {
+      "executor": "nss"
+    },
+    "226:12": {
+      "executor": "host"
+    },
+    "227:12": {
+      "executor": "nss"
+    },
+    "228:12": {
+      "executor": "nss"
+    },
+    "229:12": {
+      "executor": "nss"
+    },
+    "230:12": {
+      "executor": "nss"
+    },
+    "231:12": {
+      "executor": "nss"
+    },
+    "232:12": {
+      "executor": "nss"
+    },
+    "233:12": {
+      "executor": "nss"
+    }
+  },
+  "model_name": "gluon_resnext50_32x4d_Opset18",
+  "tolerance": {
+    "max_relative_diff": 0.9999328255653381,
+    "max_absolute_diff": 0.046875
+  }
+}

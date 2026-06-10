@@ -1,0 +1,3788 @@
+{
+  "version": "1.1",
+  "default_tolerance": {
+    "fp_avg_tol": 0.01,
+    "fp_max_tol": 0.01
+  },
+  "ops": {
+    "Conv_/conv_stem/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 0,
+      "mlir_location": "196:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/act1/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 1,
+      "mlir_location": "197:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.0/blocks.0.0/ghost1/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 2,
+      "mlir_location": "198:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.0/blocks.0.0/ghost1/primary_conv/primary_conv.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 3,
+      "mlir_location": "199:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.0/blocks.0.0/ghost1/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 4,
+      "mlir_location": "200:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.0/blocks.0.0/ghost1/cheap_operation/cheap_operation.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 5,
+      "mlir_location": "201:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.0/blocks.0.0/ghost1/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 6,
+      "mlir_location": "202:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.0/blocks.0.0/ghost1/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 7,
+      "mlir_location": "207:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.0/blocks.0.0/ghost2/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 8,
+      "mlir_location": "208:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.0/blocks.0.0/ghost2/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 9,
+      "mlir_location": "209:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.0/blocks.0.0/ghost2/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 10,
+      "mlir_location": "210:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.0/blocks.0.0/ghost2/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 11,
+      "mlir_location": "215:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.0/blocks.0.0/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 12,
+      "mlir_location": "216:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.0/ghost1/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 13,
+      "mlir_location": "217:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.1/blocks.1.0/ghost1/primary_conv/primary_conv.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 14,
+      "mlir_location": "218:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.0/ghost1/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 15,
+      "mlir_location": "219:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.1/blocks.1.0/ghost1/cheap_operation/cheap_operation.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 16,
+      "mlir_location": "220:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.1/blocks.1.0/ghost1/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 17,
+      "mlir_location": "221:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.1/blocks.1.0/ghost1/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 18,
+      "mlir_location": "226:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.0/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 19,
+      "mlir_location": "227:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.0/ghost2/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 20,
+      "mlir_location": "228:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.0/ghost2/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 21,
+      "mlir_location": "229:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.1/blocks.1.0/ghost2/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 22,
+      "mlir_location": "230:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.1/blocks.1.0/ghost2/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 23,
+      "mlir_location": "235:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.0/shortcut/shortcut.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 24,
+      "mlir_location": "236:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.0/shortcut/shortcut.2/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 25,
+      "mlir_location": "237:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.1/blocks.1.0/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 26,
+      "mlir_location": "238:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.0/ghost1/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 27,
+      "mlir_location": "239:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.2/blocks.2.0/ghost1/primary_conv/primary_conv.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 28,
+      "mlir_location": "240:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.0/ghost1/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 29,
+      "mlir_location": "241:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.2/blocks.2.0/ghost1/cheap_operation/cheap_operation.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 30,
+      "mlir_location": "242:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.2/blocks.2.0/ghost1/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 31,
+      "mlir_location": "243:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.2/blocks.2.0/ghost1/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 32,
+      "mlir_location": "248:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.0/ghost2/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 33,
+      "mlir_location": "249:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.0/ghost2/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 34,
+      "mlir_location": "250:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.2/blocks.2.0/ghost2/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 35,
+      "mlir_location": "251:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.2/blocks.2.0/ghost2/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 36,
+      "mlir_location": "256:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.2/blocks.2.0/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 37,
+      "mlir_location": "257:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.0/ghost1/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 38,
+      "mlir_location": "258:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.3/blocks.3.0/ghost1/primary_conv/primary_conv.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 39,
+      "mlir_location": "259:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.0/ghost1/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 40,
+      "mlir_location": "260:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.3/blocks.3.0/ghost1/cheap_operation/cheap_operation.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 41,
+      "mlir_location": "261:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.3/blocks.3.0/ghost1/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 42,
+      "mlir_location": "262:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.3/blocks.3.0/ghost1/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 43,
+      "mlir_location": "267:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.0/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 44,
+      "mlir_location": "268:12",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.3/blocks.3.0/se/ReduceMean_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 13 out of 72 [18.06%]"
+          }
+        },
+        "host": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 42 out of 72 [58.33%]"
+          }
+        }
+      },
+      "_node_index": 45,
+      "mlir_location": "269:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.0/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...39c995ad.mlir'), version='onnx_mlir_model_file.3e806e5cc8f41a6236be9ee"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 46,
+      "mlir_location": "270:12"
+    },
+    "Relu_/blocks/blocks.3/blocks.3.0/se/act1/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 47,
+      "mlir_location": "271:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.0/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...75321f0d.mlir'), version='onnx_mlir_model_file.3a3ecd5c343cf161a9def8e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 48,
+      "mlir_location": "272:12"
+    },
+    "HardSigmoid_/blocks/blocks.3/blocks.3.0/se/gate/HardSigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...8dc0d416.mlir'), version='onnx_mlir_model_file.acdef41587dae0d3652734e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 49,
+      "mlir_location": "273:12"
+    },
+    "Mul_/blocks/blocks.3/blocks.3.0/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 50,
+      "mlir_location": "274:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.0/ghost2/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 51,
+      "mlir_location": "275:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.0/ghost2/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 52,
+      "mlir_location": "276:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.3/blocks.3.0/ghost2/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 53,
+      "mlir_location": "277:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.3/blocks.3.0/ghost2/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 54,
+      "mlir_location": "282:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.0/shortcut/shortcut.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 55,
+      "mlir_location": "283:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.0/shortcut/shortcut.2/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 56,
+      "mlir_location": "284:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.3/blocks.3.0/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 57,
+      "mlir_location": "285:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.0/ghost1/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 58,
+      "mlir_location": "286:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.4/blocks.4.0/ghost1/primary_conv/primary_conv.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 59,
+      "mlir_location": "287:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.0/ghost1/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 60,
+      "mlir_location": "288:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.4/blocks.4.0/ghost1/cheap_operation/cheap_operation.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 61,
+      "mlir_location": "289:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.4/blocks.4.0/ghost1/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 62,
+      "mlir_location": "290:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.4/blocks.4.0/ghost1/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 63,
+      "mlir_location": "295:12",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.4/blocks.4.0/se/ReduceMean_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 27 out of 120 [22.5%]"
+          }
+        },
+        "host": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 69 out of 120 [57.5%]"
+          }
+        }
+      },
+      "_node_index": 64,
+      "mlir_location": "296:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.0/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...d303ef82.mlir'), version='onnx_mlir_model_file.57cd5f89ee892fff2de2031"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 65,
+      "mlir_location": "297:12"
+    },
+    "Relu_/blocks/blocks.4/blocks.4.0/se/act1/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 66,
+      "mlir_location": "298:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.0/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...ad1ccc7c.mlir'), version='onnx_mlir_model_file.3124940e5bd53fe553962d8"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 67,
+      "mlir_location": "299:12"
+    },
+    "HardSigmoid_/blocks/blocks.4/blocks.4.0/se/gate/HardSigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...4a49c8eb.mlir'), version='onnx_mlir_model_file.d3e2ce74f3d0fe8f7279365"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 68,
+      "mlir_location": "300:12"
+    },
+    "Mul_/blocks/blocks.4/blocks.4.0/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 69,
+      "mlir_location": "301:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.0/ghost2/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 70,
+      "mlir_location": "302:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.0/ghost2/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 71,
+      "mlir_location": "303:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.4/blocks.4.0/ghost2/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 72,
+      "mlir_location": "304:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.4/blocks.4.0/ghost2/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 73,
+      "mlir_location": "309:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.4/blocks.4.0/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 74,
+      "mlir_location": "310:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.0/ghost1/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 75,
+      "mlir_location": "311:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.5/blocks.5.0/ghost1/primary_conv/primary_conv.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 76,
+      "mlir_location": "312:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.0/ghost1/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 77,
+      "mlir_location": "313:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.5/blocks.5.0/ghost1/cheap_operation/cheap_operation.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 78,
+      "mlir_location": "314:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.5/blocks.5.0/ghost1/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 79,
+      "mlir_location": "315:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.5/blocks.5.0/ghost1/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 80,
+      "mlir_location": "320:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.0/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 81,
+      "mlir_location": "321:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.0/ghost2/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 82,
+      "mlir_location": "322:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.0/ghost2/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 83,
+      "mlir_location": "323:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.5/blocks.5.0/ghost2/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 84,
+      "mlir_location": "324:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.5/blocks.5.0/ghost2/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 85,
+      "mlir_location": "329:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.0/shortcut/shortcut.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 86,
+      "mlir_location": "330:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.0/shortcut/shortcut.2/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 87,
+      "mlir_location": "331:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.5/blocks.5.0/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 88,
+      "mlir_location": "332:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.0/ghost1/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 89,
+      "mlir_location": "333:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.6/blocks.6.0/ghost1/primary_conv/primary_conv.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 90,
+      "mlir_location": "334:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.0/ghost1/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 91,
+      "mlir_location": "335:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.6/blocks.6.0/ghost1/cheap_operation/cheap_operation.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 92,
+      "mlir_location": "336:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.6/blocks.6.0/ghost1/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 93,
+      "mlir_location": "337:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.6/blocks.6.0/ghost1/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 94,
+      "mlir_location": "342:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.0/ghost2/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 95,
+      "mlir_location": "343:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.0/ghost2/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 96,
+      "mlir_location": "344:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.6/blocks.6.0/ghost2/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 97,
+      "mlir_location": "345:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.6/blocks.6.0/ghost2/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 98,
+      "mlir_location": "350:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.6/blocks.6.0/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 99,
+      "mlir_location": "351:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.1/ghost1/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 100,
+      "mlir_location": "352:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.6/blocks.6.1/ghost1/primary_conv/primary_conv.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 101,
+      "mlir_location": "353:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.1/ghost1/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 102,
+      "mlir_location": "354:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.6/blocks.6.1/ghost1/cheap_operation/cheap_operation.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 103,
+      "mlir_location": "355:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.6/blocks.6.1/ghost1/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 104,
+      "mlir_location": "356:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.6/blocks.6.1/ghost1/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 105,
+      "mlir_location": "361:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.1/ghost2/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 106,
+      "mlir_location": "362:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.1/ghost2/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 107,
+      "mlir_location": "363:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.6/blocks.6.1/ghost2/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 108,
+      "mlir_location": "364:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.6/blocks.6.1/ghost2/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 109,
+      "mlir_location": "369:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.6/blocks.6.1/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 110,
+      "mlir_location": "370:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.2/ghost1/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 111,
+      "mlir_location": "371:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.6/blocks.6.2/ghost1/primary_conv/primary_conv.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 112,
+      "mlir_location": "372:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.2/ghost1/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 113,
+      "mlir_location": "373:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.6/blocks.6.2/ghost1/cheap_operation/cheap_operation.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 114,
+      "mlir_location": "374:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.6/blocks.6.2/ghost1/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 115,
+      "mlir_location": "375:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.6/blocks.6.2/ghost1/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 116,
+      "mlir_location": "380:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.2/ghost2/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 117,
+      "mlir_location": "381:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.2/ghost2/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 118,
+      "mlir_location": "382:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.6/blocks.6.2/ghost2/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 119,
+      "mlir_location": "383:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.6/blocks.6.2/ghost2/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 120,
+      "mlir_location": "388:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.6/blocks.6.2/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 121,
+      "mlir_location": "389:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.3/ghost1/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 122,
+      "mlir_location": "390:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.6/blocks.6.3/ghost1/primary_conv/primary_conv.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 123,
+      "mlir_location": "391:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.3/ghost1/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 124,
+      "mlir_location": "392:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.6/blocks.6.3/ghost1/cheap_operation/cheap_operation.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 125,
+      "mlir_location": "393:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.6/blocks.6.3/ghost1/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 126,
+      "mlir_location": "394:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.6/blocks.6.3/ghost1/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 127,
+      "mlir_location": "399:12",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.6/blocks.6.3/se/ReduceMean_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 30 out of 480 [6.25%]"
+          }
+        },
+        "host": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 195 out of 480 [40.62%]"
+          }
+        }
+      },
+      "_node_index": 128,
+      "mlir_location": "400:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.3/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...c9140710.mlir'), version='onnx_mlir_model_file.ff8f3b7702f27a6fdd54671"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 129,
+      "mlir_location": "401:12"
+    },
+    "Relu_/blocks/blocks.6/blocks.6.3/se/act1/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 130,
+      "mlir_location": "402:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.3/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...48ede099.mlir'), version='onnx_mlir_model_file.c9aa5934f8a146a0a25e977"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 131,
+      "mlir_location": "403:12"
+    },
+    "HardSigmoid_/blocks/blocks.6/blocks.6.3/se/gate/HardSigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...e43b5da2.mlir'), version='onnx_mlir_model_file.7be8f44f2632b401949e6c8"
+          }
+        },
+        "host": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 1 out of 480 [0.21%]"
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 132,
+      "mlir_location": "404:12"
+    },
+    "Mul_/blocks/blocks.6/blocks.6.3/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 133,
+      "mlir_location": "405:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.3/ghost2/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 134,
+      "mlir_location": "406:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.3/ghost2/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 135,
+      "mlir_location": "407:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.6/blocks.6.3/ghost2/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 136,
+      "mlir_location": "408:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.6/blocks.6.3/ghost2/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 137,
+      "mlir_location": "413:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.3/shortcut/shortcut.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 138,
+      "mlir_location": "414:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.3/shortcut/shortcut.2/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 139,
+      "mlir_location": "415:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.6/blocks.6.3/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 140,
+      "mlir_location": "416:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.4/ghost1/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 141,
+      "mlir_location": "417:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.6/blocks.6.4/ghost1/primary_conv/primary_conv.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 142,
+      "mlir_location": "418:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.4/ghost1/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 143,
+      "mlir_location": "419:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.6/blocks.6.4/ghost1/cheap_operation/cheap_operation.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 144,
+      "mlir_location": "420:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.6/blocks.6.4/ghost1/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 145,
+      "mlir_location": "421:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.6/blocks.6.4/ghost1/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 146,
+      "mlir_location": "426:12",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.6/blocks.6.4/se/ReduceMean_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...643b5005.mlir'), version='onnx_mlir_model_file.45060c28ca0a2ac78ed5f13"
+          }
+        },
+        "host": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 268 out of 672 [39.88%]"
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 147,
+      "mlir_location": "427:12"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.4/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...66bf30cb.mlir'), version='onnx_mlir_model_file.75d15b0af38d817ae1325d1"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 148,
+      "mlir_location": "428:12"
+    },
+    "Relu_/blocks/blocks.6/blocks.6.4/se/act1/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 149,
+      "mlir_location": "429:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.4/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...126b0db2.mlir'), version='onnx_mlir_model_file.7c58bab1f8700d0e2d75fba"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 150,
+      "mlir_location": "430:12"
+    },
+    "HardSigmoid_/blocks/blocks.6/blocks.6.4/se/gate/HardSigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82f43668.mlir'), version='onnx_mlir_model_file.c96254414a49177c426f6ad"
+          }
+        },
+        "host": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 1 out of 672 [0.15%]"
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 151,
+      "mlir_location": "431:12"
+    },
+    "Mul_/blocks/blocks.6/blocks.6.4/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 152,
+      "mlir_location": "432:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.4/ghost2/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 153,
+      "mlir_location": "433:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.4/ghost2/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 154,
+      "mlir_location": "434:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.6/blocks.6.4/ghost2/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 155,
+      "mlir_location": "435:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.6/blocks.6.4/ghost2/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 156,
+      "mlir_location": "440:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.6/blocks.6.4/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 157,
+      "mlir_location": "441:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.7/blocks.7.0/ghost1/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 158,
+      "mlir_location": "442:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.7/blocks.7.0/ghost1/primary_conv/primary_conv.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 159,
+      "mlir_location": "443:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.7/blocks.7.0/ghost1/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 160,
+      "mlir_location": "444:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.7/blocks.7.0/ghost1/cheap_operation/cheap_operation.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 161,
+      "mlir_location": "445:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.7/blocks.7.0/ghost1/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 162,
+      "mlir_location": "446:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.7/blocks.7.0/ghost1/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 163,
+      "mlir_location": "451:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.7/blocks.7.0/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 164,
+      "mlir_location": "452:12",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.7/blocks.7.0/se/ReduceMean_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 19 out of 672 [2.83%]"
+          }
+        },
+        "host": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 124 out of 672 [18.45%]"
+          }
+        }
+      },
+      "_node_index": 165,
+      "mlir_location": "453:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.7/blocks.7.0/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...66bf30cb.mlir'), version='onnx_mlir_model_file.75d15b0af38d817ae1325d1"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 166,
+      "mlir_location": "454:12",
+      "recommended_executor": "host"
+    },
+    "Relu_/blocks/blocks.7/blocks.7.0/se/act1/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 167,
+      "mlir_location": "455:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.7/blocks.7.0/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...126b0db2.mlir'), version='onnx_mlir_model_file.7c58bab1f8700d0e2d75fba"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 168,
+      "mlir_location": "456:12",
+      "recommended_executor": "host"
+    },
+    "HardSigmoid_/blocks/blocks.7/blocks.7.0/se/gate/HardSigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82f43668.mlir'), version='onnx_mlir_model_file.c96254414a49177c426f6ad"
+          }
+        },
+        "host": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 1 out of 672 [0.15%]"
+          }
+        }
+      },
+      "_node_index": 169,
+      "mlir_location": "457:12",
+      "recommended_executor": "host"
+    },
+    "Mul_/blocks/blocks.7/blocks.7.0/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 170,
+      "mlir_location": "458:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.7/blocks.7.0/ghost2/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 171,
+      "mlir_location": "459:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.7/blocks.7.0/ghost2/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 172,
+      "mlir_location": "460:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.7/blocks.7.0/ghost2/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 173,
+      "mlir_location": "461:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.7/blocks.7.0/ghost2/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 174,
+      "mlir_location": "466:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.7/blocks.7.0/shortcut/shortcut.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 175,
+      "mlir_location": "467:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.7/blocks.7.0/shortcut/shortcut.2/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 176,
+      "mlir_location": "468:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.7/blocks.7.0/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 177,
+      "mlir_location": "469:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.0/ghost1/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 178,
+      "mlir_location": "470:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.8/blocks.8.0/ghost1/primary_conv/primary_conv.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 179,
+      "mlir_location": "471:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.0/ghost1/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 180,
+      "mlir_location": "472:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.8/blocks.8.0/ghost1/cheap_operation/cheap_operation.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 181,
+      "mlir_location": "473:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.8/blocks.8.0/ghost1/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 182,
+      "mlir_location": "474:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.8/blocks.8.0/ghost1/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 183,
+      "mlir_location": "479:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.0/ghost2/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 184,
+      "mlir_location": "480:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.0/ghost2/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 185,
+      "mlir_location": "481:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.8/blocks.8.0/ghost2/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 186,
+      "mlir_location": "482:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.8/blocks.8.0/ghost2/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 187,
+      "mlir_location": "487:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.8/blocks.8.0/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 188,
+      "mlir_location": "488:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.1/ghost1/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 189,
+      "mlir_location": "489:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.8/blocks.8.1/ghost1/primary_conv/primary_conv.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 190,
+      "mlir_location": "490:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.1/ghost1/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 191,
+      "mlir_location": "491:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.8/blocks.8.1/ghost1/cheap_operation/cheap_operation.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 192,
+      "mlir_location": "492:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.8/blocks.8.1/ghost1/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 193,
+      "mlir_location": "493:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.8/blocks.8.1/ghost1/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 194,
+      "mlir_location": "498:12",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.8/blocks.8.1/se/ReduceMean_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 31 out of 960 [3.23%]"
+          }
+        },
+        "host": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 173 out of 960 [18.02%]"
+          }
+        }
+      },
+      "_node_index": 195,
+      "mlir_location": "499:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.1/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...1e6cf3e8.mlir'), version='onnx_mlir_model_file.a7bc8c18820d4e056194806"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 196,
+      "mlir_location": "500:12"
+    },
+    "Relu_/blocks/blocks.8/blocks.8.1/se/act1/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 197,
+      "mlir_location": "501:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.1/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...3ad6ad76.mlir'), version='onnx_mlir_model_file.849902ab8371800ec0230b2"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 198,
+      "mlir_location": "502:12"
+    },
+    "HardSigmoid_/blocks/blocks.8/blocks.8.1/se/gate/HardSigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...1caafec8.mlir'), version='onnx_mlir_model_file.04bd7f9114685f47006825a"
+          }
+        },
+        "host": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 3 out of 960 [0.31%]"
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 199,
+      "mlir_location": "503:12"
+    },
+    "Mul_/blocks/blocks.8/blocks.8.1/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 200,
+      "mlir_location": "504:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.1/ghost2/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 201,
+      "mlir_location": "505:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.1/ghost2/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 202,
+      "mlir_location": "506:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.8/blocks.8.1/ghost2/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 203,
+      "mlir_location": "507:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.8/blocks.8.1/ghost2/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 204,
+      "mlir_location": "512:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.8/blocks.8.1/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 205,
+      "mlir_location": "513:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.2/ghost1/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 206,
+      "mlir_location": "514:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.8/blocks.8.2/ghost1/primary_conv/primary_conv.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 207,
+      "mlir_location": "515:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.2/ghost1/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 208,
+      "mlir_location": "516:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.8/blocks.8.2/ghost1/cheap_operation/cheap_operation.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 209,
+      "mlir_location": "517:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.8/blocks.8.2/ghost1/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 210,
+      "mlir_location": "518:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.8/blocks.8.2/ghost1/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 211,
+      "mlir_location": "523:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.2/ghost2/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 212,
+      "mlir_location": "524:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.2/ghost2/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 213,
+      "mlir_location": "525:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.8/blocks.8.2/ghost2/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 214,
+      "mlir_location": "526:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.8/blocks.8.2/ghost2/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 215,
+      "mlir_location": "531:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.8/blocks.8.2/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 216,
+      "mlir_location": "532:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.3/ghost1/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 217,
+      "mlir_location": "533:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.8/blocks.8.3/ghost1/primary_conv/primary_conv.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 218,
+      "mlir_location": "534:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.3/ghost1/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 219,
+      "mlir_location": "535:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.8/blocks.8.3/ghost1/cheap_operation/cheap_operation.2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 220,
+      "mlir_location": "536:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.8/blocks.8.3/ghost1/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 221,
+      "mlir_location": "537:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.8/blocks.8.3/ghost1/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 222,
+      "mlir_location": "542:12",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.8/blocks.8.3/se/ReduceMean_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 31 out of 960 [3.23%]"
+          }
+        },
+        "host": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 173 out of 960 [18.02%]"
+          }
+        }
+      },
+      "_node_index": 223,
+      "mlir_location": "543:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.3/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...1e6cf3e8.mlir'), version='onnx_mlir_model_file.a7bc8c18820d4e056194806"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 224,
+      "mlir_location": "544:12",
+      "recommended_executor": "host"
+    },
+    "Relu_/blocks/blocks.8/blocks.8.3/se/act1/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 225,
+      "mlir_location": "545:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.3/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...3ad6ad76.mlir'), version='onnx_mlir_model_file.849902ab8371800ec0230b2"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 226,
+      "mlir_location": "546:12",
+      "recommended_executor": "host"
+    },
+    "HardSigmoid_/blocks/blocks.8/blocks.8.3/se/gate/HardSigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...1caafec8.mlir'), version='onnx_mlir_model_file.04bd7f9114685f47006825a"
+          }
+        },
+        "host": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 3 out of 960 [0.31%]"
+          }
+        }
+      },
+      "_node_index": 227,
+      "mlir_location": "547:12",
+      "recommended_executor": "host"
+    },
+    "Mul_/blocks/blocks.8/blocks.8.3/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 228,
+      "mlir_location": "548:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.3/ghost2/primary_conv/primary_conv.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 229,
+      "mlir_location": "549:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.8/blocks.8.3/ghost2/cheap_operation/cheap_operation.0/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 230,
+      "mlir_location": "550:12",
+      "recommended_executor": "nss"
+    },
+    "Concat_/blocks/blocks.8/blocks.8.3/ghost2/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 231,
+      "mlir_location": "551:12",
+      "recommended_executor": "nss"
+    },
+    "Slice_/blocks/blocks.8/blocks.8.3/ghost2/Slice_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 232,
+      "mlir_location": "556:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.8/blocks.8.3/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 233,
+      "mlir_location": "557:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.9/blocks.9.0/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 234,
+      "mlir_location": "558:12",
+      "recommended_executor": "nss"
+    },
+    "Relu_/blocks/blocks.9/blocks.9.0/bn1/act/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 235,
+      "mlir_location": "559:12",
+      "recommended_executor": "nss"
+    },
+    "GlobalAveragePool_/global_pool/pool/GlobalAveragePool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 31 out of 960 [3.23%]"
+          }
+        },
+        "host": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 173 out of 960 [18.02%]"
+          }
+        }
+      },
+      "_node_index": 236,
+      "mlir_location": "560:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/conv_head/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...d42f3a7c.mlir'), version='onnx_mlir_model_file.d4e7ab83c13e42473198b89"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 237,
+      "mlir_location": "561:12"
+    },
+    "Relu_/act2/Relu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 238,
+      "mlir_location": "562:12",
+      "recommended_executor": "nss"
+    },
+    "Flatten_/flatten/Flatten_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 239,
+      "mlir_location": "563:12",
+      "recommended_executor": "nss"
+    },
+    "Gemm_1106": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 240,
+      "mlir_location": "564:12",
+      "recommended_executor": "nss"
+    }
+  },
+  "model_name": "ghostnet_100_Opset17",
+  "discovery_report": {
+    "summary": {
+      "total_layers": 241,
+      "status_counts": {
+        "success": 228,
+        "difference": 20,
+        "error": 23
+      },
+      "executor_counts": {
+        "nss": 211,
+        "css": 0,
+        "host": 17
+      }
+    },
+    "critical_failures": []
+  },
+  "has_critical_failures": false,
+  "final_report_text": "FINAL EXECUTOR DISCOVERY REPORT\n\nModel: ghostnet_100_Opset17\nTotal layers tested: 241\n\nStatus Summary:\n  success: 228\n  difference: 20\n  error: 23\n\nFirst Working Executor Distribution:\n  NSS: 211\n  CSS: 0\n  HOST: 17\n\nNo critical failures - all layers have at least one working executor\n\nPer-Layer Status:\n  Layer                                                         NSS          CSS          HOST         Recommended\n-------------------------------------------------------------------------------------------------------------------------\n  Conv_/conv_stem/Conv_output_0                                 success      -            -            nss\n  Relu_/act1/Relu_output_0                                      success      -            -            nss\n  Conv_/blocks/blocks.0/blocks.0.0/ghost1/primary_conv/primary  success      -            -            nss\n  Relu_/blocks/blocks.0/blocks.0.0/ghost1/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.0/blocks.0.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Relu_/blocks/blocks.0/blocks.0.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.0/blocks.0.0/ghost1/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.0/blocks.0.0/ghost1/Slice_output_0       success      -            -            nss\n  Conv_/blocks/blocks.0/blocks.0.0/ghost2/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.0/blocks.0.0/ghost2/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.0/blocks.0.0/ghost2/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.0/blocks.0.0/ghost2/Slice_output_0       success      -            -            nss\n  Add_/blocks/blocks.0/blocks.0.0/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.0/ghost1/primary_conv/primary  success      -            -            nss\n  Relu_/blocks/blocks.1/blocks.1.0/ghost1/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Relu_/blocks/blocks.1/blocks.1.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.1/blocks.1.0/ghost1/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.1/blocks.1.0/ghost1/Slice_output_0       success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.0/conv_dw/Conv_output_0        success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.0/ghost2/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.0/ghost2/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.1/blocks.1.0/ghost2/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.1/blocks.1.0/ghost2/Slice_output_0       success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.0/shortcut/shortcut.0/Conv_ou  success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.0/shortcut/shortcut.2/Conv_ou  success      -            -            nss\n  Add_/blocks/blocks.1/blocks.1.0/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.2/blocks.2.0/ghost1/primary_conv/primary  success      -            -            nss\n  Relu_/blocks/blocks.2/blocks.2.0/ghost1/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.2/blocks.2.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Relu_/blocks/blocks.2/blocks.2.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.2/blocks.2.0/ghost1/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.2/blocks.2.0/ghost1/Slice_output_0       success      -            -            nss\n  Conv_/blocks/blocks.2/blocks.2.0/ghost2/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.2/blocks.2.0/ghost2/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.2/blocks.2.0/ghost2/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.2/blocks.2.0/ghost2/Slice_output_0       success      -            -            nss\n  Add_/blocks/blocks.2/blocks.2.0/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.0/ghost1/primary_conv/primary  success      -            -            nss\n  Relu_/blocks/blocks.3/blocks.3.0/ghost1/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Relu_/blocks/blocks.3/blocks.3.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.3/blocks.3.0/ghost1/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.3/blocks.3.0/ghost1/Slice_output_0       success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.0/conv_dw/Conv_output_0        success      -            -            nss\n  ReduceMean_/blocks/blocks.3/blocks.3.0/se/ReduceMean_output_  difference   -            difference   nss\n  Conv_/blocks/blocks.3/blocks.3.0/se/conv_reduce/Conv_output_  error        -            success      host\n  Relu_/blocks/blocks.3/blocks.3.0/se/act1/Relu_output_0        success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.0/se/conv_expand/Conv_output_  error        -            success      host\n  HardSigmoid_/blocks/blocks.3/blocks.3.0/se/gate/HardSigmoid_  error        -            success      host\n  Mul_/blocks/blocks.3/blocks.3.0/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.0/ghost2/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.0/ghost2/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.3/blocks.3.0/ghost2/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.3/blocks.3.0/ghost2/Slice_output_0       success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.0/shortcut/shortcut.0/Conv_ou  success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.0/shortcut/shortcut.2/Conv_ou  success      -            -            nss\n  Add_/blocks/blocks.3/blocks.3.0/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.0/ghost1/primary_conv/primary  success      -            -            nss\n  Relu_/blocks/blocks.4/blocks.4.0/ghost1/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Relu_/blocks/blocks.4/blocks.4.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.4/blocks.4.0/ghost1/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.4/blocks.4.0/ghost1/Slice_output_0       success      -            -            nss\n  ReduceMean_/blocks/blocks.4/blocks.4.0/se/ReduceMean_output_  difference   -            difference   nss\n  Conv_/blocks/blocks.4/blocks.4.0/se/conv_reduce/Conv_output_  error        -            success      host\n  Relu_/blocks/blocks.4/blocks.4.0/se/act1/Relu_output_0        success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.0/se/conv_expand/Conv_output_  error        -            success      host\n  HardSigmoid_/blocks/blocks.4/blocks.4.0/se/gate/HardSigmoid_  error        -            success      host\n  Mul_/blocks/blocks.4/blocks.4.0/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.0/ghost2/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.0/ghost2/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.4/blocks.4.0/ghost2/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.4/blocks.4.0/ghost2/Slice_output_0       success      -            -            nss\n  Add_/blocks/blocks.4/blocks.4.0/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.0/ghost1/primary_conv/primary  success      -            -            nss\n  Relu_/blocks/blocks.5/blocks.5.0/ghost1/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Relu_/blocks/blocks.5/blocks.5.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.5/blocks.5.0/ghost1/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.5/blocks.5.0/ghost1/Slice_output_0       success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.0/conv_dw/Conv_output_0        success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.0/ghost2/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.0/ghost2/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.5/blocks.5.0/ghost2/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.5/blocks.5.0/ghost2/Slice_output_0       success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.0/shortcut/shortcut.0/Conv_ou  success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.0/shortcut/shortcut.2/Conv_ou  success      -            -            nss\n  Add_/blocks/blocks.5/blocks.5.0/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.0/ghost1/primary_conv/primary  success      -            -            nss\n  Relu_/blocks/blocks.6/blocks.6.0/ghost1/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Relu_/blocks/blocks.6/blocks.6.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.6/blocks.6.0/ghost1/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.6/blocks.6.0/ghost1/Slice_output_0       success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.0/ghost2/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.0/ghost2/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.6/blocks.6.0/ghost2/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.6/blocks.6.0/ghost2/Slice_output_0       success      -            -            nss\n  Add_/blocks/blocks.6/blocks.6.0/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.1/ghost1/primary_conv/primary  success      -            -            nss\n  Relu_/blocks/blocks.6/blocks.6.1/ghost1/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.1/ghost1/cheap_operation/chea  success      -            -            nss\n  Relu_/blocks/blocks.6/blocks.6.1/ghost1/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.6/blocks.6.1/ghost1/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.6/blocks.6.1/ghost1/Slice_output_0       success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.1/ghost2/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.1/ghost2/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.6/blocks.6.1/ghost2/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.6/blocks.6.1/ghost2/Slice_output_0       success      -            -            nss\n  Add_/blocks/blocks.6/blocks.6.1/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.2/ghost1/primary_conv/primary  success      -            -            nss\n  Relu_/blocks/blocks.6/blocks.6.2/ghost1/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.2/ghost1/cheap_operation/chea  success      -            -            nss\n  Relu_/blocks/blocks.6/blocks.6.2/ghost1/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.6/blocks.6.2/ghost1/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.6/blocks.6.2/ghost1/Slice_output_0       success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.2/ghost2/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.2/ghost2/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.6/blocks.6.2/ghost2/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.6/blocks.6.2/ghost2/Slice_output_0       success      -            -            nss\n  Add_/blocks/blocks.6/blocks.6.2/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.3/ghost1/primary_conv/primary  success      -            -            nss\n  Relu_/blocks/blocks.6/blocks.6.3/ghost1/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.3/ghost1/cheap_operation/chea  success      -            -            nss\n  Relu_/blocks/blocks.6/blocks.6.3/ghost1/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.6/blocks.6.3/ghost1/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.6/blocks.6.3/ghost1/Slice_output_0       success      -            -            nss\n  ReduceMean_/blocks/blocks.6/blocks.6.3/se/ReduceMean_output_  difference   -            difference   nss\n  Conv_/blocks/blocks.6/blocks.6.3/se/conv_reduce/Conv_output_  error        -            success      host\n  Relu_/blocks/blocks.6/blocks.6.3/se/act1/Relu_output_0        success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.3/se/conv_expand/Conv_output_  error        -            success      host\n  HardSigmoid_/blocks/blocks.6/blocks.6.3/se/gate/HardSigmoid_  error        -            difference   host\n  Mul_/blocks/blocks.6/blocks.6.3/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.3/ghost2/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.3/ghost2/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.6/blocks.6.3/ghost2/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.6/blocks.6.3/ghost2/Slice_output_0       success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.3/shortcut/shortcut.0/Conv_ou  success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.3/shortcut/shortcut.2/Conv_ou  success      -            -            nss\n  Add_/blocks/blocks.6/blocks.6.3/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.4/ghost1/primary_conv/primary  success      -            -            nss\n  Relu_/blocks/blocks.6/blocks.6.4/ghost1/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.4/ghost1/cheap_operation/chea  success      -            -            nss\n  Relu_/blocks/blocks.6/blocks.6.4/ghost1/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.6/blocks.6.4/ghost1/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.6/blocks.6.4/ghost1/Slice_output_0       success      -            -            nss\n  ReduceMean_/blocks/blocks.6/blocks.6.4/se/ReduceMean_output_  error        -            difference   host\n  Conv_/blocks/blocks.6/blocks.6.4/se/conv_reduce/Conv_output_  error        -            success      host\n  Relu_/blocks/blocks.6/blocks.6.4/se/act1/Relu_output_0        success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.4/se/conv_expand/Conv_output_  error        -            success      host\n  HardSigmoid_/blocks/blocks.6/blocks.6.4/se/gate/HardSigmoid_  error        -            difference   host\n  Mul_/blocks/blocks.6/blocks.6.4/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.4/ghost2/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.4/ghost2/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.6/blocks.6.4/ghost2/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.6/blocks.6.4/ghost2/Slice_output_0       success      -            -            nss\n  Add_/blocks/blocks.6/blocks.6.4/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.7/blocks.7.0/ghost1/primary_conv/primary  success      -            -            nss\n  Relu_/blocks/blocks.7/blocks.7.0/ghost1/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.7/blocks.7.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Relu_/blocks/blocks.7/blocks.7.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.7/blocks.7.0/ghost1/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.7/blocks.7.0/ghost1/Slice_output_0       success      -            -            nss\n  Conv_/blocks/blocks.7/blocks.7.0/conv_dw/Conv_output_0        success      -            -            nss\n  ReduceMean_/blocks/blocks.7/blocks.7.0/se/ReduceMean_output_  difference   -            difference   nss\n  Conv_/blocks/blocks.7/blocks.7.0/se/conv_reduce/Conv_output_  error        -            success      host\n  Relu_/blocks/blocks.7/blocks.7.0/se/act1/Relu_output_0        success      -            -            nss\n  Conv_/blocks/blocks.7/blocks.7.0/se/conv_expand/Conv_output_  error        -            success      host\n  HardSigmoid_/blocks/blocks.7/blocks.7.0/se/gate/HardSigmoid_  error        -            difference   host\n  Mul_/blocks/blocks.7/blocks.7.0/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.7/blocks.7.0/ghost2/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.7/blocks.7.0/ghost2/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.7/blocks.7.0/ghost2/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.7/blocks.7.0/ghost2/Slice_output_0       success      -            -            nss\n  Conv_/blocks/blocks.7/blocks.7.0/shortcut/shortcut.0/Conv_ou  success      -            -            nss\n  Conv_/blocks/blocks.7/blocks.7.0/shortcut/shortcut.2/Conv_ou  success      -            -            nss\n  Add_/blocks/blocks.7/blocks.7.0/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.0/ghost1/primary_conv/primary  success      -            -            nss\n  Relu_/blocks/blocks.8/blocks.8.0/ghost1/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Relu_/blocks/blocks.8/blocks.8.0/ghost1/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.8/blocks.8.0/ghost1/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.8/blocks.8.0/ghost1/Slice_output_0       success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.0/ghost2/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.0/ghost2/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.8/blocks.8.0/ghost2/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.8/blocks.8.0/ghost2/Slice_output_0       success      -            -            nss\n  Add_/blocks/blocks.8/blocks.8.0/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.1/ghost1/primary_conv/primary  success      -            -            nss\n  Relu_/blocks/blocks.8/blocks.8.1/ghost1/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.1/ghost1/cheap_operation/chea  success      -            -            nss\n  Relu_/blocks/blocks.8/blocks.8.1/ghost1/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.8/blocks.8.1/ghost1/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.8/blocks.8.1/ghost1/Slice_output_0       success      -            -            nss\n  ReduceMean_/blocks/blocks.8/blocks.8.1/se/ReduceMean_output_  difference   -            difference   nss\n  Conv_/blocks/blocks.8/blocks.8.1/se/conv_reduce/Conv_output_  error        -            success      host\n  Relu_/blocks/blocks.8/blocks.8.1/se/act1/Relu_output_0        success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.1/se/conv_expand/Conv_output_  error        -            success      host\n  HardSigmoid_/blocks/blocks.8/blocks.8.1/se/gate/HardSigmoid_  error        -            difference   host\n  Mul_/blocks/blocks.8/blocks.8.1/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.1/ghost2/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.1/ghost2/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.8/blocks.8.1/ghost2/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.8/blocks.8.1/ghost2/Slice_output_0       success      -            -            nss\n  Add_/blocks/blocks.8/blocks.8.1/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.2/ghost1/primary_conv/primary  success      -            -            nss\n  Relu_/blocks/blocks.8/blocks.8.2/ghost1/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.2/ghost1/cheap_operation/chea  success      -            -            nss\n  Relu_/blocks/blocks.8/blocks.8.2/ghost1/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.8/blocks.8.2/ghost1/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.8/blocks.8.2/ghost1/Slice_output_0       success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.2/ghost2/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.2/ghost2/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.8/blocks.8.2/ghost2/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.8/blocks.8.2/ghost2/Slice_output_0       success      -            -            nss\n  Add_/blocks/blocks.8/blocks.8.2/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.3/ghost1/primary_conv/primary  success      -            -            nss\n  Relu_/blocks/blocks.8/blocks.8.3/ghost1/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.3/ghost1/cheap_operation/chea  success      -            -            nss\n  Relu_/blocks/blocks.8/blocks.8.3/ghost1/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.8/blocks.8.3/ghost1/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.8/blocks.8.3/ghost1/Slice_output_0       success      -            -            nss\n  ReduceMean_/blocks/blocks.8/blocks.8.3/se/ReduceMean_output_  difference   -            difference   nss\n  Conv_/blocks/blocks.8/blocks.8.3/se/conv_reduce/Conv_output_  error        -            success      host\n  Relu_/blocks/blocks.8/blocks.8.3/se/act1/Relu_output_0        success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.3/se/conv_expand/Conv_output_  error        -            success      host\n  HardSigmoid_/blocks/blocks.8/blocks.8.3/se/gate/HardSigmoid_  error        -            difference   host\n  Mul_/blocks/blocks.8/blocks.8.3/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.3/ghost2/primary_conv/primary  success      -            -            nss\n  Conv_/blocks/blocks.8/blocks.8.3/ghost2/cheap_operation/chea  success      -            -            nss\n  Concat_/blocks/blocks.8/blocks.8.3/ghost2/Concat_output_0     success      -            -            nss\n  Slice_/blocks/blocks.8/blocks.8.3/ghost2/Slice_output_0       success      -            -            nss\n  Add_/blocks/blocks.8/blocks.8.3/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.9/blocks.9.0/conv/Conv_output_0           success      -            -            nss\n  Relu_/blocks/blocks.9/blocks.9.0/bn1/act/Relu_output_0        success      -            -            nss\n  GlobalAveragePool_/global_pool/pool/GlobalAveragePool_output  difference   -            difference   nss\n  Conv_/conv_head/Conv_output_0                                 error        -            success      host\n  Relu_/act2/Relu_output_0                                      success      -            -            nss\n  Flatten_/flatten/Flatten_output_0                             success      -            -            nss\n  Gemm_1106                                                     success      -            -            nss",
+  "tolerance": {
+    "max_relative_diff": 1.002065658569336,
+    "max_absolute_diff": 9.5
+  }
+}

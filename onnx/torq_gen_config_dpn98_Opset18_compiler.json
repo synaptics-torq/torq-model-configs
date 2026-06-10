@@ -1,0 +1,1257 @@
+{
+  "op_assignments": {
+    "312:12": {
+      "executor": "nss"
+    },
+    "313:12": {
+      "executor": "nss"
+    },
+    "314:12": {
+      "executor": "nss"
+    },
+    "315:12": {
+      "executor": "nss"
+    },
+    "316:12": {
+      "executor": "nss"
+    },
+    "317:12": {
+      "executor": "nss"
+    },
+    "318:12": {
+      "executor": "nss"
+    },
+    "319:12": {
+      "executor": "nss"
+    },
+    "320:12": {
+      "executor": "host"
+    },
+    "321:12": {
+      "executor": "nss"
+    },
+    "322:12": {
+      "executor": "nss"
+    },
+    "323:12": {
+      "executor": "host"
+    },
+    "324:12": {
+      "executor": "nss"
+    },
+    "325:12": {
+      "executor": "nss"
+    },
+    "330:12": {
+      "executor": "nss"
+    },
+    "335:12": {
+      "executor": "nss"
+    },
+    "336:12": {
+      "executor": "host"
+    },
+    "337:12": {
+      "executor": "nss"
+    },
+    "338:12": {
+      "executor": "nss"
+    },
+    "339:12": {
+      "executor": "nss"
+    },
+    "340:12": {
+      "executor": "host"
+    },
+    "341:12": {
+      "executor": "nss"
+    },
+    "342:12": {
+      "executor": "nss"
+    },
+    "347:12": {
+      "executor": "nss"
+    },
+    "352:12": {
+      "executor": "nss"
+    },
+    "353:12": {
+      "executor": "nss"
+    },
+    "354:12": {
+      "executor": "nss"
+    },
+    "355:12": {
+      "executor": "nss"
+    },
+    "356:12": {
+      "executor": "host"
+    },
+    "357:12": {
+      "executor": "nss"
+    },
+    "358:12": {
+      "executor": "nss"
+    },
+    "359:12": {
+      "executor": "nss"
+    },
+    "360:12": {
+      "executor": "host"
+    },
+    "361:12": {
+      "executor": "nss"
+    },
+    "362:12": {
+      "executor": "nss"
+    },
+    "367:12": {
+      "executor": "nss"
+    },
+    "372:12": {
+      "executor": "nss"
+    },
+    "373:12": {
+      "executor": "nss"
+    },
+    "374:12": {
+      "executor": "nss"
+    },
+    "375:12": {
+      "executor": "nss"
+    },
+    "376:12": {
+      "executor": "host"
+    },
+    "377:12": {
+      "executor": "nss"
+    },
+    "378:12": {
+      "executor": "nss"
+    },
+    "379:12": {
+      "executor": "nss"
+    },
+    "380:12": {
+      "executor": "host"
+    },
+    "381:12": {
+      "executor": "nss"
+    },
+    "382:12": {
+      "executor": "nss"
+    },
+    "387:12": {
+      "executor": "nss"
+    },
+    "392:12": {
+      "executor": "nss"
+    },
+    "393:12": {
+      "executor": "nss"
+    },
+    "394:12": {
+      "executor": "nss"
+    },
+    "395:12": {
+      "executor": "host"
+    },
+    "396:12": {
+      "executor": "nss"
+    },
+    "397:12": {
+      "executor": "host"
+    },
+    "402:12": {
+      "executor": "nss"
+    },
+    "407:12": {
+      "executor": "nss"
+    },
+    "408:12": {
+      "executor": "host"
+    },
+    "409:12": {
+      "executor": "nss"
+    },
+    "410:12": {
+      "executor": "nss"
+    },
+    "411:12": {
+      "executor": "nss"
+    },
+    "412:12": {
+      "executor": "host"
+    },
+    "413:12": {
+      "executor": "nss"
+    },
+    "414:12": {
+      "executor": "nss"
+    },
+    "419:12": {
+      "executor": "nss"
+    },
+    "424:12": {
+      "executor": "nss"
+    },
+    "425:12": {
+      "executor": "nss"
+    },
+    "426:12": {
+      "executor": "nss"
+    },
+    "427:12": {
+      "executor": "nss"
+    },
+    "428:12": {
+      "executor": "host"
+    },
+    "429:12": {
+      "executor": "nss"
+    },
+    "430:12": {
+      "executor": "nss"
+    },
+    "431:12": {
+      "executor": "nss"
+    },
+    "432:12": {
+      "executor": "host"
+    },
+    "433:12": {
+      "executor": "nss"
+    },
+    "434:12": {
+      "executor": "nss"
+    },
+    "439:12": {
+      "executor": "nss"
+    },
+    "444:12": {
+      "executor": "nss"
+    },
+    "445:12": {
+      "executor": "nss"
+    },
+    "446:12": {
+      "executor": "nss"
+    },
+    "447:12": {
+      "executor": "nss"
+    },
+    "448:12": {
+      "executor": "host"
+    },
+    "449:12": {
+      "executor": "nss"
+    },
+    "450:12": {
+      "executor": "nss"
+    },
+    "451:12": {
+      "executor": "nss"
+    },
+    "452:12": {
+      "executor": "host"
+    },
+    "453:12": {
+      "executor": "nss"
+    },
+    "454:12": {
+      "executor": "nss"
+    },
+    "459:12": {
+      "executor": "nss"
+    },
+    "464:12": {
+      "executor": "nss"
+    },
+    "465:12": {
+      "executor": "nss"
+    },
+    "466:12": {
+      "executor": "nss"
+    },
+    "467:12": {
+      "executor": "nss"
+    },
+    "468:12": {
+      "executor": "host"
+    },
+    "469:12": {
+      "executor": "nss"
+    },
+    "470:12": {
+      "executor": "nss"
+    },
+    "471:12": {
+      "executor": "nss"
+    },
+    "472:12": {
+      "executor": "host"
+    },
+    "473:12": {
+      "executor": "nss"
+    },
+    "474:12": {
+      "executor": "nss"
+    },
+    "479:12": {
+      "executor": "nss"
+    },
+    "484:12": {
+      "executor": "nss"
+    },
+    "485:12": {
+      "executor": "nss"
+    },
+    "486:12": {
+      "executor": "nss"
+    },
+    "487:12": {
+      "executor": "nss"
+    },
+    "488:12": {
+      "executor": "host"
+    },
+    "489:12": {
+      "executor": "nss"
+    },
+    "490:12": {
+      "executor": "nss"
+    },
+    "491:12": {
+      "executor": "nss"
+    },
+    "492:12": {
+      "executor": "host"
+    },
+    "493:12": {
+      "executor": "nss"
+    },
+    "494:12": {
+      "executor": "nss"
+    },
+    "499:12": {
+      "executor": "nss"
+    },
+    "504:12": {
+      "executor": "nss"
+    },
+    "505:12": {
+      "executor": "nss"
+    },
+    "506:12": {
+      "executor": "nss"
+    },
+    "507:12": {
+      "executor": "nss"
+    },
+    "508:12": {
+      "executor": "host"
+    },
+    "509:12": {
+      "executor": "nss"
+    },
+    "510:12": {
+      "executor": "nss"
+    },
+    "511:12": {
+      "executor": "nss"
+    },
+    "512:12": {
+      "executor": "host"
+    },
+    "513:12": {
+      "executor": "nss"
+    },
+    "514:12": {
+      "executor": "nss"
+    },
+    "519:12": {
+      "executor": "nss"
+    },
+    "524:12": {
+      "executor": "nss"
+    },
+    "525:12": {
+      "executor": "nss"
+    },
+    "526:12": {
+      "executor": "nss"
+    },
+    "527:12": {
+      "executor": "host"
+    },
+    "528:12": {
+      "executor": "nss"
+    },
+    "529:12": {
+      "executor": "nss"
+    },
+    "534:12": {
+      "executor": "nss"
+    },
+    "539:12": {
+      "executor": "nss"
+    },
+    "540:12": {
+      "executor": "host"
+    },
+    "541:12": {
+      "executor": "nss"
+    },
+    "542:12": {
+      "executor": "nss"
+    },
+    "543:12": {
+      "executor": "nss"
+    },
+    "544:12": {
+      "executor": "host"
+    },
+    "545:12": {
+      "executor": "nss"
+    },
+    "546:12": {
+      "executor": "nss"
+    },
+    "551:12": {
+      "executor": "nss"
+    },
+    "556:12": {
+      "executor": "nss"
+    },
+    "557:12": {
+      "executor": "nss"
+    },
+    "558:12": {
+      "executor": "nss"
+    },
+    "559:12": {
+      "executor": "nss"
+    },
+    "560:12": {
+      "executor": "host"
+    },
+    "561:12": {
+      "executor": "nss"
+    },
+    "562:12": {
+      "executor": "nss"
+    },
+    "563:12": {
+      "executor": "nss"
+    },
+    "564:12": {
+      "executor": "host"
+    },
+    "565:12": {
+      "executor": "nss"
+    },
+    "566:12": {
+      "executor": "nss"
+    },
+    "571:12": {
+      "executor": "nss"
+    },
+    "576:12": {
+      "executor": "nss"
+    },
+    "577:12": {
+      "executor": "nss"
+    },
+    "578:12": {
+      "executor": "nss"
+    },
+    "579:12": {
+      "executor": "nss"
+    },
+    "580:12": {
+      "executor": "host"
+    },
+    "581:12": {
+      "executor": "nss"
+    },
+    "582:12": {
+      "executor": "nss"
+    },
+    "583:12": {
+      "executor": "nss"
+    },
+    "584:12": {
+      "executor": "host"
+    },
+    "585:12": {
+      "executor": "nss"
+    },
+    "586:12": {
+      "executor": "nss"
+    },
+    "591:12": {
+      "executor": "nss"
+    },
+    "596:12": {
+      "executor": "nss"
+    },
+    "597:12": {
+      "executor": "nss"
+    },
+    "598:12": {
+      "executor": "nss"
+    },
+    "599:12": {
+      "executor": "nss"
+    },
+    "600:12": {
+      "executor": "host"
+    },
+    "601:12": {
+      "executor": "nss"
+    },
+    "602:12": {
+      "executor": "nss"
+    },
+    "603:12": {
+      "executor": "nss"
+    },
+    "604:12": {
+      "executor": "host"
+    },
+    "605:12": {
+      "executor": "nss"
+    },
+    "606:12": {
+      "executor": "nss"
+    },
+    "611:12": {
+      "executor": "nss"
+    },
+    "616:12": {
+      "executor": "nss"
+    },
+    "617:12": {
+      "executor": "nss"
+    },
+    "618:12": {
+      "executor": "nss"
+    },
+    "619:12": {
+      "executor": "nss"
+    },
+    "620:12": {
+      "executor": "host"
+    },
+    "621:12": {
+      "executor": "nss"
+    },
+    "622:12": {
+      "executor": "nss"
+    },
+    "623:12": {
+      "executor": "nss"
+    },
+    "624:12": {
+      "executor": "host"
+    },
+    "625:12": {
+      "executor": "nss"
+    },
+    "626:12": {
+      "executor": "nss"
+    },
+    "631:12": {
+      "executor": "nss"
+    },
+    "636:12": {
+      "executor": "nss"
+    },
+    "637:12": {
+      "executor": "nss"
+    },
+    "638:12": {
+      "executor": "nss"
+    },
+    "639:12": {
+      "executor": "nss"
+    },
+    "640:12": {
+      "executor": "host"
+    },
+    "641:12": {
+      "executor": "nss"
+    },
+    "642:12": {
+      "executor": "nss"
+    },
+    "643:12": {
+      "executor": "nss"
+    },
+    "644:12": {
+      "executor": "host"
+    },
+    "645:12": {
+      "executor": "nss"
+    },
+    "646:12": {
+      "executor": "nss"
+    },
+    "651:12": {
+      "executor": "nss"
+    },
+    "656:12": {
+      "executor": "nss"
+    },
+    "657:12": {
+      "executor": "nss"
+    },
+    "658:12": {
+      "executor": "nss"
+    },
+    "659:12": {
+      "executor": "nss"
+    },
+    "660:12": {
+      "executor": "host"
+    },
+    "661:12": {
+      "executor": "nss"
+    },
+    "662:12": {
+      "executor": "nss"
+    },
+    "663:12": {
+      "executor": "nss"
+    },
+    "664:12": {
+      "executor": "host"
+    },
+    "665:12": {
+      "executor": "nss"
+    },
+    "666:12": {
+      "executor": "nss"
+    },
+    "671:12": {
+      "executor": "nss"
+    },
+    "676:12": {
+      "executor": "nss"
+    },
+    "677:12": {
+      "executor": "nss"
+    },
+    "678:12": {
+      "executor": "nss"
+    },
+    "679:12": {
+      "executor": "nss"
+    },
+    "680:12": {
+      "executor": "host"
+    },
+    "681:12": {
+      "executor": "nss"
+    },
+    "682:12": {
+      "executor": "nss"
+    },
+    "683:12": {
+      "executor": "nss"
+    },
+    "684:12": {
+      "executor": "host"
+    },
+    "685:12": {
+      "executor": "nss"
+    },
+    "686:12": {
+      "executor": "nss"
+    },
+    "691:12": {
+      "executor": "nss"
+    },
+    "696:12": {
+      "executor": "nss"
+    },
+    "697:12": {
+      "executor": "nss"
+    },
+    "698:12": {
+      "executor": "nss"
+    },
+    "699:12": {
+      "executor": "nss"
+    },
+    "700:12": {
+      "executor": "host"
+    },
+    "701:12": {
+      "executor": "nss"
+    },
+    "702:12": {
+      "executor": "nss"
+    },
+    "703:12": {
+      "executor": "nss"
+    },
+    "704:12": {
+      "executor": "host"
+    },
+    "705:12": {
+      "executor": "nss"
+    },
+    "706:12": {
+      "executor": "nss"
+    },
+    "711:12": {
+      "executor": "nss"
+    },
+    "716:12": {
+      "executor": "nss"
+    },
+    "717:12": {
+      "executor": "nss"
+    },
+    "718:12": {
+      "executor": "nss"
+    },
+    "719:12": {
+      "executor": "nss"
+    },
+    "720:12": {
+      "executor": "host"
+    },
+    "721:12": {
+      "executor": "nss"
+    },
+    "722:12": {
+      "executor": "nss"
+    },
+    "723:12": {
+      "executor": "nss"
+    },
+    "724:12": {
+      "executor": "host"
+    },
+    "725:12": {
+      "executor": "nss"
+    },
+    "726:12": {
+      "executor": "nss"
+    },
+    "731:12": {
+      "executor": "nss"
+    },
+    "736:12": {
+      "executor": "nss"
+    },
+    "737:12": {
+      "executor": "nss"
+    },
+    "738:12": {
+      "executor": "nss"
+    },
+    "739:12": {
+      "executor": "nss"
+    },
+    "740:12": {
+      "executor": "host"
+    },
+    "741:12": {
+      "executor": "nss"
+    },
+    "742:12": {
+      "executor": "nss"
+    },
+    "743:12": {
+      "executor": "nss"
+    },
+    "744:12": {
+      "executor": "host"
+    },
+    "745:12": {
+      "executor": "nss"
+    },
+    "746:12": {
+      "executor": "nss"
+    },
+    "751:12": {
+      "executor": "nss"
+    },
+    "756:12": {
+      "executor": "nss"
+    },
+    "757:12": {
+      "executor": "nss"
+    },
+    "758:12": {
+      "executor": "nss"
+    },
+    "759:12": {
+      "executor": "nss"
+    },
+    "760:12": {
+      "executor": "host"
+    },
+    "761:12": {
+      "executor": "nss"
+    },
+    "762:12": {
+      "executor": "nss"
+    },
+    "763:12": {
+      "executor": "nss"
+    },
+    "764:12": {
+      "executor": "host"
+    },
+    "765:12": {
+      "executor": "nss"
+    },
+    "766:12": {
+      "executor": "nss"
+    },
+    "771:12": {
+      "executor": "nss"
+    },
+    "776:12": {
+      "executor": "nss"
+    },
+    "777:12": {
+      "executor": "nss"
+    },
+    "778:12": {
+      "executor": "nss"
+    },
+    "779:12": {
+      "executor": "nss"
+    },
+    "780:12": {
+      "executor": "host"
+    },
+    "781:12": {
+      "executor": "nss"
+    },
+    "782:12": {
+      "executor": "nss"
+    },
+    "783:12": {
+      "executor": "nss"
+    },
+    "784:12": {
+      "executor": "host"
+    },
+    "785:12": {
+      "executor": "nss"
+    },
+    "786:12": {
+      "executor": "nss"
+    },
+    "791:12": {
+      "executor": "nss"
+    },
+    "796:12": {
+      "executor": "nss"
+    },
+    "797:12": {
+      "executor": "nss"
+    },
+    "798:12": {
+      "executor": "nss"
+    },
+    "799:12": {
+      "executor": "nss"
+    },
+    "800:12": {
+      "executor": "host"
+    },
+    "801:12": {
+      "executor": "nss"
+    },
+    "802:12": {
+      "executor": "nss"
+    },
+    "803:12": {
+      "executor": "nss"
+    },
+    "804:12": {
+      "executor": "host"
+    },
+    "805:12": {
+      "executor": "nss"
+    },
+    "806:12": {
+      "executor": "nss"
+    },
+    "811:12": {
+      "executor": "nss"
+    },
+    "816:12": {
+      "executor": "nss"
+    },
+    "817:12": {
+      "executor": "nss"
+    },
+    "818:12": {
+      "executor": "nss"
+    },
+    "819:12": {
+      "executor": "nss"
+    },
+    "820:12": {
+      "executor": "host"
+    },
+    "821:12": {
+      "executor": "nss"
+    },
+    "822:12": {
+      "executor": "nss"
+    },
+    "823:12": {
+      "executor": "nss"
+    },
+    "824:12": {
+      "executor": "host"
+    },
+    "825:12": {
+      "executor": "nss"
+    },
+    "826:12": {
+      "executor": "nss"
+    },
+    "831:12": {
+      "executor": "nss"
+    },
+    "836:12": {
+      "executor": "nss"
+    },
+    "837:12": {
+      "executor": "nss"
+    },
+    "838:12": {
+      "executor": "nss"
+    },
+    "839:12": {
+      "executor": "nss"
+    },
+    "840:12": {
+      "executor": "host"
+    },
+    "841:12": {
+      "executor": "nss"
+    },
+    "842:12": {
+      "executor": "nss"
+    },
+    "843:12": {
+      "executor": "nss"
+    },
+    "844:12": {
+      "executor": "host"
+    },
+    "845:12": {
+      "executor": "nss"
+    },
+    "846:12": {
+      "executor": "nss"
+    },
+    "851:12": {
+      "executor": "nss"
+    },
+    "856:12": {
+      "executor": "nss"
+    },
+    "857:12": {
+      "executor": "nss"
+    },
+    "858:12": {
+      "executor": "nss"
+    },
+    "859:12": {
+      "executor": "nss"
+    },
+    "860:12": {
+      "executor": "host"
+    },
+    "861:12": {
+      "executor": "nss"
+    },
+    "862:12": {
+      "executor": "nss"
+    },
+    "863:12": {
+      "executor": "nss"
+    },
+    "864:12": {
+      "executor": "host"
+    },
+    "865:12": {
+      "executor": "nss"
+    },
+    "866:12": {
+      "executor": "nss"
+    },
+    "871:12": {
+      "executor": "nss"
+    },
+    "876:12": {
+      "executor": "nss"
+    },
+    "877:12": {
+      "executor": "nss"
+    },
+    "878:12": {
+      "executor": "nss"
+    },
+    "879:12": {
+      "executor": "nss"
+    },
+    "880:12": {
+      "executor": "host"
+    },
+    "881:12": {
+      "executor": "nss"
+    },
+    "882:12": {
+      "executor": "nss"
+    },
+    "883:12": {
+      "executor": "nss"
+    },
+    "884:12": {
+      "executor": "host"
+    },
+    "885:12": {
+      "executor": "nss"
+    },
+    "886:12": {
+      "executor": "nss"
+    },
+    "891:12": {
+      "executor": "nss"
+    },
+    "896:12": {
+      "executor": "nss"
+    },
+    "897:12": {
+      "executor": "nss"
+    },
+    "898:12": {
+      "executor": "nss"
+    },
+    "899:12": {
+      "executor": "nss"
+    },
+    "900:12": {
+      "executor": "host"
+    },
+    "901:12": {
+      "executor": "nss"
+    },
+    "902:12": {
+      "executor": "nss"
+    },
+    "903:12": {
+      "executor": "nss"
+    },
+    "904:12": {
+      "executor": "host"
+    },
+    "905:12": {
+      "executor": "nss"
+    },
+    "906:12": {
+      "executor": "nss"
+    },
+    "911:12": {
+      "executor": "nss"
+    },
+    "916:12": {
+      "executor": "nss"
+    },
+    "917:12": {
+      "executor": "nss"
+    },
+    "918:12": {
+      "executor": "nss"
+    },
+    "919:12": {
+      "executor": "nss"
+    },
+    "920:12": {
+      "executor": "host"
+    },
+    "921:12": {
+      "executor": "nss"
+    },
+    "922:12": {
+      "executor": "nss"
+    },
+    "923:12": {
+      "executor": "nss"
+    },
+    "924:12": {
+      "executor": "host"
+    },
+    "925:12": {
+      "executor": "nss"
+    },
+    "926:12": {
+      "executor": "nss"
+    },
+    "931:12": {
+      "executor": "nss"
+    },
+    "936:12": {
+      "executor": "nss"
+    },
+    "937:12": {
+      "executor": "nss"
+    },
+    "938:12": {
+      "executor": "nss"
+    },
+    "939:12": {
+      "executor": "host"
+    },
+    "940:12": {
+      "executor": "nss"
+    },
+    "941:12": {
+      "executor": "host"
+    },
+    "946:12": {
+      "executor": "nss"
+    },
+    "951:12": {
+      "executor": "nss"
+    },
+    "952:12": {
+      "executor": "host"
+    },
+    "953:12": {
+      "executor": "nss"
+    },
+    "954:12": {
+      "executor": "nss"
+    },
+    "955:12": {
+      "executor": "nss"
+    },
+    "956:12": {
+      "executor": "host"
+    },
+    "957:12": {
+      "executor": "nss"
+    },
+    "958:12": {
+      "executor": "nss"
+    },
+    "963:12": {
+      "executor": "nss"
+    },
+    "968:12": {
+      "executor": "nss"
+    },
+    "969:12": {
+      "executor": "nss"
+    },
+    "970:12": {
+      "executor": "nss"
+    },
+    "971:12": {
+      "executor": "nss"
+    },
+    "972:12": {
+      "executor": "host"
+    },
+    "973:12": {
+      "executor": "nss"
+    },
+    "974:12": {
+      "executor": "nss"
+    },
+    "975:12": {
+      "executor": "nss"
+    },
+    "976:12": {
+      "executor": "host"
+    },
+    "977:12": {
+      "executor": "nss"
+    },
+    "978:12": {
+      "executor": "nss"
+    },
+    "983:12": {
+      "executor": "nss"
+    },
+    "988:12": {
+      "executor": "nss"
+    },
+    "989:12": {
+      "executor": "nss"
+    },
+    "990:12": {
+      "executor": "nss"
+    },
+    "991:12": {
+      "executor": "nss"
+    },
+    "992:12": {
+      "executor": "host"
+    },
+    "993:12": {
+      "executor": "nss"
+    },
+    "994:12": {
+      "executor": "nss"
+    },
+    "995:12": {
+      "executor": "nss"
+    },
+    "996:12": {
+      "executor": "host"
+    },
+    "997:12": {
+      "executor": "nss"
+    },
+    "998:12": {
+      "executor": "nss"
+    },
+    "1003:12": {
+      "executor": "nss"
+    },
+    "1008:13": {
+      "executor": "nss"
+    },
+    "1009:13": {
+      "executor": "nss"
+    },
+    "1010:13": {
+      "executor": "nss"
+    },
+    "1011:13": {
+      "executor": "host"
+    },
+    "1012:13": {
+      "executor": "nss"
+    },
+    "1013:13": {
+      "executor": "nss"
+    },
+    "1014:13": {
+      "executor": "host"
+    },
+    "1015:13": {
+      "executor": "nss"
+    }
+  },
+  "model_name": "dpn98_Opset18",
+  "tolerance": {
+    "max_relative_diff": 1.0005074739456177,
+    "max_absolute_diff": 0.021484375
+  }
+}

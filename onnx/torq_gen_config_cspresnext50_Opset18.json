@@ -1,0 +1,2618 @@
+{
+  "version": "1.1",
+  "default_tolerance": {
+    "fp_avg_tol": 0.01,
+    "fp_max_tol": 0.01
+  },
+  "ops": {
+    "Conv_/stem/conv1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 0,
+      "mlir_location": "116:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stem/conv1/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...45a7fd7f.mlir'), version='onnx_mlir_model_file.854300b06694afae9e14cdc"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 1,
+      "mlir_location": "117:12"
+    },
+    "MaxPool_/stem/pool/MaxPool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 2,
+      "mlir_location": "118:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/stages/stages.0/conv_exp/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 3,
+      "mlir_location": "119:12",
+      "recommended_executor": "nss"
+    },
+    "Split_/stages/stages.0/Split_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 4,
+      "mlir_location": "121:14",
+      "recommended_executor": "nss"
+    },
+    "Conv_/stages/stages.0/blocks/blocks.0/conv1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 5,
+      "mlir_location": "122:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.0/blocks/blocks.0/conv1/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...5adb6719.mlir'), version='onnx_mlir_model_file.95b38ed1853c8be9e0b1755"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 6,
+      "mlir_location": "123:12"
+    },
+    "Conv_/stages/stages.0/blocks/blocks.0/conv2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...7dd7d424.mlir'), version='onnx_mlir_model_file.94128d07b1c6bdcdaf3f1e8"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 7,
+      "mlir_location": "124:12"
+    },
+    "LeakyRelu_/stages/stages.0/blocks/blocks.0/conv2/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...5adb6719.mlir'), version='onnx_mlir_model_file.95b38ed1853c8be9e0b1755"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 8,
+      "mlir_location": "125:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.0/blocks/blocks.0/conv3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 9,
+      "mlir_location": "126:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/stages/stages.0/blocks/blocks.0/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 10,
+      "mlir_location": "127:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.0/blocks/blocks.0/act3/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...5adb6719.mlir'), version='onnx_mlir_model_file.95b38ed1853c8be9e0b1755"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 11,
+      "mlir_location": "128:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.0/blocks/blocks.1/conv1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 12,
+      "mlir_location": "129:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.0/blocks/blocks.1/conv1/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...5adb6719.mlir'), version='onnx_mlir_model_file.95b38ed1853c8be9e0b1755"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 13,
+      "mlir_location": "130:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.0/blocks/blocks.1/conv2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...7dd7d424.mlir'), version='onnx_mlir_model_file.94128d07b1c6bdcdaf3f1e8"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 14,
+      "mlir_location": "131:12",
+      "recommended_executor": "host"
+    },
+    "LeakyRelu_/stages/stages.0/blocks/blocks.1/conv2/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...5adb6719.mlir'), version='onnx_mlir_model_file.95b38ed1853c8be9e0b1755"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 15,
+      "mlir_location": "132:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.0/blocks/blocks.1/conv3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 16,
+      "mlir_location": "133:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/stages/stages.0/blocks/blocks.1/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 17,
+      "mlir_location": "134:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.0/blocks/blocks.1/act3/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...5adb6719.mlir'), version='onnx_mlir_model_file.95b38ed1853c8be9e0b1755"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 18,
+      "mlir_location": "135:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.0/blocks/blocks.2/conv1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 19,
+      "mlir_location": "136:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.0/blocks/blocks.2/conv1/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...5adb6719.mlir'), version='onnx_mlir_model_file.95b38ed1853c8be9e0b1755"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 20,
+      "mlir_location": "137:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.0/blocks/blocks.2/conv2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...7dd7d424.mlir'), version='onnx_mlir_model_file.94128d07b1c6bdcdaf3f1e8"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 21,
+      "mlir_location": "138:12",
+      "recommended_executor": "host"
+    },
+    "LeakyRelu_/stages/stages.0/blocks/blocks.2/conv2/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...5adb6719.mlir'), version='onnx_mlir_model_file.95b38ed1853c8be9e0b1755"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 22,
+      "mlir_location": "139:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.0/blocks/blocks.2/conv3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 23,
+      "mlir_location": "140:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/stages/stages.0/blocks/blocks.2/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 24,
+      "mlir_location": "141:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.0/blocks/blocks.2/act3/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...5adb6719.mlir'), version='onnx_mlir_model_file.95b38ed1853c8be9e0b1755"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 25,
+      "mlir_location": "142:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.0/conv_transition_b/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 26,
+      "mlir_location": "143:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.0/conv_transition_b/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...5adb6719.mlir'), version='onnx_mlir_model_file.95b38ed1853c8be9e0b1755"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 27,
+      "mlir_location": "144:12",
+      "recommended_executor": "host"
+    },
+    "Concat_/stages/stages.0/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 28,
+      "mlir_location": "145:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/stages/stages.0/conv_transition/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 29,
+      "mlir_location": "146:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.0/conv_transition/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...caa3129e.mlir'), version='onnx_mlir_model_file.5688799358ee0bbcb4747b7"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 30,
+      "mlir_location": "147:12"
+    },
+    "Conv_/stages/stages.1/conv_down/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...078582d4.mlir'), version='onnx_mlir_model_file.d7b8969e7f9481485397c77"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 31,
+      "mlir_location": "148:12"
+    },
+    "LeakyRelu_/stages/stages.1/conv_down/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...6b9ecaca.mlir'), version='onnx_mlir_model_file.5e47110509e87f027f13aba"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 32,
+      "mlir_location": "149:12"
+    },
+    "Conv_/stages/stages.1/conv_exp/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 33,
+      "mlir_location": "150:12",
+      "recommended_executor": "nss"
+    },
+    "Split_/stages/stages.1/Split_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 34,
+      "mlir_location": "152:14",
+      "recommended_executor": "nss"
+    },
+    "Conv_/stages/stages.1/blocks/blocks.0/conv1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 35,
+      "mlir_location": "153:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.1/blocks/blocks.0/conv1/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...6b9ecaca.mlir'), version='onnx_mlir_model_file.5e47110509e87f027f13aba"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 36,
+      "mlir_location": "154:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.1/blocks/blocks.0/conv2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...f403b9bb.mlir'), version='onnx_mlir_model_file.56f1cc93071e207f57c6d01"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 37,
+      "mlir_location": "155:12"
+    },
+    "LeakyRelu_/stages/stages.1/blocks/blocks.0/conv2/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...6b9ecaca.mlir'), version='onnx_mlir_model_file.5e47110509e87f027f13aba"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 38,
+      "mlir_location": "156:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.1/blocks/blocks.0/conv3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 39,
+      "mlir_location": "157:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/stages/stages.1/blocks/blocks.0/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 40,
+      "mlir_location": "158:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.1/blocks/blocks.0/act3/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...6b9ecaca.mlir'), version='onnx_mlir_model_file.5e47110509e87f027f13aba"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 41,
+      "mlir_location": "159:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.1/blocks/blocks.1/conv1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 42,
+      "mlir_location": "160:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.1/blocks/blocks.1/conv1/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...6b9ecaca.mlir'), version='onnx_mlir_model_file.5e47110509e87f027f13aba"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 43,
+      "mlir_location": "161:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.1/blocks/blocks.1/conv2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...f403b9bb.mlir'), version='onnx_mlir_model_file.56f1cc93071e207f57c6d01"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 44,
+      "mlir_location": "162:12",
+      "recommended_executor": "host"
+    },
+    "LeakyRelu_/stages/stages.1/blocks/blocks.1/conv2/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...6b9ecaca.mlir'), version='onnx_mlir_model_file.5e47110509e87f027f13aba"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 45,
+      "mlir_location": "163:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.1/blocks/blocks.1/conv3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 46,
+      "mlir_location": "164:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/stages/stages.1/blocks/blocks.1/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 47,
+      "mlir_location": "165:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.1/blocks/blocks.1/act3/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...6b9ecaca.mlir'), version='onnx_mlir_model_file.5e47110509e87f027f13aba"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 48,
+      "mlir_location": "166:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.1/blocks/blocks.2/conv1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 49,
+      "mlir_location": "167:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.1/blocks/blocks.2/conv1/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...6b9ecaca.mlir'), version='onnx_mlir_model_file.5e47110509e87f027f13aba"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 50,
+      "mlir_location": "168:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.1/blocks/blocks.2/conv2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...f403b9bb.mlir'), version='onnx_mlir_model_file.56f1cc93071e207f57c6d01"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 51,
+      "mlir_location": "169:12",
+      "recommended_executor": "host"
+    },
+    "LeakyRelu_/stages/stages.1/blocks/blocks.2/conv2/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...6b9ecaca.mlir'), version='onnx_mlir_model_file.5e47110509e87f027f13aba"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 52,
+      "mlir_location": "170:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.1/blocks/blocks.2/conv3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 53,
+      "mlir_location": "171:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/stages/stages.1/blocks/blocks.2/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 54,
+      "mlir_location": "172:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.1/blocks/blocks.2/act3/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...6b9ecaca.mlir'), version='onnx_mlir_model_file.5e47110509e87f027f13aba"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 55,
+      "mlir_location": "173:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.1/conv_transition_b/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 56,
+      "mlir_location": "174:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.1/conv_transition_b/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...6b9ecaca.mlir'), version='onnx_mlir_model_file.5e47110509e87f027f13aba"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 57,
+      "mlir_location": "175:12",
+      "recommended_executor": "host"
+    },
+    "Concat_/stages/stages.1/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 58,
+      "mlir_location": "176:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/stages/stages.1/conv_transition/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 59,
+      "mlir_location": "177:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.1/conv_transition/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...4f092dbd.mlir'), version='onnx_mlir_model_file.1fdb835bbcc4bf806bca5d0"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 60,
+      "mlir_location": "178:12"
+    },
+    "Conv_/stages/stages.2/conv_down/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...b1dbd723.mlir'), version='onnx_mlir_model_file.5cfbe99b7c54e65277ba18d"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 61,
+      "mlir_location": "179:12"
+    },
+    "LeakyRelu_/stages/stages.2/conv_down/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82b4eec5.mlir'), version='onnx_mlir_model_file.b19cce0615710ccca1ab09e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 62,
+      "mlir_location": "180:12"
+    },
+    "Conv_/stages/stages.2/conv_exp/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 63,
+      "mlir_location": "181:12",
+      "recommended_executor": "nss"
+    },
+    "Split_/stages/stages.2/Split_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 64,
+      "mlir_location": "183:14",
+      "recommended_executor": "nss"
+    },
+    "Conv_/stages/stages.2/blocks/blocks.0/conv1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 65,
+      "mlir_location": "184:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.2/blocks/blocks.0/conv1/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82b4eec5.mlir'), version='onnx_mlir_model_file.b19cce0615710ccca1ab09e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 66,
+      "mlir_location": "185:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.2/blocks/blocks.0/conv2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...5a8bcb24.mlir'), version='onnx_mlir_model_file.57181a5727df2fad076aee3"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 67,
+      "mlir_location": "186:12"
+    },
+    "LeakyRelu_/stages/stages.2/blocks/blocks.0/conv2/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82b4eec5.mlir'), version='onnx_mlir_model_file.b19cce0615710ccca1ab09e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 68,
+      "mlir_location": "187:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.2/blocks/blocks.0/conv3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 69,
+      "mlir_location": "188:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/stages/stages.2/blocks/blocks.0/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 70,
+      "mlir_location": "189:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.2/blocks/blocks.0/act3/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82b4eec5.mlir'), version='onnx_mlir_model_file.b19cce0615710ccca1ab09e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 71,
+      "mlir_location": "190:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.2/blocks/blocks.1/conv1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 72,
+      "mlir_location": "191:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.2/blocks/blocks.1/conv1/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82b4eec5.mlir'), version='onnx_mlir_model_file.b19cce0615710ccca1ab09e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 73,
+      "mlir_location": "192:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.2/blocks/blocks.1/conv2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...5a8bcb24.mlir'), version='onnx_mlir_model_file.57181a5727df2fad076aee3"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 74,
+      "mlir_location": "193:12",
+      "recommended_executor": "host"
+    },
+    "LeakyRelu_/stages/stages.2/blocks/blocks.1/conv2/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82b4eec5.mlir'), version='onnx_mlir_model_file.b19cce0615710ccca1ab09e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 75,
+      "mlir_location": "194:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.2/blocks/blocks.1/conv3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 76,
+      "mlir_location": "195:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/stages/stages.2/blocks/blocks.1/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 77,
+      "mlir_location": "196:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.2/blocks/blocks.1/act3/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82b4eec5.mlir'), version='onnx_mlir_model_file.b19cce0615710ccca1ab09e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 78,
+      "mlir_location": "197:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.2/blocks/blocks.2/conv1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 79,
+      "mlir_location": "198:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.2/blocks/blocks.2/conv1/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82b4eec5.mlir'), version='onnx_mlir_model_file.b19cce0615710ccca1ab09e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 80,
+      "mlir_location": "199:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.2/blocks/blocks.2/conv2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...5a8bcb24.mlir'), version='onnx_mlir_model_file.57181a5727df2fad076aee3"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 81,
+      "mlir_location": "200:12",
+      "recommended_executor": "host"
+    },
+    "LeakyRelu_/stages/stages.2/blocks/blocks.2/conv2/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82b4eec5.mlir'), version='onnx_mlir_model_file.b19cce0615710ccca1ab09e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 82,
+      "mlir_location": "201:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.2/blocks/blocks.2/conv3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 83,
+      "mlir_location": "202:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/stages/stages.2/blocks/blocks.2/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 84,
+      "mlir_location": "203:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.2/blocks/blocks.2/act3/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82b4eec5.mlir'), version='onnx_mlir_model_file.b19cce0615710ccca1ab09e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 85,
+      "mlir_location": "204:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.2/blocks/blocks.3/conv1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 86,
+      "mlir_location": "205:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.2/blocks/blocks.3/conv1/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82b4eec5.mlir'), version='onnx_mlir_model_file.b19cce0615710ccca1ab09e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 87,
+      "mlir_location": "206:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.2/blocks/blocks.3/conv2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...5a8bcb24.mlir'), version='onnx_mlir_model_file.57181a5727df2fad076aee3"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 88,
+      "mlir_location": "207:12",
+      "recommended_executor": "host"
+    },
+    "LeakyRelu_/stages/stages.2/blocks/blocks.3/conv2/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82b4eec5.mlir'), version='onnx_mlir_model_file.b19cce0615710ccca1ab09e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 89,
+      "mlir_location": "208:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.2/blocks/blocks.3/conv3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 90,
+      "mlir_location": "209:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/stages/stages.2/blocks/blocks.3/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 91,
+      "mlir_location": "210:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.2/blocks/blocks.3/act3/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82b4eec5.mlir'), version='onnx_mlir_model_file.b19cce0615710ccca1ab09e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 92,
+      "mlir_location": "211:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.2/blocks/blocks.4/conv1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 93,
+      "mlir_location": "212:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.2/blocks/blocks.4/conv1/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82b4eec5.mlir'), version='onnx_mlir_model_file.b19cce0615710ccca1ab09e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 94,
+      "mlir_location": "213:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.2/blocks/blocks.4/conv2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...5a8bcb24.mlir'), version='onnx_mlir_model_file.57181a5727df2fad076aee3"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 95,
+      "mlir_location": "214:12",
+      "recommended_executor": "host"
+    },
+    "LeakyRelu_/stages/stages.2/blocks/blocks.4/conv2/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82b4eec5.mlir'), version='onnx_mlir_model_file.b19cce0615710ccca1ab09e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 96,
+      "mlir_location": "215:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.2/blocks/blocks.4/conv3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 97,
+      "mlir_location": "216:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/stages/stages.2/blocks/blocks.4/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 98,
+      "mlir_location": "217:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.2/blocks/blocks.4/act3/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82b4eec5.mlir'), version='onnx_mlir_model_file.b19cce0615710ccca1ab09e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 99,
+      "mlir_location": "218:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.2/conv_transition_b/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 100,
+      "mlir_location": "219:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.2/conv_transition_b/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...82b4eec5.mlir'), version='onnx_mlir_model_file.b19cce0615710ccca1ab09e"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 101,
+      "mlir_location": "220:12",
+      "recommended_executor": "host"
+    },
+    "Concat_/stages/stages.2/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 102,
+      "mlir_location": "221:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/stages/stages.2/conv_transition/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 103,
+      "mlir_location": "222:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.2/conv_transition/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...1c20eb7e.mlir'), version='onnx_mlir_model_file.029e2193ae1687a5372905b"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 104,
+      "mlir_location": "223:12"
+    },
+    "Conv_/stages/stages.3/conv_down/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...984beb93.mlir'), version='onnx_mlir_model_file.643475e12f50a97b4f65c47"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 105,
+      "mlir_location": "224:12"
+    },
+    "LeakyRelu_/stages/stages.3/conv_down/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...88f082e4.mlir'), version='onnx_mlir_model_file.519c923914eb55c07628dd8"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 106,
+      "mlir_location": "225:12"
+    },
+    "Conv_/stages/stages.3/conv_exp/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 107,
+      "mlir_location": "226:12",
+      "recommended_executor": "nss"
+    },
+    "Split_/stages/stages.3/Split_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 108,
+      "mlir_location": "228:14",
+      "recommended_executor": "nss"
+    },
+    "Conv_/stages/stages.3/blocks/blocks.0/conv1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 109,
+      "mlir_location": "229:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.3/blocks/blocks.0/conv1/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...88f082e4.mlir'), version='onnx_mlir_model_file.519c923914eb55c07628dd8"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 110,
+      "mlir_location": "230:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.3/blocks/blocks.0/conv2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...f7cf9331.mlir'), version='onnx_mlir_model_file.81ccaf19db7a61b7aee505b"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 111,
+      "mlir_location": "231:12"
+    },
+    "LeakyRelu_/stages/stages.3/blocks/blocks.0/conv2/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...88f082e4.mlir'), version='onnx_mlir_model_file.519c923914eb55c07628dd8"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 112,
+      "mlir_location": "232:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.3/blocks/blocks.0/conv3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 113,
+      "mlir_location": "233:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/stages/stages.3/blocks/blocks.0/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 114,
+      "mlir_location": "234:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.3/blocks/blocks.0/act3/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...88f082e4.mlir'), version='onnx_mlir_model_file.519c923914eb55c07628dd8"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 115,
+      "mlir_location": "235:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.3/blocks/blocks.1/conv1/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 116,
+      "mlir_location": "236:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.3/blocks/blocks.1/conv1/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...88f082e4.mlir'), version='onnx_mlir_model_file.519c923914eb55c07628dd8"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 117,
+      "mlir_location": "237:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.3/blocks/blocks.1/conv2/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...f7cf9331.mlir'), version='onnx_mlir_model_file.81ccaf19db7a61b7aee505b"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 118,
+      "mlir_location": "238:12",
+      "recommended_executor": "host"
+    },
+    "LeakyRelu_/stages/stages.3/blocks/blocks.1/conv2/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...88f082e4.mlir'), version='onnx_mlir_model_file.519c923914eb55c07628dd8"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 119,
+      "mlir_location": "239:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.3/blocks/blocks.1/conv3/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 120,
+      "mlir_location": "240:12",
+      "recommended_executor": "nss"
+    },
+    "Add_/stages/stages.3/blocks/blocks.1/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 121,
+      "mlir_location": "241:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.3/blocks/blocks.1/act3/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...88f082e4.mlir'), version='onnx_mlir_model_file.519c923914eb55c07628dd8"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 122,
+      "mlir_location": "242:12",
+      "recommended_executor": "host"
+    },
+    "Conv_/stages/stages.3/conv_transition_b/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 123,
+      "mlir_location": "243:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.3/conv_transition_b/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...88f082e4.mlir'), version='onnx_mlir_model_file.519c923914eb55c07628dd8"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 124,
+      "mlir_location": "244:12",
+      "recommended_executor": "host"
+    },
+    "Concat_/stages/stages.3/Concat_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 125,
+      "mlir_location": "245:12",
+      "recommended_executor": "nss"
+    },
+    "Conv_/stages/stages.3/conv_transition/conv/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 126,
+      "mlir_location": "246:12",
+      "recommended_executor": "nss"
+    },
+    "LeakyRelu_/stages/stages.3/conv_transition/bn/act/LeakyRelu_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'chip_config': VersionedUncachedData(data={'chip_name': 'sl2610-v1', 'target': 'SL2610', 'aws_fpga': {'name': 'synpu-...9b6837d5.mlir'), version='onnx_mlir_model_file.de98251bb4a7b9b13c80859"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 127,
+      "mlir_location": "247:12"
+    },
+    "GlobalAveragePool_/head/global_pool/pool/GlobalAveragePool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 176 out of 2048 [8.59%]"
+          }
+        },
+        "host": {
+          "status": "difference",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "accuracy_failure",
+            "summary": "Number of differences: 456 out of 2048 [22.27%]"
+          }
+        }
+      },
+      "_node_index": 128,
+      "mlir_location": "248:12",
+      "recommended_executor": "nss"
+    },
+    "Flatten_/head/global_pool/flatten/Flatten_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 129,
+      "mlir_location": "249:12",
+      "recommended_executor": "nss"
+    },
+    "Gemm_526": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 130,
+      "mlir_location": "250:12",
+      "recommended_executor": "nss"
+    }
+  },
+  "model_name": "cspresnext50_Opset18",
+  "discovery_report": {
+    "summary": {
+      "total_layers": 131,
+      "status_counts": {
+        "success": 130,
+        "difference": 2,
+        "error": 67
+      },
+      "executor_counts": {
+        "nss": 63,
+        "css": 0,
+        "host": 67
+      }
+    },
+    "critical_failures": []
+  },
+  "has_critical_failures": false,
+  "final_report_text": "FINAL EXECUTOR DISCOVERY REPORT\n\nModel: cspresnext50_Opset18\nTotal layers tested: 131\n\nStatus Summary:\n  success: 130\n  difference: 2\n  error: 67\n\nFirst Working Executor Distribution:\n  NSS: 63\n  CSS: 0\n  HOST: 67\n\nNo critical failures - all layers have at least one working executor\n\nPer-Layer Status:\n  Layer                                                         NSS          CSS          HOST         Recommended\n-------------------------------------------------------------------------------------------------------------------------\n  Conv_/stem/conv1/conv/Conv_output_0                           success      -            -            nss\n  LeakyRelu_/stem/conv1/bn/act/LeakyRelu_output_0               error        -            success      host\n  MaxPool_/stem/pool/MaxPool_output_0                           success      -            -            nss\n  Conv_/stages/stages.0/conv_exp/conv/Conv_output_0             success      -            -            nss\n  Split_/stages/stages.0/Split_output_0                         success      -            -            nss\n  Conv_/stages/stages.0/blocks/blocks.0/conv1/conv/Conv_output  success      -            -            nss\n  LeakyRelu_/stages/stages.0/blocks/blocks.0/conv1/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.0/blocks/blocks.0/conv2/conv/Conv_output  error        -            success      host\n  LeakyRelu_/stages/stages.0/blocks/blocks.0/conv2/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.0/blocks/blocks.0/conv3/conv/Conv_output  success      -            -            nss\n  Add_/stages/stages.0/blocks/blocks.0/Add_output_0             success      -            -            nss\n  LeakyRelu_/stages/stages.0/blocks/blocks.0/act3/LeakyRelu_ou  error        -            success      host\n  Conv_/stages/stages.0/blocks/blocks.1/conv1/conv/Conv_output  success      -            -            nss\n  LeakyRelu_/stages/stages.0/blocks/blocks.1/conv1/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.0/blocks/blocks.1/conv2/conv/Conv_output  error        -            success      host\n  LeakyRelu_/stages/stages.0/blocks/blocks.1/conv2/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.0/blocks/blocks.1/conv3/conv/Conv_output  success      -            -            nss\n  Add_/stages/stages.0/blocks/blocks.1/Add_output_0             success      -            -            nss\n  LeakyRelu_/stages/stages.0/blocks/blocks.1/act3/LeakyRelu_ou  error        -            success      host\n  Conv_/stages/stages.0/blocks/blocks.2/conv1/conv/Conv_output  success      -            -            nss\n  LeakyRelu_/stages/stages.0/blocks/blocks.2/conv1/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.0/blocks/blocks.2/conv2/conv/Conv_output  error        -            success      host\n  LeakyRelu_/stages/stages.0/blocks/blocks.2/conv2/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.0/blocks/blocks.2/conv3/conv/Conv_output  success      -            -            nss\n  Add_/stages/stages.0/blocks/blocks.2/Add_output_0             success      -            -            nss\n  LeakyRelu_/stages/stages.0/blocks/blocks.2/act3/LeakyRelu_ou  error        -            success      host\n  Conv_/stages/stages.0/conv_transition_b/conv/Conv_output_0    success      -            -            nss\n  LeakyRelu_/stages/stages.0/conv_transition_b/bn/act/LeakyRel  error        -            success      host\n  Concat_/stages/stages.0/Concat_output_0                       success      -            -            nss\n  Conv_/stages/stages.0/conv_transition/conv/Conv_output_0      success      -            -            nss\n  LeakyRelu_/stages/stages.0/conv_transition/bn/act/LeakyRelu_  error        -            success      host\n  Conv_/stages/stages.1/conv_down/conv/Conv_output_0            error        -            success      host\n  LeakyRelu_/stages/stages.1/conv_down/bn/act/LeakyRelu_output  error        -            success      host\n  Conv_/stages/stages.1/conv_exp/conv/Conv_output_0             success      -            -            nss\n  Split_/stages/stages.1/Split_output_0                         success      -            -            nss\n  Conv_/stages/stages.1/blocks/blocks.0/conv1/conv/Conv_output  success      -            -            nss\n  LeakyRelu_/stages/stages.1/blocks/blocks.0/conv1/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.1/blocks/blocks.0/conv2/conv/Conv_output  error        -            success      host\n  LeakyRelu_/stages/stages.1/blocks/blocks.0/conv2/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.1/blocks/blocks.0/conv3/conv/Conv_output  success      -            -            nss\n  Add_/stages/stages.1/blocks/blocks.0/Add_output_0             success      -            -            nss\n  LeakyRelu_/stages/stages.1/blocks/blocks.0/act3/LeakyRelu_ou  error        -            success      host\n  Conv_/stages/stages.1/blocks/blocks.1/conv1/conv/Conv_output  success      -            -            nss\n  LeakyRelu_/stages/stages.1/blocks/blocks.1/conv1/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.1/blocks/blocks.1/conv2/conv/Conv_output  error        -            success      host\n  LeakyRelu_/stages/stages.1/blocks/blocks.1/conv2/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.1/blocks/blocks.1/conv3/conv/Conv_output  success      -            -            nss\n  Add_/stages/stages.1/blocks/blocks.1/Add_output_0             success      -            -            nss\n  LeakyRelu_/stages/stages.1/blocks/blocks.1/act3/LeakyRelu_ou  error        -            success      host\n  Conv_/stages/stages.1/blocks/blocks.2/conv1/conv/Conv_output  success      -            -            nss\n  LeakyRelu_/stages/stages.1/blocks/blocks.2/conv1/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.1/blocks/blocks.2/conv2/conv/Conv_output  error        -            success      host\n  LeakyRelu_/stages/stages.1/blocks/blocks.2/conv2/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.1/blocks/blocks.2/conv3/conv/Conv_output  success      -            -            nss\n  Add_/stages/stages.1/blocks/blocks.2/Add_output_0             success      -            -            nss\n  LeakyRelu_/stages/stages.1/blocks/blocks.2/act3/LeakyRelu_ou  error        -            success      host\n  Conv_/stages/stages.1/conv_transition_b/conv/Conv_output_0    success      -            -            nss\n  LeakyRelu_/stages/stages.1/conv_transition_b/bn/act/LeakyRel  error        -            success      host\n  Concat_/stages/stages.1/Concat_output_0                       success      -            -            nss\n  Conv_/stages/stages.1/conv_transition/conv/Conv_output_0      success      -            -            nss\n  LeakyRelu_/stages/stages.1/conv_transition/bn/act/LeakyRelu_  error        -            success      host\n  Conv_/stages/stages.2/conv_down/conv/Conv_output_0            error        -            success      host\n  LeakyRelu_/stages/stages.2/conv_down/bn/act/LeakyRelu_output  error        -            success      host\n  Conv_/stages/stages.2/conv_exp/conv/Conv_output_0             success      -            -            nss\n  Split_/stages/stages.2/Split_output_0                         success      -            -            nss\n  Conv_/stages/stages.2/blocks/blocks.0/conv1/conv/Conv_output  success      -            -            nss\n  LeakyRelu_/stages/stages.2/blocks/blocks.0/conv1/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.2/blocks/blocks.0/conv2/conv/Conv_output  error        -            success      host\n  LeakyRelu_/stages/stages.2/blocks/blocks.0/conv2/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.2/blocks/blocks.0/conv3/conv/Conv_output  success      -            -            nss\n  Add_/stages/stages.2/blocks/blocks.0/Add_output_0             success      -            -            nss\n  LeakyRelu_/stages/stages.2/blocks/blocks.0/act3/LeakyRelu_ou  error        -            success      host\n  Conv_/stages/stages.2/blocks/blocks.1/conv1/conv/Conv_output  success      -            -            nss\n  LeakyRelu_/stages/stages.2/blocks/blocks.1/conv1/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.2/blocks/blocks.1/conv2/conv/Conv_output  error        -            success      host\n  LeakyRelu_/stages/stages.2/blocks/blocks.1/conv2/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.2/blocks/blocks.1/conv3/conv/Conv_output  success      -            -            nss\n  Add_/stages/stages.2/blocks/blocks.1/Add_output_0             success      -            -            nss\n  LeakyRelu_/stages/stages.2/blocks/blocks.1/act3/LeakyRelu_ou  error        -            success      host\n  Conv_/stages/stages.2/blocks/blocks.2/conv1/conv/Conv_output  success      -            -            nss\n  LeakyRelu_/stages/stages.2/blocks/blocks.2/conv1/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.2/blocks/blocks.2/conv2/conv/Conv_output  error        -            success      host\n  LeakyRelu_/stages/stages.2/blocks/blocks.2/conv2/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.2/blocks/blocks.2/conv3/conv/Conv_output  success      -            -            nss\n  Add_/stages/stages.2/blocks/blocks.2/Add_output_0             success      -            -            nss\n  LeakyRelu_/stages/stages.2/blocks/blocks.2/act3/LeakyRelu_ou  error        -            success      host\n  Conv_/stages/stages.2/blocks/blocks.3/conv1/conv/Conv_output  success      -            -            nss\n  LeakyRelu_/stages/stages.2/blocks/blocks.3/conv1/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.2/blocks/blocks.3/conv2/conv/Conv_output  error        -            success      host\n  LeakyRelu_/stages/stages.2/blocks/blocks.3/conv2/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.2/blocks/blocks.3/conv3/conv/Conv_output  success      -            -            nss\n  Add_/stages/stages.2/blocks/blocks.3/Add_output_0             success      -            -            nss\n  LeakyRelu_/stages/stages.2/blocks/blocks.3/act3/LeakyRelu_ou  error        -            success      host\n  Conv_/stages/stages.2/blocks/blocks.4/conv1/conv/Conv_output  success      -            -            nss\n  LeakyRelu_/stages/stages.2/blocks/blocks.4/conv1/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.2/blocks/blocks.4/conv2/conv/Conv_output  error        -            success      host\n  LeakyRelu_/stages/stages.2/blocks/blocks.4/conv2/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.2/blocks/blocks.4/conv3/conv/Conv_output  success      -            -            nss\n  Add_/stages/stages.2/blocks/blocks.4/Add_output_0             success      -            -            nss\n  LeakyRelu_/stages/stages.2/blocks/blocks.4/act3/LeakyRelu_ou  error        -            success      host\n  Conv_/stages/stages.2/conv_transition_b/conv/Conv_output_0    success      -            -            nss\n  LeakyRelu_/stages/stages.2/conv_transition_b/bn/act/LeakyRel  error        -            success      host\n  Concat_/stages/stages.2/Concat_output_0                       success      -            -            nss\n  Conv_/stages/stages.2/conv_transition/conv/Conv_output_0      success      -            -            nss\n  LeakyRelu_/stages/stages.2/conv_transition/bn/act/LeakyRelu_  error        -            success      host\n  Conv_/stages/stages.3/conv_down/conv/Conv_output_0            error        -            success      host\n  LeakyRelu_/stages/stages.3/conv_down/bn/act/LeakyRelu_output  error        -            success      host\n  Conv_/stages/stages.3/conv_exp/conv/Conv_output_0             success      -            -            nss\n  Split_/stages/stages.3/Split_output_0                         success      -            -            nss\n  Conv_/stages/stages.3/blocks/blocks.0/conv1/conv/Conv_output  success      -            -            nss\n  LeakyRelu_/stages/stages.3/blocks/blocks.0/conv1/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.3/blocks/blocks.0/conv2/conv/Conv_output  error        -            success      host\n  LeakyRelu_/stages/stages.3/blocks/blocks.0/conv2/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.3/blocks/blocks.0/conv3/conv/Conv_output  success      -            -            nss\n  Add_/stages/stages.3/blocks/blocks.0/Add_output_0             success      -            -            nss\n  LeakyRelu_/stages/stages.3/blocks/blocks.0/act3/LeakyRelu_ou  error        -            success      host\n  Conv_/stages/stages.3/blocks/blocks.1/conv1/conv/Conv_output  success      -            -            nss\n  LeakyRelu_/stages/stages.3/blocks/blocks.1/conv1/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.3/blocks/blocks.1/conv2/conv/Conv_output  error        -            success      host\n  LeakyRelu_/stages/stages.3/blocks/blocks.1/conv2/bn/act/Leak  error        -            success      host\n  Conv_/stages/stages.3/blocks/blocks.1/conv3/conv/Conv_output  success      -            -            nss\n  Add_/stages/stages.3/blocks/blocks.1/Add_output_0             success      -            -            nss\n  LeakyRelu_/stages/stages.3/blocks/blocks.1/act3/LeakyRelu_ou  error        -            success      host\n  Conv_/stages/stages.3/conv_transition_b/conv/Conv_output_0    success      -            -            nss\n  LeakyRelu_/stages/stages.3/conv_transition_b/bn/act/LeakyRel  error        -            success      host\n  Concat_/stages/stages.3/Concat_output_0                       success      -            -            nss\n  Conv_/stages/stages.3/conv_transition/conv/Conv_output_0      success      -            -            nss\n  LeakyRelu_/stages/stages.3/conv_transition/bn/act/LeakyRelu_  error        -            success      host\n  GlobalAveragePool_/head/global_pool/pool/GlobalAveragePool_o  difference   -            difference   nss\n  Flatten_/head/global_pool/flatten/Flatten_output_0            success      -            -            nss\n  Gemm_526                                                      success      -            -            nss",
+  "tolerance": {
+    "max_relative_diff": 0.43095698952674866,
+    "max_absolute_diff": 0.0390625
+  }
+}
