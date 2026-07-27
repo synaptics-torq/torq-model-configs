@@ -1,0 +1,959 @@
+{
+  "op_assignments": {
+    "1617:13": {
+      "executor": "nss"
+    },
+    "1620:13": {
+      "executor": "nss"
+    },
+    "1623:13": {
+      "executor": "nss"
+    },
+    "1626:13": {
+      "executor": "nss"
+    },
+    "1629:13": {
+      "executor": "nss"
+    },
+    "1632:13": {
+      "executor": "nss"
+    },
+    "1638:13": {
+      "executor": "nss"
+    },
+    "1641:13": {
+      "executor": "nss"
+    },
+    "1644:13": {
+      "executor": "nss"
+    },
+    "1647:13": {
+      "executor": "nss"
+    },
+    "1650:13": {
+      "executor": "nss"
+    },
+    "1653:13": {
+      "executor": "nss"
+    },
+    "1656:13": {
+      "executor": "nss"
+    },
+    "1659:13": {
+      "executor": "nss"
+    },
+    "1662:13": {
+      "executor": "nss"
+    },
+    "1665:13": {
+      "executor": "nss"
+    },
+    "1671:13": {
+      "executor": "nss"
+    },
+    "1674:13": {
+      "executor": "nss"
+    },
+    "1677:13": {
+      "executor": "nss"
+    },
+    "1680:13": {
+      "executor": "nss"
+    },
+    "1683:13": {
+      "executor": "nss"
+    },
+    "1686:13": {
+      "executor": "nss"
+    },
+    "1689:13": {
+      "executor": "nss"
+    },
+    "1692:13": {
+      "executor": "nss"
+    },
+    "1695:13": {
+      "executor": "nss"
+    },
+    "1698:13": {
+      "executor": "nss"
+    },
+    "1701:13": {
+      "executor": "nss"
+    },
+    "1704:13": {
+      "executor": "host"
+    },
+    "1707:13": {
+      "executor": "nss"
+    },
+    "1710:13": {
+      "executor": "nss"
+    },
+    "1716:13": {
+      "executor": "nss"
+    },
+    "1719:13": {
+      "executor": "nss"
+    },
+    "1722:13": {
+      "executor": "nss"
+    },
+    "1725:13": {
+      "executor": "nss"
+    },
+    "1728:13": {
+      "executor": "nss"
+    },
+    "1731:13": {
+      "executor": "nss"
+    },
+    "1734:13": {
+      "executor": "nss"
+    },
+    "1737:13": {
+      "executor": "nss"
+    },
+    "1740:13": {
+      "executor": "nss"
+    },
+    "1743:13": {
+      "executor": "nss"
+    },
+    "1746:13": {
+      "executor": "nss"
+    },
+    "1749:13": {
+      "executor": "nss"
+    },
+    "1752:13": {
+      "executor": "nss"
+    },
+    "1758:13": {
+      "executor": "nss"
+    },
+    "1761:13": {
+      "executor": "nss"
+    },
+    "1764:13": {
+      "executor": "nss"
+    },
+    "1767:13": {
+      "executor": "nss"
+    },
+    "1770:13": {
+      "executor": "nss"
+    },
+    "1773:13": {
+      "executor": "nss"
+    },
+    "1776:13": {
+      "executor": "nss"
+    },
+    "1779:13": {
+      "executor": "nss"
+    },
+    "1782:13": {
+      "executor": "nss"
+    },
+    "1785:13": {
+      "executor": "nss"
+    },
+    "1788:13": {
+      "executor": "nss"
+    },
+    "1791:13": {
+      "executor": "nss"
+    },
+    "1794:13": {
+      "executor": "nss"
+    },
+    "1797:13": {
+      "executor": "nss"
+    },
+    "1803:13": {
+      "executor": "nss"
+    },
+    "1806:13": {
+      "executor": "nss"
+    },
+    "1809:13": {
+      "executor": "nss"
+    },
+    "1812:13": {
+      "executor": "nss"
+    },
+    "1815:13": {
+      "executor": "nss"
+    },
+    "1818:13": {
+      "executor": "nss"
+    },
+    "1821:13": {
+      "executor": "nss"
+    },
+    "1824:13": {
+      "executor": "nss"
+    },
+    "1827:13": {
+      "executor": "nss"
+    },
+    "1830:13": {
+      "executor": "nss"
+    },
+    "1833:13": {
+      "executor": "nss"
+    },
+    "1836:13": {
+      "executor": "host"
+    },
+    "1839:13": {
+      "executor": "nss"
+    },
+    "1842:13": {
+      "executor": "nss"
+    },
+    "1848:13": {
+      "executor": "nss"
+    },
+    "1851:13": {
+      "executor": "nss"
+    },
+    "1854:13": {
+      "executor": "nss"
+    },
+    "1857:13": {
+      "executor": "nss"
+    },
+    "1860:13": {
+      "executor": "nss"
+    },
+    "1863:13": {
+      "executor": "nss"
+    },
+    "1866:13": {
+      "executor": "nss"
+    },
+    "1869:13": {
+      "executor": "nss"
+    },
+    "1872:13": {
+      "executor": "nss"
+    },
+    "1875:13": {
+      "executor": "nss"
+    },
+    "1878:13": {
+      "executor": "nss"
+    },
+    "1881:13": {
+      "executor": "nss"
+    },
+    "1884:13": {
+      "executor": "nss"
+    },
+    "1890:13": {
+      "executor": "nss"
+    },
+    "1893:13": {
+      "executor": "nss"
+    },
+    "1896:13": {
+      "executor": "nss"
+    },
+    "1899:13": {
+      "executor": "nss"
+    },
+    "1902:13": {
+      "executor": "nss"
+    },
+    "1905:13": {
+      "executor": "nss"
+    },
+    "1908:13": {
+      "executor": "nss"
+    },
+    "1911:13": {
+      "executor": "nss"
+    },
+    "1914:13": {
+      "executor": "nss"
+    },
+    "1917:13": {
+      "executor": "nss"
+    },
+    "1920:13": {
+      "executor": "nss"
+    },
+    "1923:13": {
+      "executor": "nss"
+    },
+    "1926:13": {
+      "executor": "nss"
+    },
+    "1929:13": {
+      "executor": "nss"
+    },
+    "1935:13": {
+      "executor": "nss"
+    },
+    "1938:13": {
+      "executor": "nss"
+    },
+    "1941:13": {
+      "executor": "nss"
+    },
+    "1944:13": {
+      "executor": "nss"
+    },
+    "1947:13": {
+      "executor": "nss"
+    },
+    "1950:13": {
+      "executor": "nss"
+    },
+    "1953:13": {
+      "executor": "nss"
+    },
+    "1956:13": {
+      "executor": "nss"
+    },
+    "1959:13": {
+      "executor": "nss"
+    },
+    "1962:13": {
+      "executor": "nss"
+    },
+    "1965:13": {
+      "executor": "nss"
+    },
+    "1968:13": {
+      "executor": "nss"
+    },
+    "1971:13": {
+      "executor": "nss"
+    },
+    "1974:13": {
+      "executor": "nss"
+    },
+    "1980:13": {
+      "executor": "nss"
+    },
+    "1983:13": {
+      "executor": "nss"
+    },
+    "1986:13": {
+      "executor": "nss"
+    },
+    "1989:13": {
+      "executor": "nss"
+    },
+    "1992:13": {
+      "executor": "nss"
+    },
+    "1995:13": {
+      "executor": "nss"
+    },
+    "1998:13": {
+      "executor": "nss"
+    },
+    "2001:13": {
+      "executor": "nss"
+    },
+    "2004:13": {
+      "executor": "nss"
+    },
+    "2007:13": {
+      "executor": "nss"
+    },
+    "2010:13": {
+      "executor": "nss"
+    },
+    "2013:13": {
+      "executor": "nss"
+    },
+    "2016:13": {
+      "executor": "nss"
+    },
+    "2022:13": {
+      "executor": "nss"
+    },
+    "2025:13": {
+      "executor": "nss"
+    },
+    "2028:13": {
+      "executor": "nss"
+    },
+    "2031:13": {
+      "executor": "nss"
+    },
+    "2034:13": {
+      "executor": "nss"
+    },
+    "2037:13": {
+      "executor": "nss"
+    },
+    "2040:13": {
+      "executor": "nss"
+    },
+    "2043:13": {
+      "executor": "nss"
+    },
+    "2046:13": {
+      "executor": "nss"
+    },
+    "2049:13": {
+      "executor": "nss"
+    },
+    "2052:13": {
+      "executor": "nss"
+    },
+    "2055:13": {
+      "executor": "nss"
+    },
+    "2058:13": {
+      "executor": "nss"
+    },
+    "2061:13": {
+      "executor": "nss"
+    },
+    "2067:13": {
+      "executor": "nss"
+    },
+    "2070:13": {
+      "executor": "nss"
+    },
+    "2073:13": {
+      "executor": "nss"
+    },
+    "2076:13": {
+      "executor": "nss"
+    },
+    "2079:13": {
+      "executor": "nss"
+    },
+    "2082:13": {
+      "executor": "nss"
+    },
+    "2085:13": {
+      "executor": "nss"
+    },
+    "2088:13": {
+      "executor": "nss"
+    },
+    "2091:13": {
+      "executor": "nss"
+    },
+    "2094:13": {
+      "executor": "nss"
+    },
+    "2097:13": {
+      "executor": "nss"
+    },
+    "2100:13": {
+      "executor": "nss"
+    },
+    "2103:13": {
+      "executor": "nss"
+    },
+    "2106:13": {
+      "executor": "nss"
+    },
+    "2112:13": {
+      "executor": "nss"
+    },
+    "2115:13": {
+      "executor": "nss"
+    },
+    "2118:13": {
+      "executor": "nss"
+    },
+    "2121:13": {
+      "executor": "nss"
+    },
+    "2124:13": {
+      "executor": "nss"
+    },
+    "2127:13": {
+      "executor": "nss"
+    },
+    "2130:13": {
+      "executor": "nss"
+    },
+    "2133:13": {
+      "executor": "nss"
+    },
+    "2136:13": {
+      "executor": "nss"
+    },
+    "2139:13": {
+      "executor": "nss"
+    },
+    "2142:13": {
+      "executor": "nss"
+    },
+    "2145:13": {
+      "executor": "nss"
+    },
+    "2148:13": {
+      "executor": "nss"
+    },
+    "2151:13": {
+      "executor": "nss"
+    },
+    "2157:13": {
+      "executor": "nss"
+    },
+    "2160:13": {
+      "executor": "nss"
+    },
+    "2163:13": {
+      "executor": "nss"
+    },
+    "2166:13": {
+      "executor": "nss"
+    },
+    "2169:13": {
+      "executor": "nss"
+    },
+    "2172:13": {
+      "executor": "nss"
+    },
+    "2175:13": {
+      "executor": "nss"
+    },
+    "2178:13": {
+      "executor": "nss"
+    },
+    "2181:13": {
+      "executor": "nss"
+    },
+    "2184:13": {
+      "executor": "nss"
+    },
+    "2187:13": {
+      "executor": "nss"
+    },
+    "2190:13": {
+      "executor": "nss"
+    },
+    "2193:13": {
+      "executor": "nss"
+    },
+    "2199:13": {
+      "executor": "nss"
+    },
+    "2202:13": {
+      "executor": "nss"
+    },
+    "2205:13": {
+      "executor": "nss"
+    },
+    "2208:13": {
+      "executor": "nss"
+    },
+    "2211:13": {
+      "executor": "nss"
+    },
+    "2214:13": {
+      "executor": "nss"
+    },
+    "2217:13": {
+      "executor": "nss"
+    },
+    "2220:13": {
+      "executor": "nss"
+    },
+    "2223:13": {
+      "executor": "nss"
+    },
+    "2226:13": {
+      "executor": "nss"
+    },
+    "2229:13": {
+      "executor": "nss"
+    },
+    "2232:13": {
+      "executor": "nss"
+    },
+    "2235:13": {
+      "executor": "nss"
+    },
+    "2238:13": {
+      "executor": "nss"
+    },
+    "2244:13": {
+      "executor": "nss"
+    },
+    "2247:13": {
+      "executor": "nss"
+    },
+    "2250:13": {
+      "executor": "nss"
+    },
+    "2253:13": {
+      "executor": "nss"
+    },
+    "2256:13": {
+      "executor": "nss"
+    },
+    "2259:13": {
+      "executor": "nss"
+    },
+    "2262:13": {
+      "executor": "nss"
+    },
+    "2265:13": {
+      "executor": "nss"
+    },
+    "2268:13": {
+      "executor": "nss"
+    },
+    "2271:13": {
+      "executor": "nss"
+    },
+    "2274:13": {
+      "executor": "nss"
+    },
+    "2277:13": {
+      "executor": "nss"
+    },
+    "2280:13": {
+      "executor": "nss"
+    },
+    "2283:13": {
+      "executor": "nss"
+    },
+    "2289:13": {
+      "executor": "nss"
+    },
+    "2292:13": {
+      "executor": "nss"
+    },
+    "2295:13": {
+      "executor": "nss"
+    },
+    "2298:13": {
+      "executor": "nss"
+    },
+    "2301:13": {
+      "executor": "nss"
+    },
+    "2304:13": {
+      "executor": "nss"
+    },
+    "2307:13": {
+      "executor": "nss"
+    },
+    "2310:13": {
+      "executor": "nss"
+    },
+    "2313:13": {
+      "executor": "nss"
+    },
+    "2316:13": {
+      "executor": "nss"
+    },
+    "2319:13": {
+      "executor": "nss"
+    },
+    "2322:13": {
+      "executor": "nss"
+    },
+    "2325:13": {
+      "executor": "nss"
+    },
+    "2328:13": {
+      "executor": "nss"
+    },
+    "2334:13": {
+      "executor": "nss"
+    },
+    "2337:13": {
+      "executor": "nss"
+    },
+    "2340:13": {
+      "executor": "nss"
+    },
+    "2343:13": {
+      "executor": "nss"
+    },
+    "2346:13": {
+      "executor": "nss"
+    },
+    "2349:13": {
+      "executor": "nss"
+    },
+    "2352:13": {
+      "executor": "nss"
+    },
+    "2355:13": {
+      "executor": "nss"
+    },
+    "2358:13": {
+      "executor": "nss"
+    },
+    "2361:13": {
+      "executor": "nss"
+    },
+    "2364:13": {
+      "executor": "nss"
+    },
+    "2367:13": {
+      "executor": "nss"
+    },
+    "2370:13": {
+      "executor": "nss"
+    },
+    "2376:13": {
+      "executor": "nss"
+    },
+    "2379:13": {
+      "executor": "nss"
+    },
+    "2382:13": {
+      "executor": "nss"
+    },
+    "2385:13": {
+      "executor": "nss"
+    },
+    "2388:13": {
+      "executor": "nss"
+    },
+    "2391:13": {
+      "executor": "nss"
+    },
+    "2394:13": {
+      "executor": "nss"
+    },
+    "2397:13": {
+      "executor": "nss"
+    },
+    "2400:13": {
+      "executor": "nss"
+    },
+    "2403:13": {
+      "executor": "nss"
+    },
+    "2406:13": {
+      "executor": "nss"
+    },
+    "2409:13": {
+      "executor": "nss"
+    },
+    "2412:13": {
+      "executor": "nss"
+    },
+    "2415:13": {
+      "executor": "nss"
+    },
+    "2421:13": {
+      "executor": "nss"
+    },
+    "2424:13": {
+      "executor": "nss"
+    },
+    "2427:13": {
+      "executor": "nss"
+    },
+    "2430:13": {
+      "executor": "nss"
+    },
+    "2433:13": {
+      "executor": "nss"
+    },
+    "2436:13": {
+      "executor": "nss"
+    },
+    "2439:13": {
+      "executor": "nss"
+    },
+    "2442:13": {
+      "executor": "nss"
+    },
+    "2445:13": {
+      "executor": "nss"
+    },
+    "2448:13": {
+      "executor": "nss"
+    },
+    "2451:13": {
+      "executor": "nss"
+    },
+    "2454:13": {
+      "executor": "nss"
+    },
+    "2457:13": {
+      "executor": "nss"
+    },
+    "2460:13": {
+      "executor": "nss"
+    },
+    "2466:13": {
+      "executor": "nss"
+    },
+    "2469:13": {
+      "executor": "nss"
+    },
+    "2472:13": {
+      "executor": "nss"
+    },
+    "2475:13": {
+      "executor": "nss"
+    },
+    "2478:13": {
+      "executor": "nss"
+    },
+    "2481:13": {
+      "executor": "nss"
+    },
+    "2484:13": {
+      "executor": "nss"
+    },
+    "2487:13": {
+      "executor": "nss"
+    },
+    "2490:13": {
+      "executor": "nss"
+    },
+    "2493:13": {
+      "executor": "nss"
+    },
+    "2496:13": {
+      "executor": "nss"
+    },
+    "2499:13": {
+      "executor": "nss"
+    },
+    "2502:13": {
+      "executor": "nss"
+    },
+    "2505:13": {
+      "executor": "nss"
+    },
+    "2511:13": {
+      "executor": "nss"
+    },
+    "2514:13": {
+      "executor": "nss"
+    },
+    "2517:13": {
+      "executor": "nss"
+    },
+    "2520:13": {
+      "executor": "nss"
+    },
+    "2523:13": {
+      "executor": "nss"
+    },
+    "2526:13": {
+      "executor": "nss"
+    },
+    "2529:13": {
+      "executor": "nss"
+    },
+    "2532:13": {
+      "executor": "nss"
+    },
+    "2535:13": {
+      "executor": "nss"
+    },
+    "2538:13": {
+      "executor": "nss"
+    },
+    "2541:13": {
+      "executor": "nss"
+    },
+    "2544:13": {
+      "executor": "nss"
+    },
+    "2547:13": {
+      "executor": "nss"
+    },
+    "2550:13": {
+      "executor": "nss"
+    },
+    "2556:13": {
+      "executor": "nss"
+    },
+    "2559:13": {
+      "executor": "nss"
+    },
+    "2562:13": {
+      "executor": "nss"
+    },
+    "2565:13": {
+      "executor": "nss"
+    },
+    "2568:13": {
+      "executor": "nss"
+    },
+    "2571:13": {
+      "executor": "nss"
+    },
+    "2574:13": {
+      "executor": "nss"
+    },
+    "2577:13": {
+      "executor": "nss"
+    },
+    "2580:13": {
+      "executor": "nss"
+    },
+    "2583:13": {
+      "executor": "nss"
+    },
+    "2586:13": {
+      "executor": "nss"
+    },
+    "2589:13": {
+      "executor": "nss"
+    },
+    "2592:13": {
+      "executor": "nss"
+    },
+    "2598:13": {
+      "executor": "nss"
+    },
+    "2601:13": {
+      "executor": "nss"
+    },
+    "2604:13": {
+      "executor": "nss"
+    },
+    "2607:13": {
+      "executor": "nss"
+    },
+    "2610:13": {
+      "executor": "nss"
+    },
+    "2613:13": {
+      "executor": "nss"
+    },
+    "2616:13": {
+      "executor": "nss"
+    },
+    "2619:13": {
+      "executor": "nss"
+    },
+    "2622:13": {
+      "executor": "nss"
+    },
+    "2625:13": {
+      "executor": "nss"
+    },
+    "2628:13": {
+      "executor": "nss"
+    },
+    "2631:13": {
+      "executor": "nss"
+    },
+    "2634:13": {
+      "executor": "nss"
+    },
+    "2637:13": {
+      "executor": "nss"
+    }
+  },
+  "model_name": "efficientnet_b1_Opset17_timm"
+}

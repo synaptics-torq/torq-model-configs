@@ -1,0 +1,5111 @@
+{
+  "version": "1.1",
+  "default_tolerance": {
+    "fp_avg_tol": 0.01,
+    "fp_max_tol": 0.01
+  },
+  "ops": {
+    "Conv_/conv_stem/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 0,
+      "_orig_index": 0,
+      "mac_count": 10838016,
+      "mlir_location": "1617:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 1,
+      "_orig_index": 1,
+      "mac_count": 0,
+      "mlir_location": "1620:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 2,
+      "_orig_index": 2,
+      "mac_count": 0,
+      "mlir_location": "1623:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.0/blocks.0.0/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 3,
+      "_orig_index": 3,
+      "mac_count": 3612672,
+      "mlir_location": "1626:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.0/blocks.0.0/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 4,
+      "_orig_index": 4,
+      "mlir_location": "1629:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.0/blocks.0.0/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 5,
+      "_orig_index": 5,
+      "mlir_location": "1632:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.0/blocks.0.0/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 6,
+      "_orig_index": 6,
+      "mlir_location": "1635:13"
+    },
+    "Conv_/blocks/blocks.0/blocks.0.0/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 7,
+      "_orig_index": 7,
+      "mac_count": 256,
+      "mlir_location": "1638:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.0/blocks.0.0/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 8,
+      "_orig_index": 8,
+      "mac_count": 0,
+      "mlir_location": "1641:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.0/blocks.0.0/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 9,
+      "_orig_index": 9,
+      "mac_count": 0,
+      "mlir_location": "1644:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.0/blocks.0.0/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 10,
+      "_orig_index": 10,
+      "mac_count": 256,
+      "mlir_location": "1647:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.0/blocks.0.0/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 11,
+      "_orig_index": 11,
+      "mac_count": 0,
+      "mlir_location": "1650:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.0/blocks.0.0/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 12,
+      "_orig_index": 12,
+      "mac_count": 0,
+      "mlir_location": "1653:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.0/blocks.0.0/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 13,
+      "_orig_index": 13,
+      "mac_count": 6422528,
+      "mlir_location": "1656:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.0/blocks.0.1/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 14,
+      "_orig_index": 14,
+      "mac_count": 1806336,
+      "mlir_location": "1659:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.0/blocks.0.1/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 15,
+      "_orig_index": 15,
+      "mac_count": 0,
+      "mlir_location": "1662:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.0/blocks.0.1/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 16,
+      "_orig_index": 16,
+      "mac_count": 0,
+      "mlir_location": "1665:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.0/blocks.0.1/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 17,
+      "_orig_index": 17,
+      "mlir_location": "1668:13"
+    },
+    "Conv_/blocks/blocks.0/blocks.0.1/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 18,
+      "_orig_index": 18,
+      "mac_count": 64,
+      "mlir_location": "1671:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.0/blocks.0.1/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 19,
+      "_orig_index": 19,
+      "mac_count": 0,
+      "mlir_location": "1674:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.0/blocks.0.1/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 20,
+      "_orig_index": 20,
+      "mac_count": 0,
+      "mlir_location": "1677:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.0/blocks.0.1/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 21,
+      "_orig_index": 21,
+      "mac_count": 64,
+      "mlir_location": "1680:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.0/blocks.0.1/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 22,
+      "_orig_index": 22,
+      "mac_count": 0,
+      "mlir_location": "1683:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.0/blocks.0.1/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 23,
+      "_orig_index": 23,
+      "mac_count": 0,
+      "mlir_location": "1686:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.0/blocks.0.1/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 24,
+      "_orig_index": 24,
+      "mac_count": 3211264,
+      "mlir_location": "1689:13",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.0/blocks.0.1/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 25,
+      "_orig_index": 25,
+      "mac_count": 0,
+      "mlir_location": "1692:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.0/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 26,
+      "_orig_index": 26,
+      "mac_count": 19267584,
+      "mlir_location": "1695:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.1/blocks.1.0/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 27,
+      "_orig_index": 27,
+      "mac_count": 0,
+      "mlir_location": "1698:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.1/blocks.1.0/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 28,
+      "_orig_index": 28,
+      "mac_count": 0,
+      "mlir_location": "1701:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.0/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'affinities': VersionedUncachedData(data=[], version='affinities4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f1...cachedData(data=False, version='enable_debug_irfcbcf165908dd18a9e49f7f"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 29,
+      "_orig_index": 29,
+      "mac_count": 2709504,
+      "mlir_location": "1704:13"
+    },
+    "Sigmoid_/blocks/blocks.1/blocks.1.0/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 30,
+      "_orig_index": 30,
+      "mac_count": 0,
+      "mlir_location": "1707:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.1/blocks.1.0/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 31,
+      "_orig_index": 31,
+      "mac_count": 0,
+      "mlir_location": "1710:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.1/blocks.1.0/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 32,
+      "_orig_index": 32,
+      "mlir_location": "1713:13"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.0/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 33,
+      "_orig_index": 33,
+      "mac_count": 384,
+      "mlir_location": "1716:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.1/blocks.1.0/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 34,
+      "_orig_index": 34,
+      "mlir_location": "1719:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.1/blocks.1.0/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 35,
+      "_orig_index": 35,
+      "mlir_location": "1722:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.0/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 36,
+      "_orig_index": 36,
+      "mac_count": 384,
+      "mlir_location": "1725:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.1/blocks.1.0/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 37,
+      "_orig_index": 37,
+      "mac_count": 0,
+      "mlir_location": "1728:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.1/blocks.1.0/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 38,
+      "_orig_index": 38,
+      "mac_count": 0,
+      "mlir_location": "1731:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.0/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 39,
+      "_orig_index": 39,
+      "mac_count": 7225344,
+      "mlir_location": "1734:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.1/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 40,
+      "_orig_index": 40,
+      "mac_count": 10838016,
+      "mlir_location": "1737:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.1/blocks.1.1/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 41,
+      "_orig_index": 41,
+      "mac_count": 0,
+      "mlir_location": "1740:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.1/blocks.1.1/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 42,
+      "_orig_index": 42,
+      "mac_count": 0,
+      "mlir_location": "1743:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.1/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 43,
+      "_orig_index": 43,
+      "mac_count": 4064256,
+      "mlir_location": "1746:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.1/blocks.1.1/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 44,
+      "_orig_index": 44,
+      "mlir_location": "1749:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.1/blocks.1.1/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 45,
+      "_orig_index": 45,
+      "mlir_location": "1752:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.1/blocks.1.1/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 46,
+      "_orig_index": 46,
+      "mlir_location": "1755:13"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.1/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 47,
+      "_orig_index": 47,
+      "mac_count": 864,
+      "mlir_location": "1758:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.1/blocks.1.1/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 48,
+      "_orig_index": 48,
+      "mac_count": 0,
+      "mlir_location": "1761:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.1/blocks.1.1/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 49,
+      "_orig_index": 49,
+      "mac_count": 0,
+      "mlir_location": "1764:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.1/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 50,
+      "_orig_index": 50,
+      "mac_count": 864,
+      "mlir_location": "1767:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.1/blocks.1.1/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 51,
+      "_orig_index": 51,
+      "mac_count": 0,
+      "mlir_location": "1770:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.1/blocks.1.1/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 52,
+      "_orig_index": 52,
+      "mac_count": 0,
+      "mlir_location": "1773:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.1/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 53,
+      "_orig_index": 53,
+      "mac_count": 10838016,
+      "mlir_location": "1776:13",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.1/blocks.1.1/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 54,
+      "_orig_index": 54,
+      "mac_count": 0,
+      "mlir_location": "1779:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.2/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 55,
+      "_orig_index": 55,
+      "mlir_location": "1782:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.1/blocks.1.2/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 56,
+      "_orig_index": 56,
+      "mlir_location": "1785:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.1/blocks.1.2/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 57,
+      "_orig_index": 57,
+      "mlir_location": "1788:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.2/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 58,
+      "_orig_index": 58,
+      "mlir_location": "1791:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.1/blocks.1.2/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 59,
+      "_orig_index": 59,
+      "mlir_location": "1794:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.1/blocks.1.2/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 60,
+      "_orig_index": 60,
+      "mlir_location": "1797:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.1/blocks.1.2/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 61,
+      "_orig_index": 61,
+      "mlir_location": "1800:13"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.2/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 62,
+      "_orig_index": 62,
+      "mlir_location": "1803:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.1/blocks.1.2/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 63,
+      "_orig_index": 63,
+      "mlir_location": "1806:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.1/blocks.1.2/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 64,
+      "_orig_index": 64,
+      "mlir_location": "1809:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.2/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 65,
+      "_orig_index": 65,
+      "mlir_location": "1812:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.1/blocks.1.2/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 66,
+      "_orig_index": 66,
+      "mlir_location": "1815:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.1/blocks.1.2/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 67,
+      "_orig_index": 67,
+      "mlir_location": "1818:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.1/blocks.1.2/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 68,
+      "_orig_index": 68,
+      "mlir_location": "1821:13",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.1/blocks.1.2/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 69,
+      "_orig_index": 69,
+      "mlir_location": "1824:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.0/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 70,
+      "_orig_index": 70,
+      "mlir_location": "1827:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.2/blocks.2.0/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 71,
+      "_orig_index": 71,
+      "mlir_location": "1830:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.2/blocks.2.0/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 72,
+      "_orig_index": 72,
+      "mlir_location": "1833:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.0/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "error",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          },
+          "failure_report": {
+            "type": "error",
+            "summary": "Fixture/setup failed: kwargs = {'affinities': VersionedUncachedData(data=[], version='affinities4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f1...cachedData(data=False, version='enable_debug_irfcbcf165908dd18a9e49f7f"
+          }
+        },
+        "host": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "recommended_executor": "host",
+      "_node_index": 73,
+      "_orig_index": 73,
+      "mac_count": 2822400,
+      "mlir_location": "1836:13"
+    },
+    "Sigmoid_/blocks/blocks.2/blocks.2.0/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 74,
+      "_orig_index": 74,
+      "mac_count": 0,
+      "mlir_location": "1839:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.2/blocks.2.0/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 75,
+      "_orig_index": 75,
+      "mac_count": 0,
+      "mlir_location": "1842:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.2/blocks.2.0/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 76,
+      "_orig_index": 76,
+      "mlir_location": "1845:13"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.0/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 77,
+      "_orig_index": 77,
+      "mlir_location": "1848:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.2/blocks.2.0/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 78,
+      "_orig_index": 78,
+      "mlir_location": "1851:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.2/blocks.2.0/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 79,
+      "_orig_index": 79,
+      "mlir_location": "1854:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.0/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 80,
+      "_orig_index": 80,
+      "mlir_location": "1857:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.2/blocks.2.0/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 81,
+      "_orig_index": 81,
+      "mlir_location": "1860:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.2/blocks.2.0/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 82,
+      "_orig_index": 82,
+      "mac_count": 0,
+      "mlir_location": "1863:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.0/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 83,
+      "_orig_index": 83,
+      "mac_count": 4515840,
+      "mlir_location": "1866:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.1/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 84,
+      "_orig_index": 84,
+      "mac_count": 7526400,
+      "mlir_location": "1869:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.2/blocks.2.1/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 85,
+      "_orig_index": 85,
+      "mac_count": 0,
+      "mlir_location": "1872:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.2/blocks.2.1/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 86,
+      "_orig_index": 86,
+      "mac_count": 0,
+      "mlir_location": "1875:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.1/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 87,
+      "_orig_index": 87,
+      "mac_count": 4704000,
+      "mlir_location": "1878:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.2/blocks.2.1/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 88,
+      "_orig_index": 88,
+      "mlir_location": "1881:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.2/blocks.2.1/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 89,
+      "_orig_index": 89,
+      "mlir_location": "1884:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.2/blocks.2.1/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 90,
+      "_orig_index": 90,
+      "mlir_location": "1887:13"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.1/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 91,
+      "_orig_index": 91,
+      "mac_count": 2400,
+      "mlir_location": "1890:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.2/blocks.2.1/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 92,
+      "_orig_index": 92,
+      "mac_count": 0,
+      "mlir_location": "1893:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.2/blocks.2.1/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 93,
+      "_orig_index": 93,
+      "mac_count": 0,
+      "mlir_location": "1896:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.1/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 94,
+      "_orig_index": 94,
+      "mac_count": 2400,
+      "mlir_location": "1899:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.2/blocks.2.1/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 95,
+      "_orig_index": 95,
+      "mac_count": 0,
+      "mlir_location": "1902:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.2/blocks.2.1/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 96,
+      "_orig_index": 96,
+      "mac_count": 0,
+      "mlir_location": "1905:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.1/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 97,
+      "_orig_index": 97,
+      "mac_count": 7526400,
+      "mlir_location": "1908:13",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.2/blocks.2.1/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 98,
+      "_orig_index": 98,
+      "mac_count": 0,
+      "mlir_location": "1911:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.2/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 99,
+      "_orig_index": 99,
+      "mlir_location": "1914:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.2/blocks.2.2/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 100,
+      "_orig_index": 100,
+      "mlir_location": "1917:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.2/blocks.2.2/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 101,
+      "_orig_index": 101,
+      "mlir_location": "1920:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.2/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 102,
+      "_orig_index": 102,
+      "mlir_location": "1923:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.2/blocks.2.2/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 103,
+      "_orig_index": 103,
+      "mlir_location": "1926:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.2/blocks.2.2/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 104,
+      "_orig_index": 104,
+      "mlir_location": "1929:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.2/blocks.2.2/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 105,
+      "_orig_index": 105,
+      "mlir_location": "1932:13"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.2/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 106,
+      "_orig_index": 106,
+      "mlir_location": "1935:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.2/blocks.2.2/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 107,
+      "_orig_index": 107,
+      "mlir_location": "1938:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.2/blocks.2.2/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 108,
+      "_orig_index": 108,
+      "mlir_location": "1941:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.2/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 109,
+      "_orig_index": 109,
+      "mlir_location": "1944:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.2/blocks.2.2/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 110,
+      "_orig_index": 110,
+      "mlir_location": "1947:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.2/blocks.2.2/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 111,
+      "_orig_index": 111,
+      "mlir_location": "1950:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.2/blocks.2.2/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 112,
+      "_orig_index": 112,
+      "mlir_location": "1953:13",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.2/blocks.2.2/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 113,
+      "_orig_index": 113,
+      "mlir_location": "1956:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.0/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 114,
+      "_orig_index": 114,
+      "mlir_location": "1959:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.3/blocks.3.0/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 115,
+      "_orig_index": 115,
+      "mlir_location": "1962:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.3/blocks.3.0/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 116,
+      "_orig_index": 116,
+      "mlir_location": "1965:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.0/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 117,
+      "_orig_index": 117,
+      "mac_count": 423360,
+      "mlir_location": "1968:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.3/blocks.3.0/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 118,
+      "_orig_index": 118,
+      "mac_count": 0,
+      "mlir_location": "1971:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.3/blocks.3.0/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 119,
+      "_orig_index": 119,
+      "mac_count": 0,
+      "mlir_location": "1974:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.3/blocks.3.0/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 120,
+      "_orig_index": 120,
+      "mlir_location": "1977:13"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.0/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 121,
+      "_orig_index": 121,
+      "mlir_location": "1980:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.3/blocks.3.0/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 122,
+      "_orig_index": 122,
+      "mlir_location": "1983:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.3/blocks.3.0/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 123,
+      "_orig_index": 123,
+      "mlir_location": "1986:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.0/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 124,
+      "_orig_index": 124,
+      "mlir_location": "1989:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.3/blocks.3.0/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 125,
+      "_orig_index": 125,
+      "mlir_location": "1992:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.3/blocks.3.0/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 126,
+      "_orig_index": 126,
+      "mac_count": 0,
+      "mlir_location": "1995:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.0/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 127,
+      "_orig_index": 127,
+      "mac_count": 3763200,
+      "mlir_location": "1998:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.1/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 128,
+      "_orig_index": 128,
+      "mac_count": 7526400,
+      "mlir_location": "2001:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.3/blocks.3.1/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 129,
+      "_orig_index": 129,
+      "mac_count": 0,
+      "mlir_location": "2004:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.3/blocks.3.1/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 130,
+      "_orig_index": 130,
+      "mac_count": 0,
+      "mlir_location": "2007:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.1/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 131,
+      "_orig_index": 131,
+      "mac_count": 846720,
+      "mlir_location": "2010:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.3/blocks.3.1/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 132,
+      "_orig_index": 132,
+      "mlir_location": "2013:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.3/blocks.3.1/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 133,
+      "_orig_index": 133,
+      "mlir_location": "2016:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.3/blocks.3.1/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 134,
+      "_orig_index": 134,
+      "mlir_location": "2019:13"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.1/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 135,
+      "_orig_index": 135,
+      "mac_count": 9600,
+      "mlir_location": "2022:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.3/blocks.3.1/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 136,
+      "_orig_index": 136,
+      "mac_count": 0,
+      "mlir_location": "2025:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.3/blocks.3.1/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 137,
+      "_orig_index": 137,
+      "mac_count": 0,
+      "mlir_location": "2028:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.1/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 138,
+      "_orig_index": 138,
+      "mac_count": 9600,
+      "mlir_location": "2031:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.3/blocks.3.1/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 139,
+      "_orig_index": 139,
+      "mac_count": 0,
+      "mlir_location": "2034:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.3/blocks.3.1/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 140,
+      "_orig_index": 140,
+      "mac_count": 0,
+      "mlir_location": "2037:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.1/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 141,
+      "_orig_index": 141,
+      "mac_count": 7526400,
+      "mlir_location": "2040:13",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.3/blocks.3.1/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 142,
+      "_orig_index": 142,
+      "mac_count": 0,
+      "mlir_location": "2043:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.2/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 143,
+      "_orig_index": 143,
+      "mlir_location": "2046:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.3/blocks.3.2/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 144,
+      "_orig_index": 144,
+      "mlir_location": "2049:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.3/blocks.3.2/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 145,
+      "_orig_index": 145,
+      "mlir_location": "2052:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.2/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 146,
+      "_orig_index": 146,
+      "mlir_location": "2055:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.3/blocks.3.2/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 147,
+      "_orig_index": 147,
+      "mlir_location": "2058:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.3/blocks.3.2/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 148,
+      "_orig_index": 148,
+      "mlir_location": "2061:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.3/blocks.3.2/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 149,
+      "_orig_index": 149,
+      "mlir_location": "2064:13"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.2/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 150,
+      "_orig_index": 150,
+      "mlir_location": "2067:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.3/blocks.3.2/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 151,
+      "_orig_index": 151,
+      "mlir_location": "2070:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.3/blocks.3.2/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 152,
+      "_orig_index": 152,
+      "mlir_location": "2073:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.2/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 153,
+      "_orig_index": 153,
+      "mlir_location": "2076:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.3/blocks.3.2/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 154,
+      "_orig_index": 154,
+      "mlir_location": "2079:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.3/blocks.3.2/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 155,
+      "_orig_index": 155,
+      "mlir_location": "2082:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.2/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 156,
+      "_orig_index": 156,
+      "mlir_location": "2085:13",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.3/blocks.3.2/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 157,
+      "_orig_index": 157,
+      "mlir_location": "2088:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.3/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 158,
+      "_orig_index": 158,
+      "mlir_location": "2091:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.3/blocks.3.3/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 159,
+      "_orig_index": 159,
+      "mlir_location": "2094:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.3/blocks.3.3/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 160,
+      "_orig_index": 160,
+      "mlir_location": "2097:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.3/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 161,
+      "_orig_index": 161,
+      "mlir_location": "2100:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.3/blocks.3.3/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 162,
+      "_orig_index": 162,
+      "mlir_location": "2103:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.3/blocks.3.3/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 163,
+      "_orig_index": 163,
+      "mlir_location": "2106:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.3/blocks.3.3/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 164,
+      "_orig_index": 164,
+      "mlir_location": "2109:13"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.3/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 165,
+      "_orig_index": 165,
+      "mlir_location": "2112:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.3/blocks.3.3/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 166,
+      "_orig_index": 166,
+      "mlir_location": "2115:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.3/blocks.3.3/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 167,
+      "_orig_index": 167,
+      "mlir_location": "2118:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.3/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 168,
+      "_orig_index": 168,
+      "mlir_location": "2121:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.3/blocks.3.3/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 169,
+      "_orig_index": 169,
+      "mlir_location": "2124:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.3/blocks.3.3/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 170,
+      "_orig_index": 170,
+      "mlir_location": "2127:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.3/blocks.3.3/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 171,
+      "_orig_index": 171,
+      "mlir_location": "2130:13",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.3/blocks.3.3/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 172,
+      "_orig_index": 172,
+      "mlir_location": "2133:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.0/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 173,
+      "_orig_index": 173,
+      "mlir_location": "2136:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.4/blocks.4.0/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 174,
+      "_orig_index": 174,
+      "mlir_location": "2139:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.4/blocks.4.0/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 175,
+      "_orig_index": 175,
+      "mlir_location": "2142:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.0/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 176,
+      "_orig_index": 176,
+      "mac_count": 2352000,
+      "mlir_location": "2145:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.4/blocks.4.0/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 177,
+      "_orig_index": 177,
+      "mlir_location": "2148:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.4/blocks.4.0/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 178,
+      "_orig_index": 178,
+      "mlir_location": "2151:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.4/blocks.4.0/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 179,
+      "_orig_index": 179,
+      "mlir_location": "2154:13"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.0/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 180,
+      "_orig_index": 180,
+      "mlir_location": "2157:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.4/blocks.4.0/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 181,
+      "_orig_index": 181,
+      "mlir_location": "2160:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.4/blocks.4.0/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 182,
+      "_orig_index": 182,
+      "mlir_location": "2163:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.0/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 183,
+      "_orig_index": 183,
+      "mlir_location": "2166:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.4/blocks.4.0/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 184,
+      "_orig_index": 184,
+      "mlir_location": "2169:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.4/blocks.4.0/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 185,
+      "_orig_index": 185,
+      "mlir_location": "2172:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.0/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 186,
+      "_orig_index": 186,
+      "mac_count": 10536960,
+      "mlir_location": "2175:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.1/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 187,
+      "_orig_index": 187,
+      "mac_count": 14751744,
+      "mlir_location": "2178:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.4/blocks.4.1/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 188,
+      "_orig_index": 188,
+      "mac_count": 0,
+      "mlir_location": "2181:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.4/blocks.4.1/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 189,
+      "_orig_index": 189,
+      "mac_count": 0,
+      "mlir_location": "2184:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.1/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 190,
+      "_orig_index": 190,
+      "mac_count": 3292800,
+      "mlir_location": "2187:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.4/blocks.4.1/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 191,
+      "_orig_index": 191,
+      "mlir_location": "2190:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.4/blocks.4.1/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 192,
+      "_orig_index": 192,
+      "mlir_location": "2193:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.4/blocks.4.1/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 193,
+      "_orig_index": 193,
+      "mlir_location": "2196:13"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.1/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 194,
+      "_orig_index": 194,
+      "mac_count": 18816,
+      "mlir_location": "2199:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.4/blocks.4.1/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 195,
+      "_orig_index": 195,
+      "mac_count": 0,
+      "mlir_location": "2202:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.4/blocks.4.1/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 196,
+      "_orig_index": 196,
+      "mac_count": 0,
+      "mlir_location": "2205:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.1/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 197,
+      "_orig_index": 197,
+      "mac_count": 18816,
+      "mlir_location": "2208:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.4/blocks.4.1/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 198,
+      "_orig_index": 198,
+      "mac_count": 0,
+      "mlir_location": "2211:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.4/blocks.4.1/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 199,
+      "_orig_index": 199,
+      "mac_count": 0,
+      "mlir_location": "2214:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.1/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 200,
+      "_orig_index": 200,
+      "mac_count": 14751744,
+      "mlir_location": "2217:13",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.4/blocks.4.1/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 201,
+      "_orig_index": 201,
+      "mac_count": 0,
+      "mlir_location": "2220:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.2/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 202,
+      "_orig_index": 202,
+      "mlir_location": "2223:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.4/blocks.4.2/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 203,
+      "_orig_index": 203,
+      "mlir_location": "2226:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.4/blocks.4.2/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 204,
+      "_orig_index": 204,
+      "mlir_location": "2229:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.2/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 205,
+      "_orig_index": 205,
+      "mlir_location": "2232:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.4/blocks.4.2/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 206,
+      "_orig_index": 206,
+      "mlir_location": "2235:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.4/blocks.4.2/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 207,
+      "_orig_index": 207,
+      "mlir_location": "2238:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.4/blocks.4.2/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 208,
+      "_orig_index": 208,
+      "mlir_location": "2241:13"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.2/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 209,
+      "_orig_index": 209,
+      "mlir_location": "2244:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.4/blocks.4.2/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 210,
+      "_orig_index": 210,
+      "mlir_location": "2247:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.4/blocks.4.2/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 211,
+      "_orig_index": 211,
+      "mlir_location": "2250:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.2/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 212,
+      "_orig_index": 212,
+      "mlir_location": "2253:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.4/blocks.4.2/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 213,
+      "_orig_index": 213,
+      "mlir_location": "2256:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.4/blocks.4.2/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 214,
+      "_orig_index": 214,
+      "mlir_location": "2259:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.2/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 215,
+      "_orig_index": 215,
+      "mlir_location": "2262:13",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.4/blocks.4.2/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 216,
+      "_orig_index": 216,
+      "mlir_location": "2265:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.3/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 217,
+      "_orig_index": 217,
+      "mlir_location": "2268:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.4/blocks.4.3/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 218,
+      "_orig_index": 218,
+      "mlir_location": "2271:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.4/blocks.4.3/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 219,
+      "_orig_index": 219,
+      "mlir_location": "2274:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.3/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 220,
+      "_orig_index": 220,
+      "mlir_location": "2277:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.4/blocks.4.3/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 221,
+      "_orig_index": 221,
+      "mlir_location": "2280:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.4/blocks.4.3/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 222,
+      "_orig_index": 222,
+      "mlir_location": "2283:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.4/blocks.4.3/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 223,
+      "_orig_index": 223,
+      "mlir_location": "2286:13"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.3/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 224,
+      "_orig_index": 224,
+      "mlir_location": "2289:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.4/blocks.4.3/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 225,
+      "_orig_index": 225,
+      "mlir_location": "2292:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.4/blocks.4.3/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 226,
+      "_orig_index": 226,
+      "mlir_location": "2295:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.3/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 227,
+      "_orig_index": 227,
+      "mlir_location": "2298:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.4/blocks.4.3/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 228,
+      "_orig_index": 228,
+      "mlir_location": "2301:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.4/blocks.4.3/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 229,
+      "_orig_index": 229,
+      "mlir_location": "2304:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.4/blocks.4.3/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 230,
+      "_orig_index": 230,
+      "mlir_location": "2307:13",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.4/blocks.4.3/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 231,
+      "_orig_index": 231,
+      "mlir_location": "2310:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.0/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 232,
+      "_orig_index": 232,
+      "mlir_location": "2313:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.0/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 233,
+      "_orig_index": 233,
+      "mlir_location": "2316:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.0/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 234,
+      "_orig_index": 234,
+      "mlir_location": "2319:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.0/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 235,
+      "_orig_index": 235,
+      "mac_count": 823200,
+      "mlir_location": "2322:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.0/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 236,
+      "_orig_index": 236,
+      "mac_count": 0,
+      "mlir_location": "2325:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.0/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 237,
+      "_orig_index": 237,
+      "mac_count": 0,
+      "mlir_location": "2328:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.5/blocks.5.0/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 238,
+      "_orig_index": 238,
+      "mlir_location": "2331:13"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.0/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 239,
+      "_orig_index": 239,
+      "mlir_location": "2334:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.0/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 240,
+      "_orig_index": 240,
+      "mlir_location": "2337:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.0/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 241,
+      "_orig_index": 241,
+      "mlir_location": "2340:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.0/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 242,
+      "_orig_index": 242,
+      "mlir_location": "2343:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.0/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 243,
+      "_orig_index": 243,
+      "mlir_location": "2346:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.0/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 244,
+      "_orig_index": 244,
+      "mac_count": 0,
+      "mlir_location": "2349:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.0/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 245,
+      "_orig_index": 245,
+      "mac_count": 6322176,
+      "mlir_location": "2352:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.1/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 246,
+      "_orig_index": 246,
+      "mac_count": 10838016,
+      "mlir_location": "2355:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.1/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 247,
+      "_orig_index": 247,
+      "mac_count": 0,
+      "mlir_location": "2358:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.1/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 248,
+      "_orig_index": 248,
+      "mac_count": 0,
+      "mlir_location": "2361:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.1/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 249,
+      "_orig_index": 249,
+      "mac_count": 1411200,
+      "mlir_location": "2364:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.1/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 250,
+      "_orig_index": 250,
+      "mlir_location": "2367:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.1/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 251,
+      "_orig_index": 251,
+      "mlir_location": "2370:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.5/blocks.5.1/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 252,
+      "_orig_index": 252,
+      "mlir_location": "2373:13"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.1/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 253,
+      "_orig_index": 253,
+      "mac_count": 55296,
+      "mlir_location": "2376:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.1/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 254,
+      "_orig_index": 254,
+      "mac_count": 0,
+      "mlir_location": "2379:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.1/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 255,
+      "_orig_index": 255,
+      "mac_count": 0,
+      "mlir_location": "2382:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.1/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 256,
+      "_orig_index": 256,
+      "mac_count": 55296,
+      "mlir_location": "2385:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.1/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 257,
+      "_orig_index": 257,
+      "mac_count": 0,
+      "mlir_location": "2388:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.1/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 258,
+      "_orig_index": 258,
+      "mac_count": 0,
+      "mlir_location": "2391:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.1/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 259,
+      "_orig_index": 259,
+      "mac_count": 10838016,
+      "mlir_location": "2394:13",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.5/blocks.5.1/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 260,
+      "_orig_index": 260,
+      "mac_count": 0,
+      "mlir_location": "2397:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.2/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 261,
+      "_orig_index": 261,
+      "mlir_location": "2400:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.2/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 262,
+      "_orig_index": 262,
+      "mlir_location": "2403:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.2/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 263,
+      "_orig_index": 263,
+      "mlir_location": "2406:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.2/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 264,
+      "_orig_index": 264,
+      "mlir_location": "2409:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.2/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 265,
+      "_orig_index": 265,
+      "mlir_location": "2412:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.2/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 266,
+      "_orig_index": 266,
+      "mlir_location": "2415:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.5/blocks.5.2/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 267,
+      "_orig_index": 267,
+      "mlir_location": "2418:13"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.2/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 268,
+      "_orig_index": 268,
+      "mlir_location": "2421:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.2/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 269,
+      "_orig_index": 269,
+      "mlir_location": "2424:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.2/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 270,
+      "_orig_index": 270,
+      "mlir_location": "2427:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.2/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 271,
+      "_orig_index": 271,
+      "mlir_location": "2430:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.2/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 272,
+      "_orig_index": 272,
+      "mlir_location": "2433:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.2/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 273,
+      "_orig_index": 273,
+      "mlir_location": "2436:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.2/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 274,
+      "_orig_index": 274,
+      "mlir_location": "2439:13",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.5/blocks.5.2/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 275,
+      "_orig_index": 275,
+      "mlir_location": "2442:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.3/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 276,
+      "_orig_index": 276,
+      "mlir_location": "2445:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.3/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 277,
+      "_orig_index": 277,
+      "mlir_location": "2448:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.3/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 278,
+      "_orig_index": 278,
+      "mlir_location": "2451:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.3/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 279,
+      "_orig_index": 279,
+      "mlir_location": "2454:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.3/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 280,
+      "_orig_index": 280,
+      "mlir_location": "2457:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.3/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 281,
+      "_orig_index": 281,
+      "mlir_location": "2460:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.5/blocks.5.3/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 282,
+      "_orig_index": 282,
+      "mlir_location": "2463:13"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.3/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 283,
+      "_orig_index": 283,
+      "mlir_location": "2466:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.3/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 284,
+      "_orig_index": 284,
+      "mlir_location": "2469:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.3/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 285,
+      "_orig_index": 285,
+      "mlir_location": "2472:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.3/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 286,
+      "_orig_index": 286,
+      "mlir_location": "2475:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.3/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 287,
+      "_orig_index": 287,
+      "mlir_location": "2478:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.3/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 288,
+      "_orig_index": 288,
+      "mlir_location": "2481:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.3/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 289,
+      "_orig_index": 289,
+      "mlir_location": "2484:13",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.5/blocks.5.3/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 290,
+      "_orig_index": 290,
+      "mlir_location": "2487:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.4/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 291,
+      "_orig_index": 291,
+      "mlir_location": "2490:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.4/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 292,
+      "_orig_index": 292,
+      "mlir_location": "2493:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.4/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 293,
+      "_orig_index": 293,
+      "mlir_location": "2496:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.4/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 294,
+      "_orig_index": 294,
+      "mlir_location": "2499:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.4/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 295,
+      "_orig_index": 295,
+      "mlir_location": "2502:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.4/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 296,
+      "_orig_index": 296,
+      "mlir_location": "2505:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.5/blocks.5.4/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 297,
+      "_orig_index": 297,
+      "mlir_location": "2508:13"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.4/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 298,
+      "_orig_index": 298,
+      "mlir_location": "2511:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.4/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 299,
+      "_orig_index": 299,
+      "mlir_location": "2514:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.4/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 300,
+      "_orig_index": 300,
+      "mlir_location": "2517:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.4/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 301,
+      "_orig_index": 301,
+      "mlir_location": "2520:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.5/blocks.5.4/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 302,
+      "_orig_index": 302,
+      "mlir_location": "2523:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.5/blocks.5.4/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 303,
+      "_orig_index": 303,
+      "mlir_location": "2526:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.5/blocks.5.4/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 304,
+      "_orig_index": 304,
+      "mlir_location": "2529:13",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.5/blocks.5.4/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 305,
+      "_orig_index": 305,
+      "mlir_location": "2532:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.0/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 306,
+      "_orig_index": 306,
+      "mlir_location": "2535:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.6/blocks.6.0/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 307,
+      "_orig_index": 307,
+      "mlir_location": "2538:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.6/blocks.6.0/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 308,
+      "_orig_index": 308,
+      "mlir_location": "2541:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.0/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 309,
+      "_orig_index": 309,
+      "mac_count": 508032,
+      "mlir_location": "2544:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.6/blocks.6.0/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 310,
+      "_orig_index": 310,
+      "mlir_location": "2547:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.6/blocks.6.0/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 311,
+      "_orig_index": 311,
+      "mlir_location": "2550:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.6/blocks.6.0/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 312,
+      "_orig_index": 312,
+      "mlir_location": "2553:13"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.0/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 313,
+      "_orig_index": 313,
+      "mlir_location": "2556:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.6/blocks.6.0/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 314,
+      "_orig_index": 314,
+      "mlir_location": "2559:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.6/blocks.6.0/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 315,
+      "_orig_index": 315,
+      "mlir_location": "2562:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.0/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 316,
+      "_orig_index": 316,
+      "mlir_location": "2565:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.6/blocks.6.0/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 317,
+      "_orig_index": 317,
+      "mlir_location": "2568:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.6/blocks.6.0/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 318,
+      "_orig_index": 318,
+      "mlir_location": "2571:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.0/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 319,
+      "_orig_index": 319,
+      "mac_count": 18063360,
+      "mlir_location": "2574:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.1/conv_pw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 320,
+      "_orig_index": 320,
+      "mac_count": 30105600,
+      "mlir_location": "2577:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.6/blocks.6.1/bn1/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 321,
+      "_orig_index": 321,
+      "mac_count": 0,
+      "mlir_location": "2580:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.6/blocks.6.1/bn1/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 322,
+      "_orig_index": 322,
+      "mac_count": 0,
+      "mlir_location": "2583:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.1/conv_dw/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 323,
+      "_orig_index": 323,
+      "mac_count": 846720,
+      "mlir_location": "2586:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.6/blocks.6.1/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 324,
+      "_orig_index": 324,
+      "mlir_location": "2589:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.6/blocks.6.1/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 325,
+      "_orig_index": 325,
+      "mlir_location": "2592:13",
+      "recommended_executor": "nss"
+    },
+    "ReduceMean_/blocks/blocks.6/blocks.6.1/se/ReduceMean_output_0": {
+      "executors": {},
+      "recommended_executor": null,
+      "_node_index": 326,
+      "_orig_index": 326,
+      "mlir_location": "2595:13"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.1/se/conv_reduce/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 327,
+      "_orig_index": 327,
+      "mac_count": 153600,
+      "mlir_location": "2598:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.6/blocks.6.1/se/act1/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 328,
+      "_orig_index": 328,
+      "mac_count": 0,
+      "mlir_location": "2601:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.6/blocks.6.1/se/act1/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 329,
+      "_orig_index": 329,
+      "mac_count": 0,
+      "mlir_location": "2604:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.1/se/conv_expand/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 330,
+      "_orig_index": 330,
+      "mac_count": 153600,
+      "mlir_location": "2607:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/blocks/blocks.6/blocks.6.1/se/gate/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 331,
+      "_orig_index": 331,
+      "mac_count": 0,
+      "mlir_location": "2610:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/blocks/blocks.6/blocks.6.1/se/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 332,
+      "_orig_index": 332,
+      "mac_count": 0,
+      "mlir_location": "2613:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/blocks/blocks.6/blocks.6.1/conv_pwl/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 333,
+      "_orig_index": 333,
+      "mac_count": 30105600,
+      "mlir_location": "2616:13",
+      "recommended_executor": "nss"
+    },
+    "Add_/blocks/blocks.6/blocks.6.1/Add_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 334,
+      "_orig_index": 334,
+      "mac_count": 0,
+      "mlir_location": "2619:13",
+      "recommended_executor": "nss"
+    },
+    "Conv_/conv_head/Conv_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 335,
+      "_orig_index": 335,
+      "mac_count": 20070400,
+      "mlir_location": "2622:13",
+      "recommended_executor": "nss"
+    },
+    "Sigmoid_/bn2/act/Sigmoid_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 336,
+      "_orig_index": 336,
+      "mac_count": 0,
+      "mlir_location": "2625:13",
+      "recommended_executor": "nss"
+    },
+    "Mul_/bn2/act/Mul_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 337,
+      "_orig_index": 337,
+      "mac_count": 0,
+      "mlir_location": "2628:13",
+      "recommended_executor": "nss"
+    },
+    "GlobalAveragePool_/global_pool/pool/GlobalAveragePool_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 338,
+      "_orig_index": 338,
+      "mac_count": 0,
+      "mlir_location": "2631:13",
+      "recommended_executor": "nss"
+    },
+    "Flatten_/global_pool/flatten/Flatten_output_0": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 339,
+      "_orig_index": 339,
+      "mac_count": 0,
+      "mlir_location": "2634:13",
+      "recommended_executor": "nss"
+    },
+    "Gemm_918": {
+      "executors": {
+        "nss": {
+          "status": "success",
+          "tolerance_used": {
+            "fp_avg_tol": 0.01,
+            "fp_max_tol": 0.01
+          }
+        }
+      },
+      "_node_index": 340,
+      "_orig_index": 340,
+      "mac_count": 1280000,
+      "mlir_location": "2637:13",
+      "recommended_executor": "nss"
+    }
+  },
+  "model_name": "efficientnet_b1_Opset17_timm",
+  "discovery_report": {
+    "summary": {
+      "total_layers": 318,
+      "status_counts": {
+        "success": 318,
+        "difference": 0,
+        "error": 2
+      },
+      "executor_counts": {
+        "nss": 316,
+        "css": 0,
+        "host": 2
+      }
+    },
+    "critical_failures": []
+  },
+  "has_critical_failures": false,
+  "final_report_text": "FINAL EXECUTOR DISCOVERY REPORT\n\nModel: efficientnet_b1_Opset17_timm\nTotal layers tested: 341\n\nStatus Summary:\n  success: 318\n  difference: 0\n  error: 2\n\nFirst Working Executor Distribution:\n  NSS: 316\n  CSS: 0\n  HOST: 2\n\nNo critical failures - all layers have at least one working executor\n\nPer-Layer Status:\n  Layer                                                         NSS          CSS          HOST         Recommended\n-------------------------------------------------------------------------------------------------------------------------\n  Conv_/conv_stem/Conv_output_0                                 success      -            -            nss\n  Sigmoid_/bn1/act/Sigmoid_output_0                             success      -            -            nss\n  Mul_/bn1/act/Mul_output_0                                     success      -            -            nss\n  Conv_/blocks/blocks.0/blocks.0.0/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.0/blocks.0.0/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.0/blocks.0.0/bn1/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.0/blocks.0.0/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.0/blocks.0.0/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.0/blocks.0.0/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.0/blocks.0.0/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.0/blocks.0.0/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.0/blocks.0.0/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.0/blocks.0.0/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.0/blocks.0.0/conv_pw/Conv_output_0        success      -            -            nss\n  Conv_/blocks/blocks.0/blocks.0.1/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.0/blocks.0.1/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.0/blocks.0.1/bn1/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.0/blocks.0.1/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.0/blocks.0.1/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.0/blocks.0.1/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.0/blocks.0.1/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.0/blocks.0.1/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.0/blocks.0.1/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.0/blocks.0.1/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.0/blocks.0.1/conv_pw/Conv_output_0        success      -            -            nss\n  Add_/blocks/blocks.0/blocks.0.1/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.0/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.1/blocks.1.0/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.1/blocks.1.0/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.0/conv_dw/Conv_output_0        error        -            success      host\n  Sigmoid_/blocks/blocks.1/blocks.1.0/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.1/blocks.1.0/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.1/blocks.1.0/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.1/blocks.1.0/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.1/blocks.1.0/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.1/blocks.1.0/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.0/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.1/blocks.1.0/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.1/blocks.1.0/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.0/conv_pwl/Conv_output_0       success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.1/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.1/blocks.1.1/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.1/blocks.1.1/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.1/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.1/blocks.1.1/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.1/blocks.1.1/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.1/blocks.1.1/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.1/blocks.1.1/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.1/blocks.1.1/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.1/blocks.1.1/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.1/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.1/blocks.1.1/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.1/blocks.1.1/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.1/conv_pwl/Conv_output_0       success      -            -            nss\n  Add_/blocks/blocks.1/blocks.1.1/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.2/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.1/blocks.1.2/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.1/blocks.1.2/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.2/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.1/blocks.1.2/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.1/blocks.1.2/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.1/blocks.1.2/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.1/blocks.1.2/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.1/blocks.1.2/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.1/blocks.1.2/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.2/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.1/blocks.1.2/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.1/blocks.1.2/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.1/blocks.1.2/conv_pwl/Conv_output_0       success      -            -            nss\n  Add_/blocks/blocks.1/blocks.1.2/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.2/blocks.2.0/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.2/blocks.2.0/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.2/blocks.2.0/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.2/blocks.2.0/conv_dw/Conv_output_0        error        -            success      host\n  Sigmoid_/blocks/blocks.2/blocks.2.0/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.2/blocks.2.0/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.2/blocks.2.0/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.2/blocks.2.0/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.2/blocks.2.0/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.2/blocks.2.0/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.2/blocks.2.0/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.2/blocks.2.0/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.2/blocks.2.0/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.2/blocks.2.0/conv_pwl/Conv_output_0       success      -            -            nss\n  Conv_/blocks/blocks.2/blocks.2.1/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.2/blocks.2.1/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.2/blocks.2.1/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.2/blocks.2.1/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.2/blocks.2.1/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.2/blocks.2.1/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.2/blocks.2.1/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.2/blocks.2.1/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.2/blocks.2.1/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.2/blocks.2.1/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.2/blocks.2.1/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.2/blocks.2.1/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.2/blocks.2.1/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.2/blocks.2.1/conv_pwl/Conv_output_0       success      -            -            nss\n  Add_/blocks/blocks.2/blocks.2.1/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.2/blocks.2.2/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.2/blocks.2.2/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.2/blocks.2.2/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.2/blocks.2.2/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.2/blocks.2.2/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.2/blocks.2.2/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.2/blocks.2.2/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.2/blocks.2.2/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.2/blocks.2.2/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.2/blocks.2.2/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.2/blocks.2.2/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.2/blocks.2.2/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.2/blocks.2.2/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.2/blocks.2.2/conv_pwl/Conv_output_0       success      -            -            nss\n  Add_/blocks/blocks.2/blocks.2.2/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.0/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.3/blocks.3.0/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.3/blocks.3.0/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.0/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.3/blocks.3.0/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.3/blocks.3.0/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.3/blocks.3.0/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.3/blocks.3.0/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.3/blocks.3.0/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.3/blocks.3.0/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.0/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.3/blocks.3.0/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.3/blocks.3.0/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.0/conv_pwl/Conv_output_0       success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.1/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.3/blocks.3.1/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.3/blocks.3.1/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.1/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.3/blocks.3.1/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.3/blocks.3.1/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.3/blocks.3.1/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.3/blocks.3.1/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.3/blocks.3.1/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.3/blocks.3.1/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.1/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.3/blocks.3.1/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.3/blocks.3.1/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.1/conv_pwl/Conv_output_0       success      -            -            nss\n  Add_/blocks/blocks.3/blocks.3.1/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.2/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.3/blocks.3.2/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.3/blocks.3.2/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.2/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.3/blocks.3.2/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.3/blocks.3.2/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.3/blocks.3.2/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.3/blocks.3.2/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.3/blocks.3.2/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.3/blocks.3.2/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.2/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.3/blocks.3.2/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.3/blocks.3.2/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.2/conv_pwl/Conv_output_0       success      -            -            nss\n  Add_/blocks/blocks.3/blocks.3.2/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.3/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.3/blocks.3.3/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.3/blocks.3.3/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.3/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.3/blocks.3.3/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.3/blocks.3.3/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.3/blocks.3.3/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.3/blocks.3.3/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.3/blocks.3.3/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.3/blocks.3.3/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.3/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.3/blocks.3.3/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.3/blocks.3.3/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.3/blocks.3.3/conv_pwl/Conv_output_0       success      -            -            nss\n  Add_/blocks/blocks.3/blocks.3.3/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.0/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.4/blocks.4.0/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.4/blocks.4.0/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.0/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.4/blocks.4.0/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.4/blocks.4.0/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.4/blocks.4.0/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.4/blocks.4.0/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.4/blocks.4.0/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.4/blocks.4.0/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.0/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.4/blocks.4.0/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.4/blocks.4.0/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.0/conv_pwl/Conv_output_0       success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.1/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.4/blocks.4.1/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.4/blocks.4.1/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.1/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.4/blocks.4.1/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.4/blocks.4.1/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.4/blocks.4.1/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.4/blocks.4.1/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.4/blocks.4.1/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.4/blocks.4.1/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.1/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.4/blocks.4.1/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.4/blocks.4.1/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.1/conv_pwl/Conv_output_0       success      -            -            nss\n  Add_/blocks/blocks.4/blocks.4.1/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.2/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.4/blocks.4.2/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.4/blocks.4.2/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.2/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.4/blocks.4.2/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.4/blocks.4.2/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.4/blocks.4.2/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.4/blocks.4.2/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.4/blocks.4.2/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.4/blocks.4.2/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.2/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.4/blocks.4.2/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.4/blocks.4.2/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.2/conv_pwl/Conv_output_0       success      -            -            nss\n  Add_/blocks/blocks.4/blocks.4.2/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.3/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.4/blocks.4.3/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.4/blocks.4.3/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.3/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.4/blocks.4.3/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.4/blocks.4.3/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.4/blocks.4.3/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.4/blocks.4.3/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.4/blocks.4.3/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.4/blocks.4.3/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.3/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.4/blocks.4.3/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.4/blocks.4.3/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.4/blocks.4.3/conv_pwl/Conv_output_0       success      -            -            nss\n  Add_/blocks/blocks.4/blocks.4.3/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.0/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.0/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.0/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.0/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.0/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.0/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.5/blocks.5.0/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.5/blocks.5.0/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.0/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.0/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.0/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.0/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.0/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.0/conv_pwl/Conv_output_0       success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.1/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.1/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.1/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.1/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.1/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.1/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.5/blocks.5.1/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.5/blocks.5.1/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.1/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.1/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.1/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.1/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.1/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.1/conv_pwl/Conv_output_0       success      -            -            nss\n  Add_/blocks/blocks.5/blocks.5.1/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.2/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.2/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.2/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.2/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.2/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.2/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.5/blocks.5.2/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.5/blocks.5.2/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.2/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.2/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.2/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.2/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.2/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.2/conv_pwl/Conv_output_0       success      -            -            nss\n  Add_/blocks/blocks.5/blocks.5.2/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.3/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.3/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.3/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.3/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.3/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.3/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.5/blocks.5.3/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.5/blocks.5.3/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.3/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.3/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.3/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.3/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.3/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.3/conv_pwl/Conv_output_0       success      -            -            nss\n  Add_/blocks/blocks.5/blocks.5.3/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.4/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.4/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.4/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.4/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.4/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.4/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.5/blocks.5.4/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.5/blocks.5.4/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.4/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.4/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.4/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.5/blocks.5.4/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.5/blocks.5.4/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.5/blocks.5.4/conv_pwl/Conv_output_0       success      -            -            nss\n  Add_/blocks/blocks.5/blocks.5.4/Add_output_0                  success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.0/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.6/blocks.6.0/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.6/blocks.6.0/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.0/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.6/blocks.6.0/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.6/blocks.6.0/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.6/blocks.6.0/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.6/blocks.6.0/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.6/blocks.6.0/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.6/blocks.6.0/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.0/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.6/blocks.6.0/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.6/blocks.6.0/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.0/conv_pwl/Conv_output_0       success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.1/conv_pw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.6/blocks.6.1/bn1/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.6/blocks.6.1/bn1/act/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.1/conv_dw/Conv_output_0        success      -            -            nss\n  Sigmoid_/blocks/blocks.6/blocks.6.1/bn2/act/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.6/blocks.6.1/bn2/act/Mul_output_0          success      -            -            nss\n  ReduceMean_/blocks/blocks.6/blocks.6.1/se/ReduceMean_output_  -            -            -            -\n  Conv_/blocks/blocks.6/blocks.6.1/se/conv_reduce/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.6/blocks.6.1/se/act1/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.6/blocks.6.1/se/act1/Mul_output_0          success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.1/se/conv_expand/Conv_output_  success      -            -            nss\n  Sigmoid_/blocks/blocks.6/blocks.6.1/se/gate/Sigmoid_output_0  success      -            -            nss\n  Mul_/blocks/blocks.6/blocks.6.1/se/Mul_output_0               success      -            -            nss\n  Conv_/blocks/blocks.6/blocks.6.1/conv_pwl/Conv_output_0       success      -            -            nss\n  Add_/blocks/blocks.6/blocks.6.1/Add_output_0                  success      -            -            nss\n  Conv_/conv_head/Conv_output_0                                 success      -            -            nss\n  Sigmoid_/bn2/act/Sigmoid_output_0                             success      -            -            nss\n  Mul_/bn2/act/Mul_output_0                                     success      -            -            nss\n  GlobalAveragePool_/global_pool/pool/GlobalAveragePool_output  success      -            -            nss\n  Flatten_/global_pool/flatten/Flatten_output_0                 success      -            -            nss\n  Gemm_918                                                      success      -            -            nss"
+}
